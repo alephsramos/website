@@ -35,7 +35,7 @@
         font-size: 3.5vw; /* Tamanho relativo à largura da tela */
         margin-left: 0%; /* Margem relativa à largura da tela */
         columns: unset;
-        list-style-image: url(/img/icons/list-16px.png);
+        list-style-image: url("../img/icons/list-16px.png");
         column-gap: 1.25vw; /* Espaçamento entre colunas relativo à largura da tela */
     }
 
@@ -102,7 +102,7 @@
         font-size: 3.5vw; /* Tamanho relativo à largura da tela */
         margin-left: 0%; /* Margem relativa à largura da tela */
         columns: unset;
-        list-style-image: url(/img/icons/list-16px.png);
+        list-style-image: url("../img/icons/list-16px.png");
         column-gap: 1.25vw; /* Espaçamento entre colunas relativo à largura da tela */
     }
 
@@ -171,7 +171,7 @@
         font-size: 1.5vw; /* Tamanho relativo à largura da tela */
         margin-left: 5%; /* Margem relativa à largura da tela */
         columns: 2;
-        list-style-image: url(/img/icons/list-16px.png);
+        list-style-image: url("../img/icons/list-16px.png");
         column-gap: 1.25vw; /* Espaçamento entre colunas relativo à largura da tela */
     }
 
@@ -240,7 +240,7 @@
         font-size: 1.5vw; /* Tamanho relativo à largura da tela */
         margin-left: 10%; /* Margem relativa à largura da tela */
         columns: 2;
-        list-style-image: url(/img/icons/list-16px.png);
+        list-style-image: url("../img/icons/list-16px.png");
         column-gap: 1.25vw; /* Espaçamento entre colunas relativo à largura da tela */
     }
 

@@ -1,0 +1,158 @@
+
+@media only screen and (max-width: 320px){
+
+    .topic-4 {
+        border-top: 0.0625rem solid white; /* Borda superior convertida para rem */
+        margin-top: -1.25rem; /* Margem superior convertida para rem */
+    }
+    
+    .topic-4-title {
+        font-size: 6vw; /* Tamanho relativo à largura da tela */
+        padding: 0rem; /* Padding convertido para rem */
+    }
+    
+    .topic-4-imgs {
+        max-width: 100%; /* Largura máxima relativa à largura da tela */
+        margin: 0 auto;
+    }
+    
+    .topic-4-img-1,
+    .topic-4-img-2 {
+        width: 80%; /* Largura relativa à largura da tela */
+        max-width: 37.5rem; /* Largura máxima convertida para rem */
+        margin: 2vw; /* Margem relativa à largura da tela */
+        border-radius: 0.5rem; /* Borda relativa à largura da tela */
+    }
+    
+    .topic-4-img-1:hover {
+        transform: scale(1.1) translateX(0vw); /* Translação relativa à largura da tela */
+    }
+    
+    .topic-4-img-2:hover {
+        transform: scale(1.1) translateX(0vw); /* Translação relativa à largura da tela */
+    }
+    
+    .topic-4-p-fim {
+        font-size: 2.5vw; /* Tamanho relativo à largura da tela */
+    }
+
+}
+
+@media only screen and (min-width: 321px) and (max-width: 651px){
+
+    .topic-4 {
+        border-top: 0.0625rem solid white; /* Borda superior convertida para rem */
+        margin-top: -1.25rem; /* Margem superior convertida para rem */
+    }
+    
+    .topic-4-title {
+        font-size: 6.5vw; /* Tamanho relativo à largura da tela */
+        padding: 0rem; /* Padding convertido para rem */
+    }
+    
+    .topic-4-imgs {
+        max-width: 100%; /* Largura máxima relativa à largura da tela */
+        margin: 0 auto;
+    }
+    
+    .topic-4-img-1,
+    .topic-4-img-2 {
+        width: 70%; /* Largura relativa à largura da tela */
+        max-width: 37.5rem; /* Largura máxima convertida para rem */
+        margin: 2vw; /* Margem relativa à largura da tela */
+        border-radius: 0.5rem; /* Borda relativa à largura da tela */
+    }
+    
+    .topic-4-img-1:hover {
+        transform: scale(1.1) translateX(0vw); /* Translação relativa à largura da tela */
+    }
+    
+    .topic-4-img-2:hover {
+        transform: scale(1.1) translateX(0vw); /* Translação relativa à largura da tela */
+    }
+    
+    .topic-4-p-fim {
+        font-size: 2.5vw; /* Tamanho relativo à largura da tela */
+        padding: 0.1;
+    }
+
+}
+
+
+@media only screen and (min-width: 651px) and (max-width: 1200px){
+
+    .topic-4 {
+        margin-top: 0rem; /* Margem superior convertida para rem */
+    }
+    
+    .topic-4-title {
+        font-size: 6.5vw; /* Tamanho relativo à largura da tela */
+        padding: 0rem; /* Padding convertido para rem */
+    }
+    
+    .topic-4-imgs {
+        max-width: 100%; /* Largura máxima relativa à largura da tela */
+        margin: 0 auto;
+    }
+    
+    .topic-4-img-1,
+    .topic-4-img-2 {
+        width: 40%; /* Largura relativa à largura da tela */
+        max-width: 37.5rem; /* Largura máxima convertida para rem */
+        margin: 5px; /* Margem relativa à largura da tela */
+        border-radius: 0.5rem; /* Borda relativa à largura da tela */
+    }
+    
+    .topic-4-img-1:hover {
+        transform: scale(1.1) translateX(0vw); /* Translação relativa à largura da tela */
+    }
+    
+    .topic-4-img-2:hover {
+        transform: scale(1.1) translateX(0vw); /* Translação relativa à largura da tela */
+    }
+    
+    .topic-4-p-fim {
+        font-size: 2vw; /* Tamanho relativo à largura da tela */
+        padding: 0.1;
+    }
+
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 2000px){
+
+    .topic-4 {
+        margin-top: 0rem; /* Margem superior convertida para rem */
+    }
+    
+    .topic-4-title {
+        font-size: 4vw; /* Tamanho relativo à largura da tela */
+        padding: 0rem; /* Padding convertido para rem */
+    }
+    
+    .topic-4-imgs {
+        max-width: 100%; /* Largura máxima relativa à largura da tela */
+        margin: 0 auto;
+    }
+    
+    .topic-4-img-1,
+    .topic-4-img-2 {
+        width: 30%; /* Largura relativa à largura da tela */
+        max-width: 37.5rem; /* Largura máxima convertida para rem */
+        margin: 5px; /* Margem relativa à largura da tela */
+        border-radius: 0.5rem; /* Borda relativa à largura da tela */
+    }
+    
+    .topic-4-img-1:hover {
+        transform: scale(1.1) translateX(-10vw); /* Translação relativa à largura da tela */
+    }
+    
+    .topic-4-img-2:hover {
+        transform: scale(1.1) translateX(10vw); /* Translação relativa à largura da tela */
+    }
+    
+    .topic-4-p-fim {
+        font-size: 1vw; /* Tamanho relativo à largura da tela */
+        padding: 0.1;
+    }
+
+}

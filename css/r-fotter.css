@@ -1,0 +1,244 @@
+
+
+@media only screen and (max-width: 320px){
+
+    footer {
+        margin-top: 0%; /* Mantido em porcentagem */
+    }
+    
+    .fotter-title {
+        font-size: 2.7vw; /* Tamanho relativo à largura da tela */
+        margin-top: 10.25vw; /* Margem superior relativa à largura da tela */
+        line-height: 0.9;
+        text-align: center;
+        padding: 0.125rem; /* Padding convertido para rem */
+        color: white; /* Adicionei a cor branca ao título */
+    }
+    
+    .fotter-contat {
+        font-size: 2.2vw; /* Tamanho relativo à largura da tela */
+        font-family: 'Baloo 2', sans-serif;
+        margin-top: 16.25vw; /* Margem superior relativa à largura da tela */
+        text-align: center;
+        padding: 0.125rem; /* Padding convertido para rem */
+        color: white; /* Adicionei a cor branca ao conteúdo de contato */
+    }
+    
+    .icons-fotter {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    
+    .img-fotter {
+        width: 7.5vw; /* Largura relativa à largura da tela */
+        height: 7.5vw; /* Altura relativa à largura da tela */
+        margin: 0.5vw; /* Margem relativa à largura da tela */
+        margin-top: 2%;
+
+        transition: 0.4s ease-in-out;
+    }
+    
+    .img-fotter:hover {
+        width: 7.2vw; /* Largura relativa à largura da tela */
+        height: 7.2vw; /* Altura relativa à largura da tela */
+        margin: 0.4vw; /* Margem relativa à largura da tela */
+        transition: 0.2s;
+        transform: translateX(-0rem) translateY(-0rem); /* Translação relativa à largura da tela */
+        cursor: url('/img/icons/cursor-a.png'), auto;
+    }
+    
+    .fotter-p-fim {
+        font-size: 2vw; /* Tamanho relativo à largura da tela */
+        color: white;
+        margin-top: 10%;
+        font-family: 'Baloo 2', sans-serif;
+        opacity: 0.7; /* Mantido em porcentagem */
+        text-align: center;
+        padding: 2.5vw; /* Padding relativo à largura da tela */
+    }
+
+}
+
+@media only screen and (min-width: 321px) and (max-width: 650px){
+
+    footer {
+        margin-top: 0%; /* Mantido em porcentagem */
+    }
+    
+    .fotter-title {
+        font-size: 2.7vw; /* Tamanho relativo à largura da tela */
+        margin-top: 10.25vw; /* Margem superior relativa à largura da tela */
+        line-height: 0.9;
+        text-align: center;
+        padding: 0.125rem; /* Padding convertido para rem */
+        color: white; /* Adicionei a cor branca ao título */
+    }
+    
+    .fotter-contat {
+        font-size: 2.2vw; /* Tamanho relativo à largura da tela */
+        font-family: 'Baloo 2', sans-serif;
+        margin-top: 16.25vw; /* Margem superior relativa à largura da tela */
+        text-align: center;
+        padding: 0.125rem; /* Padding convertido para rem */
+        color: white; /* Adicionei a cor branca ao conteúdo de contato */
+    }
+    
+    .icons-fotter {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    
+    .img-fotter {
+        width: 7.5vw; /* Largura relativa à largura da tela */
+        height: 7.5vw; /* Altura relativa à largura da tela */
+        margin: 0.5vw; /* Margem relativa à largura da tela */
+        margin-top: 2%;
+
+        transition: 0.4s ease-in-out;
+    }
+    
+    .img-fotter:hover {
+        width: 7.2vw; /* Largura relativa à largura da tela */
+        height: 7.2vw; /* Altura relativa à largura da tela */
+        margin: 0.4vw; /* Margem relativa à largura da tela */
+        transition: 0.2s;
+        transform: translateX(-0rem) translateY(-0rem); /* Translação relativa à largura da tela */
+        cursor: url('/img/icons/cursor-a.png'), auto;
+    }
+    
+    .fotter-p-fim {
+        font-size: 2vw; /* Tamanho relativo à largura da tela */
+        color: white;
+        margin-top: 10%;
+        font-family: 'Baloo 2', sans-serif;
+        opacity: 0.7; /* Mantido em porcentagem */
+        text-align: center;
+        padding: 2.5vw; /* Padding relativo à largura da tela */
+    }
+
+
+}
+
+@media only screen and (min-width: 651px) and (max-width: 1200px){
+
+    footer {
+        margin-top: 0%; /* Mantido em porcentagem */
+    }
+    
+    .fotter-title {
+        font-size: 2vw; /* Tamanho relativo à largura da tela */
+        margin-top: 10.25vw; /* Margem superior relativa à largura da tela */
+        line-height: 0.9;
+        text-align: center;
+        padding: 0.125rem; /* Padding convertido para rem */
+        color: white; /* Adicionei a cor branca ao título */
+    }
+    
+    .fotter-contat {
+        font-size: 2.2vw; /* Tamanho relativo à largura da tela */
+        font-family: 'Baloo 2', sans-serif;
+        margin-top: 12.25vw; /* Margem superior relativa à largura da tela */
+        text-align: center;
+        padding: 0.125rem; /* Padding convertido para rem */
+        color: white; /* Adicionei a cor branca ao conteúdo de contato */
+    }
+    
+    .icons-fotter {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    
+    .img-fotter {
+        width: 5.5vw; /* Largura relativa à largura da tela */
+        height: 5.5vw; /* Altura relativa à largura da tela */
+        margin: 0.5vw; /* Margem relativa à largura da tela */
+        margin-top: 2%;
+
+        transition: 0.4s ease-in-out;
+    }
+    
+    .img-fotter:hover {
+        width: 5vw; /* Largura relativa à largura da tela */
+        height: 5vw; /* Altura relativa à largura da tela */
+        margin: 0.4vw; /* Margem relativa à largura da tela */
+        transition: 0.2s;
+        transform: translateX(-0rem) translateY(-0rem); /* Translação relativa à largura da tela */
+        cursor: url('/img/icons/cursor-a.png'), auto;
+    }
+    
+    .fotter-p-fim {
+        font-size: 1.82vw; /* Tamanho relativo à largura da tela */
+        color: white;
+        margin-top: 10%;
+        font-family: 'Baloo 2', sans-serif;
+        opacity: 0.7; /* Mantido em porcentagem */
+        text-align: center;
+        padding: 2.5vw; /* Padding relativo à largura da tela */
+    }
+
+
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 2000px){
+
+    footer {
+        margin-top: 0%; /* Mantido em porcentagem */
+    }
+    
+    .fotter-title {
+        font-size: 2vw; /* Tamanho relativo à largura da tela */
+        margin-top: 6.25vw; /* Margem superior relativa à largura da tela */
+        line-height: 0.9;
+        text-align: center;
+        padding: 0.125rem; /* Padding convertido para rem */
+        color: white; /* Adicionei a cor branca ao título */
+    }
+    
+    .fotter-contat {
+        font-size: 1.8vw; /* Tamanho relativo à largura da tela */
+        font-family: 'Baloo 2', sans-serif;
+        margin-top: 8.25vw; /* Margem superior relativa à largura da tela */
+        text-align: center;
+        padding: 0.125rem; /* Padding convertido para rem */
+        color: white; /* Adicionei a cor branca ao conteúdo de contato */
+    }
+    
+    .icons-fotter {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    
+    .img-fotter {
+        width: 4vw; /* Largura relativa à largura da tela */
+        height: 4vw; /* Altura relativa à largura da tela */
+        margin: 0.5vw; /* Margem relativa à largura da tela */
+        margin-top: 2%;
+
+        transition: 0.4s ease-in-out;
+    }
+    
+    .img-fotter:hover {
+        width: 3.7vw; /* Largura relativa à largura da tela */
+        height: 3.7vw; /* Altura relativa à largura da tela */
+        margin: 0.4vw; /* Margem relativa à largura da tela */
+        transition: 0.2s;
+        transform: translateX(-0rem) translateY(-0rem); /* Translação relativa à largura da tela */
+        cursor: url('/img/icons/cursor-a.png'), auto;
+    }
+    
+    .fotter-p-fim {
+        font-size: 1vw; /* Tamanho relativo à largura da tela */
+        color: white;
+        margin-top: 10%;
+        font-family: 'Baloo 2', sans-serif;
+        opacity: 0.7; /* Mantido em porcentagem */
+        text-align: center;
+        padding: 2.5vw; /* Padding relativo à largura da tela */
+    }
+
+
+}

@@ -1,0 +1,270 @@
+
+@media only screen and (max-width: 320px){
+
+    .topic-3-title {
+        font-size: 5vw; /* Tamanho relativo à largura da tela */
+    }
+    
+    .topic-3-imgs {
+        max-width: 100%; /* Largura máxima relativa à largura da tela */
+    }
+    
+    .topic-3-img-1,
+    .topic-3-img-2,
+    .topic-3-img-3 {
+        width: 40%; /* Largura relativa à largura da tela */
+        border-radius: 0.35rem; /* Borda relativa à largura da tela */
+        margin: 1vw; /* Margem relativa à largura da tela */
+        box-shadow: 0.03125rem 0.03125rem 0.625rem 0.03125rem rgb(255, 255, 255);
+        border: 0.125rem solid white; /* Borda relativa à largura da tela */
+    }
+    
+    .topic-3-img-1:hover {
+        transform: scale(1.15) translateX(0vw); /* Translação relativa à largura da tela */
+    }
+    
+    .topic-3-img-2:hover {
+        transform: scale(1.25) translateX(0);
+    }
+    
+    .topic-3-img-3:hover {
+        transform: scale(1.15) translateX(0vw); /* Translação relativa à largura da tela */
+    }
+    
+    .topic-3-list {
+        font-size: 3.5vw; /* Tamanho relativo à largura da tela */
+        margin-left: 0%; /* Margem relativa à largura da tela */
+        columns: unset;
+        list-style-image: url(/img/icons/list-16px.png);
+        column-gap: 1.25vw; /* Espaçamento entre colunas relativo à largura da tela */
+    }
+
+    .separador-list-1,
+    .separador-list-2{
+    font-size: 1rem; /* Tamanho da fonte */
+    padding: 0rem; /* Preenchimento */
+    margin: 2rem; /* Margem */
+    border-radius: 3rem; /* Borda circular */
+    text-align: center; /* Alinhamento do texto ao centro */
+    letter-spacing: 0rem; /* Espaçamento entre letras */
+}
+    
+    .topic-3-p-1 {
+        font-size: 3.2vw; /* Tamanho relativo à largura da tela */
+        margin-left: 5%; /* Margem relativa à largura da tela */
+        margin-right: 5%; /* Margem relativa à largura da tela */
+        padding: 2.5vw; /* Padding relativo à largura da tela */
+    }
+    
+    .topic-3-p-fim {
+        font-size: 3.25vw; /* Tamanho relativo à largura da tela */
+        opacity: 0.7; /* Opacidade relativa à largura da tela */
+        padding: 10vw; /* Padding relativo à largura da tela */
+    }
+    
+
+}
+
+@media only screen and (min-width: 321px) and (max-width: 650px){
+
+    
+    .topic-3-title {
+        font-size: 6vw; /* Tamanho relativo à largura da tela */
+    }
+    
+    .topic-3-imgs {
+        max-width: 100%; /* Largura máxima relativa à largura da tela */
+    }
+    
+    .topic-3-img-1,
+    .topic-3-img-2,
+    .topic-3-img-3 {
+        width: 40%; /* Largura relativa à largura da tela */
+        border-radius: 0.35rem; /* Borda relativa à largura da tela */
+        margin: 1vw; /* Margem relativa à largura da tela */
+        box-shadow: 0.03125rem 0.03125rem 0.625rem 0.03125rem rgb(255, 255, 255);
+        border: 0.125rem solid white; /* Borda relativa à largura da tela */
+    }
+    
+    .topic-3-img-1:hover {
+        transform: scale(1.15) translateX(0vw); /* Translação relativa à largura da tela */
+    }
+    
+    .topic-3-img-2:hover {
+        transform: scale(1.25) translateX(0);
+    }
+    
+    .topic-3-img-3:hover {
+        transform: scale(1.15) translateX(0vw); /* Translação relativa à largura da tela */
+    }
+    
+    .topic-3-list {
+        font-size: 3.5vw; /* Tamanho relativo à largura da tela */
+        margin-left: 0%; /* Margem relativa à largura da tela */
+        columns: unset;
+        list-style-image: url(/img/icons/list-16px.png);
+        column-gap: 1.25vw; /* Espaçamento entre colunas relativo à largura da tela */
+    }
+
+    .separador-list-1,
+    .separador-list-2{
+    font-size: 1.5rem; /* Tamanho da fonte */
+    padding: 0rem; /* Preenchimento */
+    margin: 2rem; /* Margem */
+    border-radius: 3rem; /* Borda circular */
+    text-align: center; /* Alinhamento do texto ao centro */
+    letter-spacing: 0rem; /* Espaçamento entre letras */
+}
+    
+    .topic-3-p-1 {
+        font-size: 3.2vw; /* Tamanho relativo à largura da tela */
+        margin-left: 5%; /* Margem relativa à largura da tela */
+        margin-right: 5%; /* Margem relativa à largura da tela */
+        padding: 2.5vw; /* Padding relativo à largura da tela */
+    }
+    
+    .topic-3-p-fim {
+        font-size: 3.25vw; /* Tamanho relativo à largura da tela */
+        opacity: 0.7; /* Opacidade relativa à largura da tela */
+        padding: 10vw; /* Padding relativo à largura da tela */
+    }
+
+}
+
+@media only screen and (min-width: 651px) and (max-width: 1200px){
+
+    .topic-3 {
+        border-top: 0.0625rem solid white; /* Borda superior convertida para rem */
+    }
+    
+    .topic-3-title {
+        font-size: 4vw; /* Tamanho relativo à largura da tela */
+    }
+    
+    .topic-3-imgs {
+        max-width: 100%; /* Largura máxima relativa à largura da tela */
+    }
+    
+    .topic-3-img-1,
+    .topic-3-img-2,
+    .topic-3-img-3 {
+        width: 25%; /* Largura relativa à largura da tela */
+        border-radius: 0.35rem; /* Borda relativa à largura da tela */
+        margin: 0.5vw; /* Margem relativa à largura da tela */
+        box-shadow: 0.03125rem 0.03125rem 0.625rem 0.03125rem rgb(255, 255, 255);
+        border: 0.125rem solid white; /* Borda relativa à largura da tela */
+    }
+    
+    .topic-3-img-1:hover {
+        transform: scale(1.15) translateX(0vw); /* Translação relativa à largura da tela */
+    }
+    
+    .topic-3-img-2:hover {
+        transform: scale(1.25) translateX(0);
+    }
+    
+    .topic-3-img-3:hover {
+        transform: scale(1.15) translateX(0vw); /* Translação relativa à largura da tela */
+    }
+    
+    .topic-3-list {
+        font-size: 1.5vw; /* Tamanho relativo à largura da tela */
+        margin-left: 5%; /* Margem relativa à largura da tela */
+        columns: 2;
+        list-style-image: url(/img/icons/list-16px.png);
+        column-gap: 1.25vw; /* Espaçamento entre colunas relativo à largura da tela */
+    }
+
+    .separador-list-1,
+    .separador-list-2{
+    font-size: 1.3rem; /* Tamanho da fonte */
+    padding: 0rem; /* Preenchimento */
+    margin: 0rem; /* Margem */
+    border-radius: 3rem; /* Borda circular */
+    text-align: center; /* Alinhamento do texto ao centro */
+    letter-spacing: 0rem; /* Espaçamento entre letras */
+}
+    
+    .topic-3-p-1 {
+        font-size: 1.5vw; /* Tamanho relativo à largura da tela */
+        margin-left: 5%; /* Margem relativa à largura da tela */
+        margin-right: 5%; /* Margem relativa à largura da tela */
+        padding: 2.5vw; /* Padding relativo à largura da tela */
+    }
+    
+    .topic-3-p-fim {
+        font-size: 1vw; /* Tamanho relativo à largura da tela */
+        opacity: 0.7; /* Opacidade relativa à largura da tela */
+        padding: 2vw; /* Padding relativo à largura da tela */
+    }
+
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 2000px){
+    
+    .topic-3 {
+        border-top: 0.0625rem solid white; /* Borda superior convertida para rem */
+    }
+    
+    .topic-3-title {
+        font-size: 4vw; /* Tamanho relativo à largura da tela */
+    }
+    
+    .topic-3-imgs {
+        max-width: 100%; /* Largura máxima relativa à largura da tela */
+    }
+    
+    .topic-3-img-1,
+    .topic-3-img-2,
+    .topic-3-img-3 {
+        width: 25%; /* Largura relativa à largura da tela */
+        border-radius: 0.35rem; /* Borda relativa à largura da tela */
+        margin: 0.5vw; /* Margem relativa à largura da tela */
+        box-shadow: 0.03125rem 0.03125rem 0.625rem 0.03125rem rgb(255, 255, 255);
+        border: 0.125rem solid white; /* Borda relativa à largura da tela */
+    }
+    
+    .topic-3-img-1:hover {
+        transform: scale(1.15) translateX(0vw); /* Translação relativa à largura da tela */
+    }
+    
+    .topic-3-img-2:hover {
+        transform: scale(1.25) translateX(0);
+    }
+    
+    .topic-3-img-3:hover {
+        transform: scale(1.15) translateX(0vw); /* Translação relativa à largura da tela */
+    }
+    
+    .topic-3-list {
+        font-size: 1.5vw; /* Tamanho relativo à largura da tela */
+        margin-left: 10%; /* Margem relativa à largura da tela */
+        columns: 2;
+        list-style-image: url(/img/icons/list-16px.png);
+        column-gap: 1.25vw; /* Espaçamento entre colunas relativo à largura da tela */
+    }
+
+    .separador-list-1,
+    .separador-list-2{
+    font-size: 2rem; /* Tamanho da fonte */
+    padding: 0rem; /* Preenchimento */
+    margin: 0rem; /* Margem */
+    border-radius: 3rem; /* Borda circular */
+    text-align: center; /* Alinhamento do texto ao centro */
+    letter-spacing: 0rem; /* Espaçamento entre letras */
+}
+    
+    .topic-3-p-1 {
+        font-size: 1.5vw; /* Tamanho relativo à largura da tela */
+        margin-left: 5%; /* Margem relativa à largura da tela */
+        margin-right: 5%; /* Margem relativa à largura da tela */
+        padding: 2.5vw; /* Padding relativo à largura da tela */
+    }
+    
+    .topic-3-p-fim {
+        font-size: 1vw; /* Tamanho relativo à largura da tela */
+        opacity: 0.7; /* Opacidade relativa à largura da tela */
+        padding: 2vw; /* Padding relativo à largura da tela */
+    }
+
+}

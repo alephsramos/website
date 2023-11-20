@@ -1,0 +1,67 @@
+@media only screen and (max-width: 320px){
+
+    #popup {
+        max-width: 80%;
+        padding: 10% 5%; /* Ajuste para unidades percentuais */
+    }
+    
+    .title-poupe {
+        font-size: 3vw; /* Ajuste para unidades vw */
+    }
+    
+    .p-poupe {
+        font-size: 2vw; /* Ajuste para unidades vw */
+    }
+    
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px){
+
+    #popup {
+        max-width: 80%;
+        padding: 10% 5%; /* Ajuste para unidades percentuais */
+    }
+    
+    .title-poupe {
+        font-size: 3.2vw; /* Ajuste para unidades vw */
+    }
+    
+    .p-poupe {
+        font-size: 2.2vw; /* Ajuste para unidades vw */
+    }
+
+}
+
+@media only screen and (min-width: 375px) and (max-width: 650px){
+
+    #popup {
+        max-width: 80%;
+        padding: 10% 5%; /* Ajuste para unidades percentuais */
+    }
+    
+    .title-poupe {
+        font-size: 3.4vw; /* Ajuste para unidades vw */
+    }
+    
+    .p-poupe {
+        font-size: 2.4vw; /* Ajuste para unidades vw */
+    }
+
+
+}
+
+@media only screen and (min-width: 651px) and (max-width: 1900px){
+
+    #popup {
+        max-width: 50%;
+        padding: 10% 5%; /* Ajuste para unidades percentuais */
+    }
+    
+    .title-poupe {
+        font-size: 3vw; /* Ajuste para unidades vw */
+    }
+    
+    .p-poupe {
+        font-size: 2vw; /* Ajuste para unidades vw */
+    }
+}

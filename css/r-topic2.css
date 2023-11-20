@@ -1,0 +1,210 @@
+
+@media only screen and (max-width: 320px){
+
+    .topic-2 {
+        margin: 0 auto;
+        border-top: 0.0625rem solid rgb(255, 255, 255); /* Borda superior convertida para rem */
+    }
+    
+    .topic-2-title {
+        font-size: 8vw; /* Tamanho relativo à largura da tela */
+    }
+    
+    .topic-2-imgs {
+        max-width: 100%; /* Largura máxima relativa à largura da tela */
+    }
+    
+    .topic-2-img-1 {
+        width: 45%; /* Largura relativa à largura da tela */
+        border-radius: 0.55rem; /* Borda relativa à largura da tela */
+        margin: 0.2rem; /* Margem relativa à largura da tela */
+        box-shadow: 0.03125rem 0.03125rem 0.625rem 0.03125rem black; /* Sombra relativa à largura da tela */
+        border: 1px solid white;
+    }
+
+    .topic-2-p-1{
+        font-size: 1rem; /* Tamanho da fonte */
+        color: #ffffff; /* Cor do texto */
+        padding: 0.1rem; /* Preenchimento */
+        margin: 0rem; /* Margem */
+        border-radius: 2rem; /* Borda circular */
+        text-align: center; /* Alinhamento do texto ao centro */
+        letter-spacing: 0; /* Espaçamento entre letras */
+    }
+    
+    .topic-2-p-fim {
+        font-size: 2.25vw; /* Tamanho relativo à largura da tela */
+        opacity: 0.7; /* Opacidade relativa à largura da tela */
+        padding: 1.25vw; /* Padding relativo à largura da tela */
+    }
+    
+
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px){
+
+    .topic-2 {
+        margin: 0 auto;
+        border-top: 0.0625rem solid rgb(255, 255, 255); /* Borda superior convertida para rem */
+    }
+    
+    .topic-2-title {
+        font-size: 8vw; /* Tamanho relativo à largura da tela */
+    }
+    
+    .topic-2-imgs {
+        max-width: 100%; /* Largura máxima relativa à largura da tela */
+    }
+    
+    .topic-2-img-1 {
+        width: 45%; /* Largura relativa à largura da tela */
+        border-radius: 0.55rem; /* Borda relativa à largura da tela */
+        margin: 0.2rem; /* Margem relativa à largura da tela */
+        box-shadow: 0.03125rem 0.03125rem 0.625rem 0.03125rem black; /* Sombra relativa à largura da tela */
+        border: 1px solid white;
+    }
+
+    .topic-2-p-1{
+        font-size: 1rem; /* Tamanho da fonte */
+        color: #ffffff; /* Cor do texto */
+        padding: 0.1rem; /* Preenchimento */
+        margin: 0rem; /* Margem */
+        border-radius: 2rem; /* Borda circular */
+        text-align: center; /* Alinhamento do texto ao centro */
+        letter-spacing: 0; /* Espaçamento entre letras */
+    }
+    
+    .topic-2-p-fim {
+        font-size: 2.25vw; /* Tamanho relativo à largura da tela */
+        opacity: 0.7; /* Opacidade relativa à largura da tela */
+        padding: 1.25vw; /* Padding relativo à largura da tela */
+    }
+    
+
+}
+
+@media only screen and (min-width: 375px) and (max-width: 650px){
+
+    .topic-2 {
+        margin: 0 auto;
+        border-top: 0.0625rem solid rgb(255, 255, 255); /* Borda superior convertida para rem */
+    }
+    
+    .topic-2-title {
+        font-size: 8vw; /* Tamanho relativo à largura da tela */
+    }
+    
+    .topic-2-imgs {
+        max-width: 100%; /* Largura máxima relativa à largura da tela */
+    }
+    
+    .topic-2-img-1 {
+        width: 30%; /* Largura relativa à largura da tela */
+        border-radius: 0.55rem; /* Borda relativa à largura da tela */
+        margin: 0.2rem; /* Margem relativa à largura da tela */
+        box-shadow: 0.03125rem 0.03125rem 0.625rem 0.03125rem black; /* Sombra relativa à largura da tela */
+        border: 1px solid white;
+    }
+
+    .topic-2-p-1{
+        font-size: 1rem; /* Tamanho da fonte */
+        color: #ffffff; /* Cor do texto */
+        padding: 0.1rem; /* Preenchimento */
+        margin: 0rem; /* Margem */
+        border-radius: 2rem; /* Borda circular */
+        text-align: center; /* Alinhamento do texto ao centro */
+        letter-spacing: 0; /* Espaçamento entre letras */
+    }
+    
+    .topic-2-p-fim {
+        font-size: 2.25vw; /* Tamanho relativo à largura da tela */
+        opacity: 0.7; /* Opacidade relativa à largura da tela */
+        padding: 1.25vw; /* Padding relativo à largura da tela */
+    }
+    
+
+}
+
+@media only screen and (min-width: 651px) and (max-width: 1200px){
+
+    .topic-2 {
+        margin: 0 auto;
+        border-top: 0.0625rem solid rgb(255, 255, 255); /* Borda superior convertida para rem */
+    }
+    
+    .topic-2-title {
+        font-size: 5vw; /* Tamanho relativo à largura da tela */
+    }
+    
+    .topic-2-imgs {
+        max-width: 100%; /* Largura máxima relativa à largura da tela */
+    }
+    
+    .topic-2-img-1 {
+        width: 25%; /* Largura relativa à largura da tela */
+        border-radius: 0.55rem; /* Borda relativa à largura da tela */
+        margin: 0.2rem; /* Margem relativa à largura da tela */
+        box-shadow: 0.03125rem 0.03125rem 0.625rem 0.03125rem black; /* Sombra relativa à largura da tela */
+        border: 1px solid white;
+    }
+
+    .topic-2-p-1{
+        font-size: 1.5rem; /* Tamanho da fonte */
+        color: #ffffff; /* Cor do texto */
+        padding: 0.1rem; /* Preenchimento */
+        margin: 0rem; /* Margem */
+        border-radius: 2rem; /* Borda circular */
+        text-align: center; /* Alinhamento do texto ao centro */
+        letter-spacing: 0; /* Espaçamento entre letras */
+    }
+    
+    .topic-2-p-fim {
+        font-size: 2.25vw; /* Tamanho relativo à largura da tela */
+        opacity: 0.7; /* Opacidade relativa à largura da tela */
+        padding: 1.25vw; /* Padding relativo à largura da tela */
+    }
+    
+
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 2000px){
+
+    .topic-2 {
+        margin: 0 auto;
+        border-top: 0.0625rem solid rgb(255, 255, 255); /* Borda superior convertida para rem */
+    }
+    
+    .topic-2-title {
+        font-size: 5vw; /* Tamanho relativo à largura da tela */
+    }
+    
+    .topic-2-imgs {
+        max-width: 100%; /* Largura máxima relativa à largura da tela */
+    }
+    
+    .topic-2-img-1 {
+        width: 15%; /* Largura relativa à largura da tela */
+        border-radius: 0.55rem; /* Borda relativa à largura da tela */
+        margin: 0.2rem; /* Margem relativa à largura da tela */
+        box-shadow: 0.03125rem 0.03125rem 0.625rem 0.03125rem black; /* Sombra relativa à largura da tela */
+        border: 1px solid white;
+    }
+
+    .topic-2-p-1{
+        font-size: 1.5em; /* Tamanho da fonte */
+        color: #ffffff; /* Cor do texto */
+        padding: 0.3rem; /* Preenchimento */
+        margin: 0rem; /* Margem */
+        border-radius: 2rem; /* Borda circular */
+        text-align: center; /* Alinhamento do texto ao centro */
+        letter-spacing: 0; /* Espaçamento entre letras */
+    }
+    
+    .topic-2-p-fim {
+        font-size: 1.25vw; /* Tamanho relativo à largura da tela */
+        opacity: 0.7; /* Opacidade relativa à largura da tela */
+        padding: 1.25vw; /* Padding relativo à largura da tela */
+    }
+    
+
+}

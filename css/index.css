@@ -440,7 +440,7 @@ b {
     font-family: 'Baloo 2', sans-serif; /* Fonte do texto */
     margin-left: 10%; /* Margem à esquerda */
     flex-wrap: wrap; /* Quebra para a próxima linha se não houver espaço suficiente */
-    list-style-image: url(/img/icons/list.png); /* Imagem de marcador de lista */
+    list-style-image: url("../img/icons/list.png"); /* Imagem de marcador de lista */
     list-style-position: inside; /* Posição do marcador de lista */
     column-count: 2; /* Divisão em duas colunas */
     column-gap: 1.25rem; /* Espaçamento entre colunas */

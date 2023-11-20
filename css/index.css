@@ -11,7 +11,7 @@
 /* Estilo para o HTML e o corpo da página */
 html, body {
     margin: 0; /* Remove margens padrão do corpo e do HTML */
-    background-image: url('./img/backgrounds/fundo-oficial.jpg'); /* Define a imagem de fundo */
+    background-image: url(./img/backgrounds/fundo-oficial.jpg); /* Define a imagem de fundo */
     background-attachment: fixed; /* Fixa a imagem de fundo para que ela não role com a página */
     background-position: center; /* Centraliza a posição da imagem de fundo */
     background-color: rgba(0, 0, 0, 0.8); /* Cor de fundo com uma certa transparência */
@@ -19,7 +19,7 @@ html, body {
     animation: animateBackground 30s linear infinite; /* Aplica uma animação de fundo com duração de 30s */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra leve ao redor do corpo */
     transition: opacity 1.3s ease-in-out; /* Transição suave para a propriedade de opacidade */
-    cursor: url('./img/icons/cursor.png'), auto; /* Define o cursor personalizado */
+    cursor: url(./img/icons/cursor.png), auto; /* Define o cursor personalizado */
     overflow-x: hidden; /* Esconde a barra de rolagem horizontal */
 }
 

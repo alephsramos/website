@@ -21,15 +21,18 @@
         width: 80%; /* Largura relativa à largura da tela */
         max-width: 37.5rem; /* Largura máxima convertida para rem */
         margin: 2vw; /* Margem relativa à largura da tela */
-        border-radius: 0.5rem; /* Borda relativa à largura da tela */
+        box-shadow: 1px 1px 20px 1px black;
+        border-radius: 0.3rem; /* Borda relativa à largura da tela */
     }
     
     .topic-4-img-1:hover {
-        transform: scale(1.1) translateX(0vw); /* Translação relativa à largura da tela */
+        transform: scale(1.15) translateY(5vw); /* Translação relativa à largura da tela */
+        box-shadow: 1px 1px 20px 1px black;
     }
     
     .topic-4-img-2:hover {
-        transform: scale(1.1) translateX(0vw); /* Translação relativa à largura da tela */
+        transform: scale(1.15) translateY(5vw); /* Translação relativa à largura da tela */
+        box-shadow: 1px 1px 20px 1px black;
     }
     
     .topic-4-p-fim {

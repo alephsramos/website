@@ -240,7 +240,7 @@ b {
 /* Efeito ao passar o mouse na primeira imagem do tópico  */
 .topic-1-img-1:hover {
     transform: scale(1.2); /* Aumenta a escala da imagem */
-    box-shadow: 1px 1px 10px 10px black;
+    box-shadow: 1px 1px 20px 1px black;
     z-index: 11;
 }
 

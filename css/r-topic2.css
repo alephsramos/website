@@ -15,11 +15,16 @@
     }
     
     .topic-2-img-1 {
-        width: 45%; /* Largura relativa à largura da tela */
+        width: 48%; /* Largura relativa à largura da tela */
         border-radius: 0.55rem; /* Borda relativa à largura da tela */
-        margin: 0.2rem; /* Margem relativa à largura da tela */
-        box-shadow: 0.03125rem 0.03125rem 0.625rem 0.03125rem black; /* Sombra relativa à largura da tela */
+        margin: 0.1rem; /* Margem relativa à largura da tela */
+        box-shadow: 1px 1px 20px 1px black; /* Sombra relativa à largura da tela */
         border: 1px solid white;
+    }
+
+    .topic-2-img-1:hover{
+        box-shadow: 1px 1px 20px 1px black; /* Sombra relativa à largura da tela */
+        transform: scale(1.4);
     }
 
     .topic-2-p-1{

@@ -72,7 +72,7 @@
     
     .nav-title {
         width: 70%;
-        font-size: 4.2vh;
+        font-size: 3vh;
         margin: 5 auto; /* Margem à esquerda */
         text-align: left;
     }
@@ -84,8 +84,8 @@
     
     /* Estilo para as imagens na barra de ícones */
     .img-bar {
-        width: 1.9rem; /* Largura das imagens */
-        height: 1.9rem; /* Altura das imagens */
+        width: 2.1rem; /* Largura das imagens */
+        height: 2.1rem; /* Altura das imagens */
         margin: 0.2rem; /* Margem das imagens */
         transition: 0.4s ease-in-out; /* Transição suave */
     }

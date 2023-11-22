@@ -198,10 +198,10 @@
     }
     
     .topic-1-img-01 {
-        width: 25%; /* Largura da imagem em porcentagem */
+        width: 35%; /* Largura da imagem em porcentagem */
         height: 39%; /* Altura da imagem em porcentagem */
         margin: 0 auto;
-        margin-top: 7%;
+        margin-top: 10%;
         opacity: 0.8;
         display: block;
     }

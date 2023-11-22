@@ -29,7 +29,7 @@
         font-size: 1rem; /* Tamanho da fonte */
         color: #ffffff; /* Cor do texto */
         padding: 0.1rem; /* Preenchimento */
-        margin: 0rem; /* Margem */
+        margin: 0.5rem; /* Margem */
         border-radius: 2rem; /* Borda circular */
         text-align: center; /* Alinhamento do texto ao centro */
         letter-spacing: 0; /* Espaçamento entre letras */
@@ -69,7 +69,7 @@
         font-size: 1rem; /* Tamanho da fonte */
         color: #ffffff; /* Cor do texto */
         padding: 0.1rem; /* Preenchimento */
-        margin: 0rem; /* Margem */
+        margin: 0.5rem; /* Margem */
         border-radius: 2rem; /* Borda circular */
         text-align: center; /* Alinhamento do texto ao centro */
         letter-spacing: 0; /* Espaçamento entre letras */
@@ -109,7 +109,7 @@
         font-size: 1rem; /* Tamanho da fonte */
         color: #ffffff; /* Cor do texto */
         padding: 0.1rem; /* Preenchimento */
-        margin: 0rem; /* Margem */
+        margin: 0.5rem; /* Margem */
         border-radius: 2rem; /* Borda circular */
         text-align: center; /* Alinhamento do texto ao centro */
         letter-spacing: 0; /* Espaçamento entre letras */
@@ -149,7 +149,7 @@
         font-size: 1.5rem; /* Tamanho da fonte */
         color: #ffffff; /* Cor do texto */
         padding: 0.1rem; /* Preenchimento */
-        margin: 0rem; /* Margem */
+        margin: 0.5rem; /* Margem */
         border-radius: 2rem; /* Borda circular */
         text-align: center; /* Alinhamento do texto ao centro */
         letter-spacing: 0; /* Espaçamento entre letras */
@@ -187,10 +187,10 @@
     }
 
     .topic-2-p-1{
-        font-size: 1.5em; /* Tamanho da fonte */
+        font-size: 2rem; /* Tamanho da fonte */
         color: #ffffff; /* Cor do texto */
         padding: 0.3rem; /* Preenchimento */
-        margin: 0rem; /* Margem */
+        margin: 2rem; /* Margem */
         border-radius: 2rem; /* Borda circular */
         text-align: center; /* Alinhamento do texto ao centro */
         letter-spacing: 0; /* Espaçamento entre letras */

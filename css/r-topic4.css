@@ -146,11 +146,11 @@
     }
     
     .topic-4-img-1:hover {
-        transform: scale(1.1) translateX(-10vw); /* Translação relativa à largura da tela */
+        transform: scale(1.1) translateX(-2vw); /* Translação relativa à largura da tela */
     }
     
     .topic-4-img-2:hover {
-        transform: scale(1.1) translateX(10vw); /* Translação relativa à largura da tela */
+        transform: scale(1.1) translateX(2vw); /* Translação relativa à largura da tela */
     }
     
     .topic-4-p-fim {

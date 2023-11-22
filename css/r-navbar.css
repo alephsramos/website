@@ -72,7 +72,7 @@
     
     .nav-title {
         width: 70%;
-        font-size: 2.5vh;
+        font-size: 2.9vh;
         margin: 5 auto; /* Margem à esquerda */
         text-align: left;
     }
@@ -111,7 +111,7 @@
     
     .nav-title {
         width: 70%;
-        font-size: 4.2vh;
+        font-size: 4.5vh;
         margin: 5 auto; /* Margem à esquerda */
         text-align: left;
     }
@@ -123,8 +123,8 @@
     
     /* Estilo para as imagens na barra de ícones */
     .img-bar {
-        width: 2.4rem; /* Largura das imagens */
-        height: 2.4rem; /* Altura das imagens */
+        width: 2.8rem; /* Largura das imagens */
+        height: 2.8rem; /* Altura das imagens */
         margin: 0.2rem; /* Margem das imagens */
         transition: 0.4s ease-in-out; /* Transição suave */
     }

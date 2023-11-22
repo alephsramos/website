@@ -1,6 +1,5 @@
-
-/* efeito do mexer do mouse */
 document.addEventListener('DOMContentLoaded', function() {
+    /* Efeito do Mexer do Mouse */
     document.addEventListener('mousemove', function(e) {
         const fumaça = document.createElement('div');
         fumaça.classList.add('faísca');
@@ -22,11 +21,8 @@ document.addEventListener('DOMContentLoaded', function() {
             fumaça.remove();
         });
     });
-});
 
-/* efeito do click */
-
-document.addEventListener('DOMContentLoaded', function() {
+    /* Efeito do Click */
     document.addEventListener('click', function(e) {
         const efeito = document.createElement('div');
         efeito.classList.add('efeito');

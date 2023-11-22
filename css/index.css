@@ -232,7 +232,7 @@ b {
     width: 18.75vh; /* Largura da imagem */
     border-radius: 0.55rem; /* Borda circular */
     margin: 0.3125rem; /* Margem */
-    transition: transform 0.2s ease-out; /* Transição suave ao passar o mouse */
+    transition: transform 0.4s ease-out; /* Transição suave ao passar o mouse */
     border: 1px solid #000000; /* Borda sólida */
     z-index: 10;
 }
@@ -294,7 +294,7 @@ b {
     width: 18.75vh; /* Largura da imagem */
     border-radius: 1.25rem; /* Borda circular */
     margin: 0.3125rem; /* Margem */
-    transition: transform 0.2s ease; /* Transição suave ao passar o mouse */
+    transition: transform 0.4s ease; /* Transição suave ao passar o mouse */
     border: 3px solid #261a7f; /* Borda sólida */
     z-index: 10;
 }

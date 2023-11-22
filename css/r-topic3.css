@@ -1,5 +1,5 @@
 
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 375px){
 
     .topic-3-title {
         font-size: 5vw; /* Tamanho relativo à largura da tela */
@@ -68,7 +68,7 @@
 
 }
 
-@media only screen and (min-width: 321px) and (max-width: 650px){
+@media only screen and (min-width: 376px) and (max-width: 650px){
 
     
     .topic-3-title {

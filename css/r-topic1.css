@@ -1,4 +1,4 @@
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 375px){
 
 .topic-1 {
         width: 100%; /* Largura total do tópico 1 */
@@ -86,7 +86,7 @@
 }
 
 .topic-1-img-1:hover{
-    transform: scale(1.25);
+    transform: scale(1.12);
     box-shadow: 1px 1px 20px 1px black;
 }
 
@@ -99,7 +99,7 @@
 }
 }
 
-@media only screen and (min-width: 321px) and (max-width: 651px){
+@media only screen and (min-width: 376px) and (max-width: 651px){
 
 .topic-1 {
         width: 100%; /* Largura total do tópico 1 */

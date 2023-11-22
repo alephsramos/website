@@ -134,7 +134,7 @@
 
     
     .topic-3-title {
-        font-size: 4vw; /* Tamanho relativo à largura da tela */
+        font-size: 4.5vw; /* Tamanho relativo à largura da tela */
     }
     
     .topic-3-imgs {
@@ -144,7 +144,7 @@
     .topic-3-img-1,
     .topic-3-img-2,
     .topic-3-img-3 {
-        width: 25%; /* Largura relativa à largura da tela */
+        width: 45%; /* Largura relativa à largura da tela */
         border-radius: 0.35rem; /* Borda relativa à largura da tela */
         margin: 0.5vw; /* Margem relativa à largura da tela */
         border: 0.125rem solid white; /* Borda relativa à largura da tela */

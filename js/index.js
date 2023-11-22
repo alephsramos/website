@@ -49,32 +49,3 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
-
-/* efeito mensagem aparece na tela */
-document.addEventListener('DOMContentLoaded', function () {
-    var popup = document.getElementById('popup');
-    var overlay = document.getElementById('overlay');
-    var closeButton = document.getElementById('close-btn');
-
-    function showPopup() {
-        popup.style.display = 'block';
-        overlay.style.display = 'block';
-    }
-
-    function hidePopup() {
-        popup.style.display = 'none';
-        overlay.style.display = 'none';
-    }
-
-    // Mostrar o popup ao carregar a página
-    showPopup();
-
-    // Fechar o popup ao clicar fora dele ou no botão de fechar
-    overlay.addEventListener('click', hidePopup);
-    closeButton.addEventListener('click', hidePopup);
-});
-
-var lastScrollTop = 0;
-
-
-// Obtém o botão e a div que contém as imagens

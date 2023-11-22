@@ -359,7 +359,7 @@ b {
     width: 31.25rem; /* Largura da imagem */
     border-radius: 1.25rem; /* Borda circular */
     transition: transform 0.6s ease; /* Transição suave ao passar o mouse */
-    box-shadow: 0.03125rem 0.03125rem 0.625rem 0.03125rem rgb(38,26,127); /* Sombra da imagem */
+    box-shadow: 0.03125rem 0.03125rem 0.625rem 0.03125rem rgb(0, 0, 0); /* Sombra da imagem */
     border: 0.225rem solid #000000; /* Borda sólida */
     margin: 1.25rem; /* Margem */
     z-index: 10;
@@ -368,21 +368,21 @@ b {
 /* Efeito ao passar o mouse na primeira imagem do tópico 3 */
 .topic-3-img-1:hover {
     transform: scale(1.2) translateX(-3.75rem); /* Aumenta a escala e move a imagem ao passar o mouse */
-    box-shadow: 1px 1px 10px 10px black; /* Sombra ao passar o mouse */
+    box-shadow: 1px 1px 20px 1px black; /* Sombra ao passar o mouse */
     z-index: 11;
 }
 
 /* Efeito ao passar o mouse na segunda imagem do tópico 3 */
 .topic-3-img-2:hover {
     transform: scale(1.3) translateX(0); /* Aumenta a escala da imagem ao passar o mouse */
-    box-shadow: 1px 1px 10px 10px black; /* Sombra ao passar o mouse */
+    box-shadow: 1px 1px 20px 1px black; /* Sombra ao passar o mouse */
     z-index: 11;
 }
 
 /* Efeito ao passar o mouse na terceira imagem do tópico 3 */
 .topic-3-img-3:hover {
     transform: scale(1.2) translateX(3.75rem); /* Aumenta a escala e move a imagem ao passar o mouse */
-    box-shadow: 1px 1px 10px 10px black; /* Sombra ao passar o mouse */
+    box-shadow: 1px 1px 20px 1px black; /* Sombra ao passar o mouse */
     z-index: 11;
 }
 
@@ -472,21 +472,21 @@ b {
     border-radius: 1.875rem; /* Borda circular */
     transition: transform 0.3s ease; /* Transição suave ao passar o mouse */
     z-index: 12;
-    box-shadow: 1px 1px 10px 10px black; /* Sombra ao passar o mouse */
+    box-shadow: 1px 1px 20px 1px black; /* Sombra ao passar o mouse */
 }
 
 /* Efeito ao passar o mouse na primeira imagem do tópico 4 */
 .topic-4-img-1:hover {
     z-index: 13;
-    box-shadow: 1px 1px 10px 10px black; /* Sombra ao passar o mouse */
-    transform: scale(1.2) translateX(-1.875rem); /* Aumenta a escala e move a imagem ao passar o mouse */
+    box-shadow: 1px 1px 20px 1px black; /* Sombra ao passar o mouse */
+    transform: scale(1.2) translateX(-0.2rem); /* Aumenta a escala e move a imagem ao passar o mouse */
 }
 
 /* Efeito ao passar o mouse na segunda imagem do tópico 4 */
 .topic-4-img-2:hover {
     z-index: 13;
-    box-shadow: 1px 1px 10px 10px black; /* Sombra ao passar o mouse */
-    transform: scale(1.2) translateX(1.875rem); /* Aumenta a escala da imagem ao passar o mouse */
+    box-shadow: 1px 1px 20px 1px black; /* Sombra ao passar o mouse */
+    transform: scale(1.2) translateX(0.2rem); /* Aumenta a escala da imagem ao passar o mouse */
 }
 
 /* Estilo para o parágrafo final do tópico 4 */

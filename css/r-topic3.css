@@ -12,7 +12,7 @@
     .topic-3-img-1,
     .topic-3-img-2,
     .topic-3-img-3 {
-        width: 70%; /* Largura relativa à largura da tela */
+        width: 80%; /* Largura relativa à largura da tela */
         border-radius: 0.35rem; /* Borda relativa à largura da tela */
         margin: 1vw; /* Margem relativa à largura da tela */
         border: 0.125rem solid white; /* Borda relativa à largura da tela */
@@ -78,7 +78,7 @@
     .topic-3-img-1,
     .topic-3-img-2,
     .topic-3-img-3 {
-        width: 40%; /* Largura relativa à largura da tela */
+        width: 70%; /* Largura relativa à largura da tela */
         border-radius: 0.35rem; /* Borda relativa à largura da tela */
         margin: 1vw; /* Margem relativa à largura da tela */
         box-shadow: 1px 1px 20px 1px black;

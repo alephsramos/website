@@ -311,7 +311,7 @@
     
     /* Estilo para a segunda imagem no tópico 1 */
     .topic-1-img-02 {
-        width: 25%; /* Largura da imagem em porcentagem */
+        width: 30%; /* Largura da imagem em porcentagem */
         height: 40%; /* Altura da imagem em porcentagem */
         margin: 0 auto;
         margin-top: 5%;
@@ -368,10 +368,17 @@
     .topic-1-imgs {
         margin: 0 auto; /* Margem automática nas laterais */
         max-width: 90%; /* Largura máxima */
+        transition: transform 0.2s ease-in-out;
     }
     
     /* Estilo para a primeira imagem no tópico 1 */
     .topic-1-img-1 {
+        width: 15%; /* Largura da imagem */
+        margin: 0.1 auto;
+    }
+
+    .topic-1-img-1:hover {
+        transform: scale(1.5);
         width: 15%; /* Largura da imagem */
         margin: 0.1 auto;
     }

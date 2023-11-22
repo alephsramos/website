@@ -177,7 +177,7 @@ b {
 .topic-1-paragraph-1 {
     font-size: 2rem; /* Tamanho da fonte em rem */
     width: 62.5rem; /* Largura do parágrafo em rem */
-    color: #c1cbff; /* Cor do texto */
+    color: #ffffff; /* Cor do texto */
     border-radius: 2rem; /* Borda circular do parágrafo em rem */
     padding: 0.9375rem; /* Preenchimento em rem */
     box-shadow: 0.03rem 0.03rem 4rem 0.1rem rgba(0, 0, 0, 1); /* Sombra do parágrafo em rem */
@@ -190,7 +190,7 @@ b {
 
 /* Estilo para o segundo parágrafo do tópico 1 */
 .topic-1-paragraph-2 {
-    color: #c1cbff; /* Cor do texto */
+    color: #ffffff; /* Cor do texto */
     font-family: 'Baloo 2', sans-serif; /* Fonte do parágrafo */
     line-height: 1.2; /* Altura da linha */
     border-radius: 2rem; /* Borda circular do parágrafo em rem */

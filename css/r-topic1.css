@@ -90,6 +90,14 @@
     box-shadow: 1px 1px 20px 1px black;
 }
 
+.topic-1-imgs img:hover {
+    opacity: 1;
+    transform: scale(1.3) translate(-50%, -50%);
+    position: fixed;
+    left: 50%;
+    top: 50%;
+}
+
 /* Estilo para o parágrafo final do tópico 1 */
 .topic-1-p-fim {
     font-size: 2vh; /* Tamanho da fonte */

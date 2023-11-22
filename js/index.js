@@ -78,5 +78,3 @@ var lastScrollTop = 0;
 
 
 // Obtém o botão e a div que contém as imagens
-
-

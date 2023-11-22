@@ -44,7 +44,7 @@ b {
 /* Estilo para a classe "faísca" (fumaça) */
 .faísca {
     position: absolute; /* Posicionamento absoluto em relação ao elemento pai */
-    background-color: #ffffff; /* Cor de fundo da fumaça */
+    background-color: #8841ff; /* Cor de fundo da fumaça */
     border-radius: 50%; /* Borda circular para criar uma forma de círculo */
     opacity: 0.7; /* Opacidade para dar um efeito de fumaça */
 }
@@ -614,8 +614,8 @@ footer {
 ::-webkit-scrollbar-thumb {
     background-color: transparent; /* Cor de fundo transparente para o polegar */
     box-shadow: inset 10px 10px 80px 30px rgb(0, 0, 0); /* Sombra do polegar */
-    border: 3px solid #ffffff; /* Borda do polegar */
-    border-radius: 2px; /* Borda circular do polegar */
+    border: 3px solid #8841ff; /* Borda do polegar */
+    border-radius: 5px; /* Borda circular do polegar */
 }
 
 /* Estilo para a trilha da barra de rolagem do WebKit */

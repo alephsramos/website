@@ -155,7 +155,7 @@
     }
     
     .topic-3-img-2:hover {
-        transform: scale(1.25) translateX(0);
+        transform: scale(1.15) translateX(0);
     }
     
     .topic-3-img-3:hover {
@@ -163,7 +163,7 @@
     }
     
     .topic-3-list {
-        font-size: 1.5vw; /* Tamanho relativo à largura da tela */
+        font-size: 2vw; /* Tamanho relativo à largura da tela */
         margin-left: 5%; /* Margem relativa à largura da tela */
         columns: 2;
         list-style-image: url("../img/icons/list-16px.png");

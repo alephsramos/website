@@ -44,7 +44,7 @@
 @media only screen and (min-width: 481px) and (max-width: 720px){
 
     .nav-bar {
-        height: 6vh;
+        height: 5vh;
         margin-bottom: 0%;
         margin-top: 0%;
     }
@@ -84,16 +84,16 @@
     
     /* Estilo para as imagens na barra de ícones */
     .img-bar {
-        width: 2.6rem; /* Largura das imagens */
-        height: 2.6rem; /* Altura das imagens */
+        width: 2.5rem; /* Largura das imagens */
+        height: 2.5rem; /* Altura das imagens */
         margin: 0.2rem; /* Margem das imagens */
         transition: 0.4s ease-in-out; /* Transição suave */
     }
     
     /* Efeito ao passar o mouse nas imagens da barra de ícones */
     .img-bar:hover {
-        width: 2.3rem; /* Aumenta a largura ao passar o mouse */
-        height: 2.3rem; /* Aumenta a altura ao passar o mouse */
+        width: 2.2rem; /* Aumenta a largura ao passar o mouse */
+        height: 2.2rem; /* Aumenta a altura ao passar o mouse */
         margin: 0.3rem; /* Aumenta a margem ao passar o mouse */
         transition: 0.2s; /* Transição mais curta */
         transform: translateX(-0rem) translateY(-0rem); /* Move a imagem um pouco ao passar o mouse */

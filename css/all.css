@@ -1,4 +1,4 @@
-@media only screen and (min-width: 10px) and (max-width: 720px){
+@media only screen and (min-width: 10px) and (max-width: 1200px){
     html, body {
         margin: 0; /* Remove margens padrão do corpo e do HTML */
         background-image: url("../img/backgrounds/fundo-oficial.jpg"); /* Define a imagem de fundo */

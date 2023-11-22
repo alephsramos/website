@@ -134,8 +134,8 @@ b {
 
 /* Estilo para a primeira imagem no tópico 1 */
 .topic-1-img-01 {
-    width: 34.375rem; /* Largura da imagem em rem */
-    height: 38.5rem; /* Altura da imagem em rem */
+    width: 24.375rem; /* Largura da imagem em rem */
+    height: 28.5rem; /* Altura da imagem em rem */
     margin-left: 10%; /* Margem à esquerda */
     margin-top: 5%; /* Margem superior */
     margin-bottom: 10%; /* Margem inferior */
@@ -150,8 +150,8 @@ b {
 
 /* Estilo para a segunda imagem no tópico 1 */
 .topic-1-img-02 {
-    width: 31.25rem; /* Largura da imagem em rem */
-    height: 37.5rem; /* Altura da imagem em rem */
+    width: 21.25rem; /* Largura da imagem em rem */
+    height: 27.5rem; /* Altura da imagem em rem */
     margin-left: 70%; /* Margem à esquerda */
     margin-top: -21%; /* Margem superior negativa */
     margin-bottom: 0.67%; /* Margem inferior */
@@ -208,10 +208,10 @@ b {
 .desenhos-imagens {
     font-size: 2.35rem; /* Tamanho da fonte em rem */
     color: #ffffff; /* Cor do texto */
-    padding: 0.4375rem; /* Preenchimento em rem */
+    padding: 0rem; /* Preenchimento em rem */
     box-shadow: 0.03125rem 0.03125rem 5.125rem 1.125rem rgba(1,13,72,255); /* Sombra em rem */
     font-family: 'Cairo Play', sans-serif; /* Fonte do texto */
-    margin: 2rem; /* Margem */
+    margin: 4rem; /* Margem */
     border-radius: 3rem; /* Borda circular em rem */
     text-align: center; /* Alinhamento do texto ao centro */
     letter-spacing: 1rem; /* Espaçamento entre letras */
@@ -294,6 +294,7 @@ b {
     width: 18.75vh; /* Largura da imagem */
     border-radius: 1.25rem; /* Borda circular */
     margin: 0.3125rem; /* Margem */
+    box-shadow: 1px 1px 30px 1px black;
     transition: transform 0.4s ease; /* Transição suave ao passar o mouse */
     border: 3px solid #261a7f; /* Borda sólida */
     z-index: 10;
@@ -301,7 +302,7 @@ b {
 
 /* Efeito ao passar o mouse na primeira imagem do tópico 2 */
 .topic-2-img-1:hover {
-    transform: scale(1.2); /* Aumenta a escala da imagem */
+    transform: scale(1.4); /* Aumenta a escala da imagem */
     box-shadow: 1px 1px 10px 10px black; /* Sombra */
     z-index: 11;
 }
@@ -310,10 +311,10 @@ b {
 .topic-2-p-1{
     font-size: 2.35rem; /* Tamanho da fonte */
     color: #ffffff; /* Cor do texto */
-    padding: 0.4375rem; /* Preenchimento */
-    box-shadow: 0.03125rem 0.03125rem 5.125rem 1.125rem rgba(1,13,72,255); /* Sombra */
+    padding: 0rem; /* Preenchimento */
+    box-shadow: 1px 1px 20px 1px black; /* Sombra */
     font-family: 'Cairo Play', sans-serif; /* Fonte do texto */
-    margin: 2rem; /* Margem */
+    margin: 4rem; /* Margem */
     border-radius: 3rem; /* Borda circular */
     text-align: center; /* Alinhamento do texto ao centro */
     letter-spacing: 1rem; /* Espaçamento entre letras */
@@ -363,7 +364,7 @@ b {
     width: 31.25rem; /* Largura da imagem */
     border-radius: 1.25rem; /* Borda circular */
     transition: transform 0.6s ease; /* Transição suave ao passar o mouse */
-    box-shadow: 0.03125rem 0.03125rem 0.625rem 0.03125rem rgb(0, 0, 0); /* Sombra da imagem */
+    box-shadow: 1px 1px 20px 1px black; /* Sombra da imagem */
     border: 0.225rem solid #000000; /* Borda sólida */
     margin: 1.25rem; /* Margem */
     z-index: 10;
@@ -409,7 +410,7 @@ b {
     font-size: 2.35rem; /* Tamanho da fonte */
     color: #ffffff; /* Cor do texto */
     padding: 0.4375rem; /* Preenchimento */
-    box-shadow: 0.03125rem 0.03125rem 5.125rem 1.125rem rgba(1,13,72,255); /* Sombra */
+    box-shadow: 1px 1px 20px 1px black; /* Sombra */
     font-family: 'Cairo Play', sans-serif; /* Fonte do texto */
     margin: 2rem; /* Margem */
     border-radius: 3rem; /* Borda circular */
@@ -471,7 +472,7 @@ b {
 .topic-4-img-1,
 .topic-4-img-2 {
     width: 37.5rem; /* Largura da imagem */
-    box-shadow: 0.5rem 0.5rem 12rem 0.5rem rgb(0, 0, 0, 0.2); /* Sombra da imagem */
+    box-shadow: 1px 1px 20px 1px black; /* Sombra da imagem */
     margin: 1.25rem; /* Margem */
     border-radius: 1.875rem; /* Borda circular */
     transition: transform 0.3s ease; /* Transição suave ao passar o mouse */

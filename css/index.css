@@ -119,8 +119,9 @@ b {
 
 /* Classe sobre mim */
 .sobre-mim{
-    width: 100%; /* Largura total do tópico 1 */
-    height: 90%; /* Altura total do tópico 1 */
+    width: 100%; /* Largura total sobre mim */
+    height: 100%; /* Altura total sobre mim */
+    margin-top: 10%;
     align-items: center; /* Alinha os itens ao centro */
     justify-content: center; /* Alinha os itens ao centro */
 }

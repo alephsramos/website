@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+
 /* Estilo para o HTML e o corpo da página */
 html, body {
     margin: 0; /* Remove margens padrão do corpo e do HTML */
@@ -627,12 +628,15 @@ footer {
 
 
 @keyframes animateBackground {
-    0% {
-        background-position: 10% 10%;
-    }
-    100% {
-        background-position: 20% 20%;
-    }
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
 }
 
 /* ANIMAÇÃO DE SURGIMENTO DA FOTO PRINCIPAL */
@@ -742,13 +746,3 @@ footer {
     opacity: 1; /* Opacidade completa */
     transform: translateY(0); /* Move de volta para a posição original */
 }
-
-
-
-
-
-
-
-
-
-

@@ -59,3 +59,11 @@ window.onload = function() {
 
 // Adicionar um ouvinte de evento para lidar com o evento de rolar a página
 window.addEventListener('scroll', handleScrollAnimation);
+
+
+
+
+
+
+
+

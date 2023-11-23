@@ -11,11 +11,10 @@ html, body {
     margin: 0; /* Remove margens padrão do corpo e do HTML */
     background-image: url("../img/backgrounds/fundo-oficial.jpg"); /* Define a imagem de fundo */
     background-attachment: fixed; /* Fixa a imagem de fundo para que ela não role com a página */
-    background-position: center; /* Centraliza a posição da imagem de fundo */
-    background-color: rgba(0, 0, 0, 0.8); /* Cor de fundo com uma certa transparência */
+    background-repeat: no-repeat;
     position: relative; /* Define a posição como relativa para o corpo */
-    animation: animateBackground 30s linear infinite; /* Aplica uma animação de fundo com duração de 30s */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra leve ao redor do corpo */
+    animation: animateBackground 30s linear infinite alternate; /* Aplica uma animação de fundo com duração de 30s */
+    box-shadow: inset 1111px 11111px 11100px 10110px rgba(0, 0, 0, 0.7); /* Sombra leve ao redor do corpo */
     transition: opacity 1.3s ease-in-out; /* Transição suave para a propriedade de opacidade */
     cursor: url("../img/icons/cursor.png"), auto; /* Define o cursor personalizado */
     overflow-x: hidden; /* Esconde a barra de rolagem horizontal */
@@ -627,6 +626,15 @@ footer {
 /* Espaço para as animações */
 
 
+@keyframes animateBackground {
+    0% {
+        background-position: 10% 10%;
+    }
+    100% {
+        background-position: 20% 20%;
+    }
+}
+
 /* ANIMAÇÃO DE SURGIMENTO DA FOTO PRINCIPAL */
 @keyframes animateSurgimento {
     0% {
@@ -635,12 +643,15 @@ footer {
         border-radius: 0;
         transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out; /* Define duração e curva de transição */
         box-shadow: 1px 1px 20px 1px black;
+
+
     }
     100% {
         opacity: 1;
         transform: translateY(0px);
         border-radius: 50%;
         box-shadow: 1px 1px 20px 1px black;
+
     }
 }
 
@@ -731,3 +742,13 @@ footer {
     opacity: 1; /* Opacidade completa */
     transform: translateY(0); /* Move de volta para a posição original */
 }
+
+
+
+
+
+
+
+
+
+

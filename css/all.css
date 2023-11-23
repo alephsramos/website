@@ -7,9 +7,9 @@
         background-color: rgba(0, 0, 0, 0.6); /* Cor de fundo com uma certa transparência */
         position: relative; /* Define a posição como relativa para o corpo */
         animation: none; /* Aplica uma animação de fundo com duração de 30s */
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra leve ao redor do corpo */
         transition: none; /* Transição suave para a propriedade de opacidade */
         cursor: url("../img/icons/cursor.png"), auto; /* Define o cursor personalizado */
+        box-shadow: inset 1111px 11111px 11100px 10110px rgba(0, 0, 0, 0.7); /* Sombra leve ao redor do corpo */
         overflow-x: hidden; /* Esconde a barra de rolagem horizontal */
     }
 }

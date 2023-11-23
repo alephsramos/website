@@ -75,3 +75,14 @@ window.addEventListener('DOMContentLoaded', function() {
         sobreMimImg.classList.add('show'); // Adiciona a classe 'show' para tornar a imagem visível gradativamente
     }, 400); // 1 segundo
 });
+
+
+const icons = document.querySelectorAll('.img-bar');
+
+function handleAnimation() {
+    icons.forEach(icon => {
+        icon.style.animationPlayState = 'running'; // inicia a animação
+    })
+}
+
+window.addEventListener('load', handleAnimation);

@@ -106,6 +106,7 @@ b {
     box-shadow: 1px 1px 50px 1px #0b062d; /* Sombra na barra de navegação */
 }
 
+
 /* Estilo para o título da barra de navegação */
 .nav-title {
     font-size: 3.75rem; /* Tamanho da fonte para o título */
@@ -119,6 +120,8 @@ b {
     -webkit-background-clip: text; /* Aplica o fundo apenas ao texto */
     background-clip: text;
     -webkit-text-fill-color: transparent; /* Torna o texto transparente para mostrar o fundo */
+    white-space: nowrap;
+    animation: typing 6s linear 1s forwards; /* Adiciona uma animação chamada 'typing' com duração de 4 segundos, início linear após 1 segundo e retenção do estado final */
 }
 
 /* Estilo para a barra de ícones */
@@ -132,6 +135,9 @@ b {
     height: 3.0rem; /* Altura das imagens */
     margin: 0.5rem; /* Margem das imagens */
     transition: 0.4s ease-in-out; /* Transição suave */
+    animation: appear-right 3s ease; /* aplica a animação de aparecer da direita com duração de 0.5 segundos */
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 /* Efeito ao passar o mouse nas imagens da barra de ícones */
@@ -711,6 +717,17 @@ footer {
     to {
         width: 100%; /* Aumenta gradualmente a largura para 100% */
 }}
+
+@keyframes appear-right {
+    from {
+        opacity: 0;
+        transform: translateX(100%); /* Começa com os ícones posicionados fora da tela à direita */
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0); /* Termina com os ícones na posição inicial */
+    }
+}
 
 
 /* BARRA DE ROLAGEM */

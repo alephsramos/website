@@ -42,6 +42,30 @@ b {
 }
 
 
+.pet {
+    position: fixed;
+    opacity: 0.5;
+    bottom: 10px;
+    right: 10px;
+    width: 3.5rem;
+    z-index: 1000;
+    height: 3.5rem;
+    background-image: url('../img/icons/aleph-link.png');
+    background-size: cover;
+    animation: petAnimation 2s infinite alternate;
+}
+
+@keyframes petAnimation {
+    0% {
+        transform: scale(1);
+        
+    }
+    100% {
+        transform: scale(1.3);
+        opacity: 1;
+    }
+}
+
 
 /* Estilo para a classe "faísca" (fumaça) */
 .faísca {

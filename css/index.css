@@ -118,6 +118,87 @@ b {
     cursor: url("../img/icons/cursor-a.png"), auto; /* Define um cursor personalizado */
 }
 
+.sobre-mim{
+    width: 100%; /* Largura total do tópico 1 */
+    height: 90%; /* Altura total do tópico 1 */
+    align-items: center; /* Alinha os itens ao centro */
+    justify-content: center; /* Alinha os itens ao centro */
+}
+
+/* Estilo para a imagem sobre mim */
+.img-sobre-mim{
+    border-radius: 50%; /* Define a borda da imagem como circular */
+    border: 1px solid white; /* Adiciona uma borda branca à imagem */
+    display: block; /* Define a exibição como bloco */
+    margin-left: 38%; /* Margem à esquerda de 38% do contêiner pai */
+    margin-top: 8%; /* Margem superior de 8% do contêiner pai */
+    scale: 1; /* Não parece ser uma propriedade válida, talvez deveria ser 'transform: scale(1);' */
+    box-shadow: 1px 1px 20px 1px rgb(255, 255, 255, 0.4); /* Adiciona uma sombra à imagem com valores específicos */
+    transition: transform 0.4s ease; /* Adiciona uma transição suave à propriedade transform durante 0.4 segundos com função de temporização 'ease' */
+}
+
+/* Efeito de escala ao passar o mouse sobre a imagem */
+.img-sobre-mim:hover{
+    transform: scale(1.15); /* Aumenta a escala da imagem para 1.15 ao passar o mouse sobre ela */
+}
+
+/* Estilo para o contêiner de texto */
+.text-container {
+    display: flex; /* Exibe os elementos como um contêiner flexível */
+    justify-content: center; /* Centraliza os filhos ao longo do eixo principal (horizontalmente) */
+    align-items: center; /* Centraliza os filhos ao longo do eixo transversal (verticalmente) */
+}
+
+/* Estilo para o título sobre mim */
+.title-sobre-mim {
+    white-space: nowrap; /* Impede que o texto quebre em várias linhas */
+    color: white; /* Define a cor do texto como branca */
+    font-size: 6vh; /* Define o tamanho da fonte como 6% da altura da viewport */
+    text-align: center; /* Alinha o texto ao centro */
+    font-family: 'Dancing Script', cursive; /* Define a fonte do título */
+    overflow: hidden; /* Oculta qualquer conteúdo que transborde do contêiner */
+    animation: typing 4s linear 1s forwards; /* Adiciona uma animação chamada 'typing' com duração de 4 segundos, início linear após 1 segundo e retenção do estado final */
+}
+
+/* Animação de digitação */
+@keyframes typing {
+    from {
+        width: 0; /* Começa com uma largura de 0 */
+    }
+    to {
+        width: 100%; /* Aumenta gradualmente a largura para 100% */
+}}
+
+/* Estilo para o parágrafo sobre mim */
+.paragraph-sobre-mim{
+    font-size: 2rem; /* Tamanho da fonte em rem */
+    width: 62.5rem; /* Largura do parágrafo em rem */
+    color: #ffffff; /* Cor do texto */
+    border-radius: 2rem; /* Borda circular do parágrafo em rem */
+    padding: 0.9375rem; /* Preenchimento em rem */
+    box-shadow: 0.03rem 0.03rem 4rem 0.1rem rgba(0, 0, 0, 1); /* Sombra do parágrafo em rem */
+    font-family: 'Baloo 2', sans-serif; /* Fonte do parágrafo */
+    line-height: 1.2; /* Altura da linha */
+    margin-top: -3%; /* Margem superior negativa */
+    margin-left: 41.5%; /* Margem à esquerda */
+    text-align: center; /* Alinhamento do texto ao centro */
+}
+
+/* Estilo para o parágrafo de tutorial */
+.tutorial{
+    font-size: 2rem; /* Tamanho da fonte em rem */
+    width: 62.5rem; /* Largura do parágrafo em rem */
+    color: #ffffff; /* Cor do texto */
+    border-radius: 2rem; /* Borda circular do parágrafo em rem */
+    padding: 0.9375rem; /* Preenchimento em rem */
+    box-shadow: 0.03rem 0.03rem 4rem 0.1rem rgba(0, 0, 0, 1); /* Sombra do parágrafo em rem */
+    font-family: 'Baloo 2', sans-serif; /* Fonte do parágrafo */
+    line-height: 1.2; /* Altura da linha */
+    margin-top: -3%; /* Margem superior negativa */
+    margin-left: 41.5%; /* Margem à esquerda */
+    text-align: center; /* Alinhamento do texto ao centro */
+}
+
 
 /* fim da nav-bar e começo do tópico 1 */
 
@@ -125,9 +206,10 @@ b {
 /* Estilo para o contêiner do tópico 1 */
 .topic-1 {
     width: 100%; /* Largura total do tópico 1 */
+    border-top: 1px solid white;
     height: 90%; /* Altura total do tópico 1 */
     background-size: cover; /* Ajusta o tamanho do background para cobrir todo o contêiner */
-    margin-top: 90px; /* Distância da nav-bar */
+    margin-top: 20px; /* Distância da nav-bar */
     align-items: center; /* Alinha os itens ao centro */
     justify-content: center; /* Alinha os itens ao centro */
 }

@@ -45,3 +45,24 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+function typeWriter() {
+    const texto = "Bem vindo(a) ao meu site!";
+    let i = 0;
+    const speed = 20; // Velocidade da digitação em milissegundos
+
+    function type() {
+        if (i < texto.length) {
+            document.getElementById("texto").innerHTML += texto.charAt(i);
+            i++;
+            setTimeout(type, speed);
+        }
+    }
+
+    type();
+}
+
+// Inicia a animação quando a página é carregada
+window.onload = function() {
+    typeWriter();
+};

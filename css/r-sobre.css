@@ -1,0 +1,172 @@
+@media only screen and (max-width: 375px) {
+
+    /* Estilo para a seção "sobre mim" */
+    .sobre-mim {
+        margin-top: 20%; /* Margem superior de 20% do contêiner pai */
+    }
+
+    /* Estilo para a imagem "sobre mim" */
+    .img-sobre-mim {
+        margin-left: 22%; /* Margem à esquerda de 22% do contêiner pai */
+        width: 50%;
+        height: 50%;
+        margin-top: 20%; /* Margem superior de 20% do contêiner pai */
+        scale: 1; /* Não parece ser uma propriedade válida, talvez deveria ser 'transform: scale(1);' */
+        display: block;
+        margin: 0 auto;
+    }
+
+    /* Estilo para o título "sobre mim" */
+    .title-sobre-mim {
+        font-size: 3.5vh; /* Tamanho da fonte como 3.5% da altura da viewport */
+    }
+
+    /* Estilo para o parágrafo "sobre mim" */
+    .paragraph-sobre-mim {
+        font-size: 2vh; /* Tamanho da fonte como 2% da altura da viewport */
+        border-radius: 1.5px;
+        width: 80%;
+        padding: 2vh;
+        margin: 0 auto;
+        margin-top: 5%;
+    }
+
+    /* Estilo para o parágrafo de tutorial */
+    .tutorial {
+        font-size: 1.5vh;
+        border-radius: 1.5px;
+        width: 80%;
+        padding: 2vh;
+        margin: 0 auto;
+        margin-bottom: 10%;
+    }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 650px) {
+
+    /* Estilo para a seção "sobre mim" */
+    .sobre-mim {
+        margin-top: 15%;
+    }
+
+    /* Estilo para a imagem "sobre mim" */
+    .img-sobre-mim {
+        margin-left: 22%;
+        width: 40%;
+        height: 40%;
+        margin-top: 20%;
+        scale: 1;
+        display: block;
+        margin: 0 auto;
+    }
+
+    /* Estilo para o título "sobre mim" */
+    .title-sobre-mim {
+        font-size: 5vh;
+    }
+
+    /* Estilo para o parágrafo "sobre mim" */
+    .paragraph-sobre-mim {
+        font-size: 2.5vh;
+        border-radius: 1.5px;
+        width: 80%;
+        padding: 2vh;
+        margin: 0 auto;
+        margin-top: 5%;
+    }
+
+    /* Estilo para o parágrafo de tutorial */
+    .tutorial {
+        font-size: 2.5vh;
+        border-radius: 1.5px;
+        width: 80%;
+        padding: 2vh;
+        margin: 0 auto;
+        margin-bottom: 5%;
+    }
+}
+
+@media only screen and (min-width: 651px) and (max-width: 1200px) {
+
+    /* Estilo para a seção "sobre mim" */
+    .sobre-mim {
+        margin-top: 10%;
+    }
+
+    /* Estilo para a imagem "sobre mim" */
+    .img-sobre-mim {
+        margin-left: 22%;
+        width: 30%;
+        height: 30%;
+        margin-top: 20%;
+        scale: 1;
+        display: block;
+        margin: 0 auto;
+    }
+
+    /* Estilo para o título "sobre mim" */
+    .title-sobre-mim {
+        font-size: 5.5vh;
+    }
+
+    /* Estilo para o parágrafo "sobre mim" */
+    .paragraph-sobre-mim {
+        font-size: 3vh;
+        border-radius: 1.5px;
+        width: 80%;
+        padding: 2vh;
+        margin: 0 auto;
+    }
+
+    /* Estilo para o parágrafo de tutorial */
+    .tutorial {
+        font-size: 2.8vh;
+        border-radius: 1.5px;
+        width: 80%;
+        padding: 2vh;
+        margin: 0 auto;
+        margin-bottom: 5%;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 2000px) {
+
+    /* Estilo para a seção "sobre mim" */
+    .sobre-mim {
+        margin-top: 10%;
+    }
+
+    /* Estilo para a imagem "sobre mim" */
+    .img-sobre-mim {
+        margin-left: 22%;
+        width: 20%;
+        margin-top: 15%;
+        scale: 1;
+        display: block;
+        margin: 0 auto;
+    }
+
+    /* Estilo para o título "sobre mim" */
+    .title-sobre-mim {
+        font-size: 6vh;
+    }
+
+    /* Estilo para o parágrafo "sobre mim" */
+    .paragraph-sobre-mim {
+        font-size: 2.8vh;
+        border-radius: 1.5px;
+        width: 80%;
+        padding: 2vh;
+        margin: 0 auto;
+    }
+
+    /* Estilo para o parágrafo de tutorial */
+    .tutorial {
+        font-size: 2vh;
+        border-radius: 1.5px;
+        width: 80%;
+        padding: 2vh;
+        margin: 0 auto;
+        margin-bottom: 5%;
+    }
+}

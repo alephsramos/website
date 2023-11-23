@@ -729,6 +729,7 @@ footer {
 @keyframes petAnimation {
     0% {
         transform: scale(1);
+        opacity: 0.1;
         
     }
     100% {

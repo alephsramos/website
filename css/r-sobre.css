@@ -23,7 +23,7 @@
 
     /* Estilo para o parágrafo "sobre mim" */
     .paragraph-sobre-mim {
-        font-size: 1.5vh; /* Tamanho da fonte como 2% da altura da viewport */
+        font-size: 1.2vh; /* Tamanho da fonte como 2% da altura da viewport */
         border-radius: 1.5px;
         width: 80%;
         padding: 2vh;
@@ -34,7 +34,7 @@
 
     /* Estilo para o parágrafo de tutorial */
     .tutorial {
-        font-size: 1.2vh;
+        font-size: 1vh;
         text-align: center;
         border-radius: 1.5px;
         width: 80%;

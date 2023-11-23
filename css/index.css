@@ -130,9 +130,9 @@ b {
     border-radius: 50%; /* Borda arredondada, criando uma forma circular para a imagem */
     display: block; /* Configura a exibição do elemento como bloco */
     margin-left: 38%; /* Margem à esquerda da imagem */
-    margin-top: 8%; /* Margem superior da imagem */
+    margin-top: 10%; /* Margem superior da imagem */
     opacity: 0; /* Opacidade inicial da imagem */
-    scale: 1; /* Escala inicial da imagem (parece ser um erro, talvez quis dizer 'scale' em vez de 'opacity') */
+    scale: (1); /* Escala inicial da imagem  */
     box-shadow: 0 0 0 0 white, 0 0 0 0 rgb(255, 255, 255); /* Sombra inicial da imagem com desfoque zero */
     animation: animateSurgimento 1.5s ease forwards; /* Define uma animação de surgimento durante 1.5 segundos com função de temporização 'ease' e mantém o estado final */
 }

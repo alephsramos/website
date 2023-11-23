@@ -121,7 +121,7 @@ b {
     background-clip: text;
     -webkit-text-fill-color: transparent; /* Torna o texto transparente para mostrar o fundo */
     white-space: nowrap;
-    animation: typing 6s linear 0s forwards; /* Adiciona uma animação chamada 'typing' com duração de 4 segundos, início linear após 1 segundo e retenção do estado final */
+    animation: typing 3s linear 0s forwards; /* Adiciona uma animação chamada 'typing' com duração de 4 segundos, início linear após 1 segundo e retenção do estado final */
 }
 
 
@@ -136,7 +136,7 @@ b {
     height: 3.0rem; /* Altura das imagens */
     margin: 0.5rem; /* Margem das imagens */
     transition: 0.4s ease-in-out; /* Transição suave */
-    animation: appear-right 3s ease; /* aplica a animação de aparecer da direita com duração de 0.5 segundos */
+    animation: appear-right 2s ease; /* aplica a animação de aparecer da direita com duração de 0.5 segundos */
     animation-fill-mode: forwards;
     opacity: 0;
 }
@@ -168,7 +168,7 @@ b {
     opacity: 0;
     scale: 1;
     box-shadow: 0 0 0 0 white, 0 0 0 0 purple;
-    animation: animateSurgimento 2.5s ease forwards; /* Define uma animação de surgimento durante 1.5 segundos com função de temporização 'ease' e mantém o estado final */
+    animation: animateSurgimento 1.5s ease forwards; /* Define uma animação de surgimento durante 1.5 segundos com função de temporização 'ease' e mantém o estado final */
 }
 
 /* Efeito de escala ao passar o mouse sobre a imagem */
@@ -191,7 +191,7 @@ b {
     text-align: center; /* Alinha o texto ao centro */
     font-family: 'Dancing Script', cursive; /* Define a fonte do título */
     overflow: hidden; /* Oculta qualquer conteúdo que transborde do contêiner */
-    animation: typing 6s linear 0s forwards; /* Adiciona uma animação chamada 'typing' com duração de 4 segundos, início linear após 1 segundo e retenção do estado final */
+    animation: typing 3s linear 0s forwards; /* Adiciona uma animação chamada 'typing' com duração de 4 segundos, início linear após 1 segundo e retenção do estado final */
 }
 
 

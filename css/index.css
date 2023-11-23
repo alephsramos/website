@@ -162,7 +162,7 @@ b {
 
 /* Estilo para o parágrafo sobre mim */
 .paragraph-sobre-mim {
-    font-size: 2rem; /* Tamanho da fonte em rem */
+    font-size: 2.5rem; /* Tamanho da fonte em rem */
     width: 62.5rem; /* Largura do parágrafo em rem */
     color: #ffffff; /* Cor do texto */
     border-radius: 2rem; /* Borda circular do parágrafo em rem */

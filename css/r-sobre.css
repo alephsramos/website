@@ -33,7 +33,7 @@
 
     /* Estilo para o parágrafo de tutorial */
     .tutorial {
-        font-size: 1vh;
+        font-size: 0.5vh;
         text-align: center;
         border-radius: 1.5px;
         width: 80%;
@@ -78,7 +78,7 @@
 
     /* Estilo para o parágrafo de tutorial */
     .tutorial {
-        font-size: 1.6vh;
+        font-size: 1.2vh;
         border-radius: 1.5px;
         width: 80%;
         padding: 2vh;
@@ -121,7 +121,7 @@
 
     /* Estilo para o parágrafo de tutorial */
     .tutorial {
-        font-size: 1.6vh;
+        font-size: 1.2vh;
         border-radius: 1.5px;
         width: 80%;
         padding: 2vh;

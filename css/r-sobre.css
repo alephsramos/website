@@ -1,29 +1,28 @@
 @media only screen and (max-width: 375px) {
-
     /* Estilo para a seção "sobre mim" */
     .sobre-mim {
-        margin-top: 25%; /* Margem superior de 20% do contêiner pai */
+        margin-top: 25%; /* Ajusta a margem superior do contêiner pai */
     }
 
     /* Estilo para a imagem "sobre mim" */
     .img-sobre-mim {
-        margin-left: 22%; /* Margem à esquerda de 22% do contêiner pai */
+        margin-left: 22%; /* Ajusta a margem à esquerda do contêiner pai */
         width: 50%;
         height: 50%;
-        margin-top: 30%; /* Margem superior de 20% do contêiner pai */
-        scale: 1; /* Não parece ser uma propriedade válida, talvez deveria ser 'transform: scale(1);' */
+        margin-top: 30%; /* Ajusta a margem superior do contêiner pai */
+        transform: scale(1); /* Aplica uma escala normal à imagem */
         display: block;
-        margin: 0 auto;
+        margin: 0 auto; /* Centraliza a imagem horizontalmente */
     }
 
     /* Estilo para o título "sobre mim" */
     .title-sobre-mim {
-        font-size: 2.5vh; /* Tamanho da fonte como 3.5% da altura da viewport */
+        font-size: 2.5vh; /* Tamanho da fonte como 2.5% da altura da viewport */
     }
 
     /* Estilo para o parágrafo "sobre mim" */
     .paragraph-sobre-mim {
-        font-size: 1.2vh; /* Tamanho da fonte como 2% da altura da viewport */
+        font-size: 1.2vh; /* Tamanho da fonte como 1.2% da altura da viewport */
         border-radius: 1.5px;
         width: 80%;
         padding: 2vh;

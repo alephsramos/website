@@ -2,7 +2,7 @@
 
     /* Estilo para a seção "sobre mim" */
     .sobre-mim {
-        margin-top: 20%; /* Margem superior de 20% do contêiner pai */
+        margin-top: 25%; /* Margem superior de 20% do contêiner pai */
     }
 
     /* Estilo para a imagem "sobre mim" */
@@ -90,7 +90,7 @@
 
     /* Estilo para a seção "sobre mim" */
     .sobre-mim {
-        margin-top: 10%;
+        margin-top: 15%;
     }
 
     /* Estilo para a imagem "sobre mim" */
@@ -111,7 +111,7 @@
 
     /* Estilo para o parágrafo "sobre mim" */
     .paragraph-sobre-mim {
-        font-size: 3vh;
+        font-size: 2.6vh;
         border-radius: 1.5px;
         width: 80%;
         padding: 2vh;
@@ -120,7 +120,7 @@
 
     /* Estilo para o parágrafo de tutorial */
     .tutorial {
-        font-size: 2.8vh;
+        font-size: 2.1vh;
         border-radius: 1.5px;
         width: 80%;
         padding: 2vh;

@@ -6,20 +6,6 @@
     margin: 0 auto;
 }
 
-.topic-1-img-01 {
-    width: 65%; /* Largura da imagem em porcentagem */
-    height: 40%; /* Altura da imagem em porcentagem */
-    margin: 0 auto;
-    opacity: 0.8;
-    margin-top: 5%;
-    display: block;
-}
-
-/* Efeito ao passar o mouse na primeira imagem do tópico 1 */
-.topic-1-img-01:hover {
-    transform: translateX(0%) scale(1.2); /* Move e aumenta a imagem ao passar o mouse */
-}
-
 /* Estilo para a segunda imagem no tópico 1 */
 .topic-1-img-02 {
     width: 50%; /* Largura da imagem em porcentagem */
@@ -39,6 +25,7 @@
     font-size: 5vh; /* Tamanho da fonte em porcentagem */
     text-align: center;
     margin: 0 auto;
+    margin-top: 10%;
 }
 
 /* Estilo para o primeiro parágrafo do tópico 1 */
@@ -89,7 +76,7 @@
 
 /* Estilo para o parágrafo final do tópico 1 */
 .topic-1-p-fim {
-    font-size: 2vh; /* Tamanho da fonte */
+    font-size: 1.2vh; /* Tamanho da fonte */
     padding: 4vh; /* Preenchimento */
 }
 }
@@ -100,20 +87,6 @@
     width: 100%; /* Largura total do tópico 1 */
     height: 100%; /* Altura total do tópico 1 */
     margin: 0 auto;
-}
-
-.topic-1-img-01 {
-    width: 50%; /* Largura da imagem em porcentagem */
-    height: 39%; /* Altura da imagem em porcentagem */
-    opacity: 0.8;
-    margin: 0 auto;
-    margin-top: 5%;
-    display: block;
-}
-
-/* Efeito ao passar o mouse na primeira imagem do tópico 1 */
-.topic-1-img-01:hover {
-    transform: translateX(0%) scale(1.1); /* Move e aumenta a imagem ao passar o mouse */
 }
 
 /* Estilo para a segunda imagem no tópico 1 */
@@ -135,6 +108,7 @@
     font-size: 5vh; /* Tamanho da fonte em porcentagem */
     text-align: center;
     margin: 0;
+    margin-top: 10%;
 }
 
 /* Estilo para o primeiro parágrafo do tópico 1 */
@@ -183,7 +157,7 @@
 
 /* Estilo para o parágrafo final do tópico 1 */
 .topic-1-p-fim {
-    font-size: 2vh; /* Tamanho da fonte */
+    font-size: 1.5vh; /* Tamanho da fonte */
     padding: 4vh; /* Preenchimento */
 }
 
@@ -195,20 +169,6 @@
         width: 100%; /* Largura total do tópico 1 */
         height: 100%; /* Altura total do tópico 1 */
         margin: 0 auto;
-    }
-    
-    .topic-1-img-01 {
-        width: 35%; /* Largura da imagem em porcentagem */
-        height: 39%; /* Altura da imagem em porcentagem */
-        margin: 0 auto;
-        margin-top: 10%;
-        opacity: 0.8;
-        display: block;
-    }
-    
-    /* Efeito ao passar o mouse na primeira imagem do tópico 1 */
-    .topic-1-img-01:hover {
-        transform: translateX(0%) scale(1.1); /* Move e aumenta a imagem ao passar o mouse */
     }
     
     /* Estilo para a segunda imagem no tópico 1 */
@@ -230,6 +190,7 @@
         font-size: 7vh; /* Tamanho da fonte em porcentagem */
         text-align: center;
         margin: 0 auto;
+        margin-top: 7%;
     }
     
     /* Estilo para o primeiro parágrafo do tópico 1 */
@@ -289,15 +250,6 @@
         width: 100%; /* Largura total do tópico 1 */
         height: 100%; /* Altura total do tópico 1 */
         margin: 0 auto;
-    }
-    
-    .topic-1-img-01 {
-        display: none;
-    }
-    
-    /* Efeito ao passar o mouse na primeira imagem do tópico 1 */
-    .topic-1-img-01:hover {
-        transform: translateX(0%) scale(1.1); /* Move e aumenta a imagem ao passar o mouse */
     }
     
     /* Estilo para a segunda imagem no tópico 1 */

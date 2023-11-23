@@ -206,28 +206,12 @@ b {
 /* Estilo para o contêiner do tópico 1 */
 .topic-1 {
     width: 100%; /* Largura total do tópico 1 */
-    border-top: 1px solid white;
+    border-top: 1px solid #8841ff;
     height: 90%; /* Altura total do tópico 1 */
     background-size: cover; /* Ajusta o tamanho do background para cobrir todo o contêiner */
     margin-top: 20px; /* Distância da nav-bar */
     align-items: center; /* Alinha os itens ao centro */
     justify-content: center; /* Alinha os itens ao centro */
-}
-
-/* Estilo para a primeira imagem no tópico 1 */
-.topic-1-img-01 {
-    width: 24.375rem; /* Largura da imagem em rem */
-    height: 28.5rem; /* Altura da imagem em rem */
-    margin-left: 10%; /* Margem à esquerda */
-    margin-top: 5%; /* Margem superior */
-    margin-bottom: 10%; /* Margem inferior */
-    transition: transform 0.6s ease; /* Transição suave ao passar o mouse */
-    filter: drop-shadow(0.3125rem 0.3125rem 0.625rem rgba(195,112,218,255)); /* Sombra da imagem em rem */
-}
-
-/* Efeito ao passar o mouse na primeira imagem do tópico 1 */
-.topic-1-img-01:hover {
-    transform: translateX(-1.875rem) scale(1.1); /* Move e aumenta a imagem ao passar o mouse */
 }
 
 /* Estilo para a segunda imagem no tópico 1 */

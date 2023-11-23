@@ -56,9 +56,9 @@
     }
     
     .topic-3-p-fim {
-        font-size: 3.25vw; /* Tamanho relativo à largura da tela */
+        font-size: 2.5vw; /* Tamanho relativo à largura da tela */
         opacity: 0.7; /* Opacidade relativa à largura da tela */
-        padding: 10vw; /* Padding relativo à largura da tela */
+        padding: 5vw; /* Padding relativo à largura da tela */
     }
     
 
@@ -123,9 +123,9 @@
     }
     
     .topic-3-p-fim {
-        font-size: 3.25vw; /* Tamanho relativo à largura da tela */
+        font-size: 2.7vw; /* Tamanho relativo à largura da tela */
         opacity: 0.7; /* Opacidade relativa à largura da tela */
-        padding: 10vw; /* Padding relativo à largura da tela */
+        padding: 7vw; /* Padding relativo à largura da tela */
     }
 
 }
@@ -144,7 +144,7 @@
     .topic-3-img-1,
     .topic-3-img-2,
     .topic-3-img-3 {
-        width: 45%; /* Largura relativa à largura da tela */
+        width: 70%; /* Largura relativa à largura da tela */
         border-radius: 0.35rem; /* Borda relativa à largura da tela */
         margin: 0.5vw; /* Margem relativa à largura da tela */
         border: 0.125rem solid white; /* Borda relativa à largura da tela */
@@ -163,8 +163,8 @@
     }
     
     .topic-3-list {
-        font-size: 2vw; /* Tamanho relativo à largura da tela */
-        margin-left: 5%; /* Margem relativa à largura da tela */
+        font-size: 2.2vw; /* Tamanho relativo à largura da tela */
+        margin-left: 0%; /* Margem relativa à largura da tela */
         columns: 2;
         list-style-image: url("../img/icons/list-16px.png");
         column-gap: 1.25vw; /* Espaçamento entre colunas relativo à largura da tela */
@@ -174,21 +174,21 @@
     .separador-list-2{
     font-size: 1.3rem; /* Tamanho da fonte */
     padding: 0rem; /* Preenchimento */
-    margin: 0rem; /* Margem */
+    margin: 3rem; /* Margem */
     border-radius: 3rem; /* Borda circular */
     text-align: center; /* Alinhamento do texto ao centro */
     letter-spacing: 0rem; /* Espaçamento entre letras */
 }
     
     .topic-3-p-1 {
-        font-size: 1.5vw; /* Tamanho relativo à largura da tela */
+        font-size: 2vw; /* Tamanho relativo à largura da tela */
         margin-left: 5%; /* Margem relativa à largura da tela */
         margin-right: 5%; /* Margem relativa à largura da tela */
         padding: 2.5vw; /* Padding relativo à largura da tela */
     }
     
     .topic-3-p-fim {
-        font-size: 1vw; /* Tamanho relativo à largura da tela */
+        font-size: 1.4vw; /* Tamanho relativo à largura da tela */
         opacity: 0.7; /* Opacidade relativa à largura da tela */
         padding: 2vw; /* Padding relativo à largura da tela */
     }

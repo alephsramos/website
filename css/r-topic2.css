@@ -84,7 +84,7 @@
 
 }
 
-@media only screen and (min-width: 375px) and (max-width: 650px){
+@media only screen and (min-width: 481px) and (max-width: 650px){
 
     .topic-2 {
         margin: 0 auto;

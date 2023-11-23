@@ -89,3 +89,22 @@ window.addEventListener('load', handleAnimation);
 
 
 
+
+
+
+function isElementInViewport(element) {
+    var rect = element.getBoundingClientRect();
+    return rect.top <= (window.innerHeight || document.documentElement.clientHeight);
+  }
+  
+  function handleScroll() {
+    var elementos = document.querySelectorAll('.animacao');
+    
+    elementos.forEach(function(elemento) {
+      if (isElementInViewport(elemento)) {
+        elemento.classList.add('aparecer');
+      }
+    });
+  }
+  
+  window.addEventListener('scroll', handleScroll);

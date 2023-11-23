@@ -753,9 +753,13 @@ footer {
 
 
 
-
-
-
-
-
-
+.animacao {
+    opacity: 0;
+    transform: translateY(-50px);
+    transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out; /* define duração e curva de transição */
+  }
+  
+  .aparecer {
+    opacity: 1;
+    transform: translateY(0);
+  }

@@ -56,26 +56,6 @@ b {
 }
 
 
-
-
-/* Estilo para a classe "faísca" (fumaça) */
-.faísca {
-    position: absolute; /* Posicionamento absoluto em relação ao elemento pai */
-    background-color: #8841ff; /* Cor de fundo da fumaça */
-    border-radius: 50%; /* Borda circular para criar uma forma de círculo */
-    opacity: 0.7; /* Opacidade para dar um efeito de fumaça */
-}
-
-/* Estilo para a classe "efeito" */
-.efeito {
-    position: absolute; /* Posicionamento absoluto em relação ao elemento pai */
-    background-color: #c1cbff; /* Cor de fundo do efeito em laranja com opacidade */
-    border-radius: 50%; /* Borda circular para criar uma forma de círculo */
-    opacity: 0.7; /* Opacidade para dar um efeito ao elemento */
-    pointer-events: none; /* Evita que o elemento receba cliques e interfira nos elementos subjacentes */
-    transform-origin: center; /* Ponto de origem da transformação no centro do elemento */
-}
-
 /* Estilo para o seletor de classe "body" */
 .body {
     margin: 0 auto; /* Define a margem superior e inferior como 0 e as laterais como automáticas */
@@ -674,21 +654,6 @@ footer {
     }
 }
 
-/* Animação para a fumaça */
-@keyframes smokeAnimation {
-    to {
-        transform: scale(0.5); /* Escala para 1, restaurando o tamanho original */
-        opacity: 0; /* Opacidade para 0, tornando a fumaça invisível */
-    }
-}
-
-/* Animação para o efeito */
-@keyframes efeitoAnimation {
-    to {
-        transform: scale(3.5); /* Escala para 9, aumentando o tamanho do elemento */
-        opacity: 0; /* Opacidade para 0, tornando o efeito invisível */
-    }
-}
 
 @keyframes animateSurgimento {
     0% {

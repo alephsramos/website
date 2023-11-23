@@ -2,8 +2,8 @@
     .pet{
     width: 1.2rem;
     height: 1.2rem;
-    margin-bottom: 20px;
-    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-right: 25px;
     z-index: 1000;
     }
 }
@@ -13,8 +13,8 @@
         width: 1.5rem;
         height: 1.5rem;
         z-index: 1000;
-        margin-bottom: 22px;
-        margin-right: 22px;
+        margin-bottom: 25px;
+        margin-right: 25px;
         }
 }
 

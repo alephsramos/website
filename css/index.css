@@ -133,7 +133,7 @@ b {
     margin-left: 38%; /* Margem à esquerda de 38% do contêiner pai */
     margin-top: 8%; /* Margem superior de 8% do contêiner pai */
     scale: 1; /* Não parece ser uma propriedade válida, talvez deveria ser 'transform: scale(1);' */
-    box-shadow: 1px 1px 20px 1px rgb(255, 255, 255, 0.4); /* Adiciona uma sombra à imagem com valores específicos */
+    box-shadow: -2px -2px 10px 5px white, 2px 2px 10px 5px purple;; /* Adiciona uma sombra à imagem com valores específicos */
     transition: transform 0.4s ease; /* Adiciona uma transição suave à propriedade transform durante 0.4 segundos com função de temporização 'ease' */
 }
 

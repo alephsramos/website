@@ -461,7 +461,7 @@ b {
 
 /* Efeito ao passar o mouse na segunda imagem do tópico 3 */
 .topic-3-img-2:hover {
-    transform: scale(1.3) translateX(0); /* Aumenta a escala da imagem ao passar o mouse */
+    transform: scale(1.2) translateX(0); /* Aumenta a escala da imagem ao passar o mouse */
     box-shadow: 1px 1px 20px 1px black; /* Sombra ao passar o mouse */
     z-index: 11;
 }

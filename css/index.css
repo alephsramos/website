@@ -635,12 +635,14 @@ footer {
     0% {
         opacity: 0;
         transform: translateY(-10px);
+        border-radius: 0;
         transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out; /* Define duração e curva de transição */
         box-shadow: 1px 1px 20px 1px black;
     }
     100% {
         opacity: 1;
         transform: translateY(0);
+        border-radius: 50%;
         box-shadow: 1px 1px 20px 1px black;
     }
 }

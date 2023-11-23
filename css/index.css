@@ -183,10 +183,9 @@ b {
     color: #ffffff; /* Cor do texto */
     border-radius: 2rem; /* Borda circular do parágrafo em rem */
     padding: 0.9375rem; /* Preenchimento em rem */
-    box-shadow: 0.03rem 0.03rem 4rem 0.1rem rgba(0, 0, 0, 1); /* Sombra do parágrafo em rem */
     font-family: 'Baloo 2', sans-serif; /* Fonte do parágrafo */
     line-height: 1.2; /* Altura da linha */
-    margin-top: -3%; /* Margem superior negativa */
+    margin-top: 5%; /* Margem superior negativa */
     margin-left: 41.5%; /* Margem à esquerda */
     text-align: center; /* Alinhamento do texto ao centro */
     animation: surgir 1s linear 0s forwards; /* Adiciona uma animação chamada 'surgir' com duração de 1 segundo, início linear imediato e retenção do estado final */

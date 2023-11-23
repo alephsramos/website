@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
 function typeWriter() {
     const texto = "Bem vindo(a) ao meu site!";
     let i = 0;
-    const speed = 20; // Velocidade da digitação em milissegundos
+    const speed = 0; // Velocidade da digitação em milissegundos
 
     function type() {
         if (i < texto.length) {
@@ -66,3 +66,12 @@ function typeWriter() {
 window.onload = function() {
     typeWriter();
 };
+
+
+window.addEventListener('DOMContentLoaded', function() {
+    var sobreMimImg = document.getElementById('sobreMimImg');
+    
+    setTimeout(function() {
+        sobreMimImg.classList.add('show'); // Adiciona a classe 'show' para tornar a imagem visível gradativamente
+    }, 400); // 1 segundo
+});

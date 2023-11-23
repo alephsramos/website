@@ -41,6 +41,8 @@ b {
     -webkit-text-fill-color: transparent; /* Torna o texto transparente para exibir o degradê */
 }
 
+
+
 /* Estilo para a classe "faísca" (fumaça) */
 .faísca {
     position: absolute; /* Posicionamento absoluto em relação ao elemento pai */
@@ -127,19 +129,22 @@ b {
 
 /* Estilo para a imagem sobre mim */
 .img-sobre-mim{
-    border-radius: 50%; /* Define a borda da imagem como circular */
-    border: 1px solid white; /* Adiciona uma borda branca à imagem */
-    display: block; /* Define a exibição como bloco */
-    margin-left: 38%; /* Margem à esquerda de 38% do contêiner pai */
-    margin-top: 8%; /* Margem superior de 8% do contêiner pai */
-    scale: 1; /* Não parece ser uma propriedade válida, talvez deveria ser 'transform: scale(1);' */
-    box-shadow: -2px -2px 10px 5px white, 2px 2px 10px 5px purple;; /* Adiciona uma sombra à imagem com valores específicos */
-    transition: transform 0.4s ease; /* Adiciona uma transição suave à propriedade transform durante 0.4 segundos com função de temporização 'ease' */
+    border-radius: 50%;
+    border: 1px solid white;
+    display: block;
+    margin-left: 38%;
+    margin-top: 8%;
+    opacity: 0;
+    scale: 1;
+    box-shadow: 0 0 0 0 white, 0 0 0 0 purple;
+    animation: animateSurgimento 2.5s ease forwards; /* Define uma animação de surgimento durante 1.5 segundos com função de temporização 'ease' e mantém o estado final */
 }
+
+
 
 /* Efeito de escala ao passar o mouse sobre a imagem */
 .img-sobre-mim:hover{
-    transform: scale(1.15); /* Aumenta a escala da imagem para 1.15 ao passar o mouse sobre ela */
+    transform: scale(1.15);
 }
 
 /* Estilo para o contêiner de texto */
@@ -160,14 +165,7 @@ b {
     animation: typing 4s linear 1s forwards; /* Adiciona uma animação chamada 'typing' com duração de 4 segundos, início linear após 1 segundo e retenção do estado final */
 }
 
-/* Animação de digitação */
-@keyframes typing {
-    from {
-        width: 0; /* Começa com uma largura de 0 */
-    }
-    to {
-        width: 100%; /* Aumenta gradualmente a largura para 100% */
-}}
+
 
 /* Estilo para o parágrafo sobre mim */
 .paragraph-sobre-mim{
@@ -667,6 +665,28 @@ footer {
         opacity: 0; /* Opacidade para 0, tornando o efeito invisível */
     }
 }
+
+@keyframes animateSurgimento {
+    0% {
+        opacity: 0;
+        box-shadow: 0 0 0 0 white, 0 0 0 0 purple;
+        transform: scale(1.5);
+    }
+    100% {
+        opacity: 1;
+        box-shadow: -2px -2px 10px 5px white, 2px 2px 10px 5px purple;
+        transform: scale(1);
+    }
+}
+
+/* Animação de digitação */
+@keyframes typing {
+    from {
+        width: 0; /* Começa com uma largura de 0 */
+    }
+    to {
+        width: 100%; /* Aumenta gradualmente a largura para 100% */
+}}
 
 
 /* BARRA DE ROLAGEM */

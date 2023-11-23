@@ -6,8 +6,6 @@
     box-sizing: border-box;
 }
 
-/* Estilo para a seção com sombra interna (inset) */
-
 /* Estilo para o HTML e o corpo da página */
 html, body {
     margin: 0; /* Remove margens padrão do corpo e do HTML */
@@ -37,29 +35,28 @@ body::before {
 b {
     background: #777cff; /* Cor de fundo para o texto */
     -webkit-background-clip: text; /* Aplica o degradê apenas ao texto */
-    background-clip: text;
+    background-clip: text; /* Aplica o degradê apenas ao texto */
     -webkit-text-fill-color: transparent; /* Torna o texto transparente para exibir o degradê */
 }
-
-
-.pet {
-    position: fixed;
-    opacity: 0.5;
-    bottom: 10px;
-    right: 10px;
-    width: 3.5rem;
-    z-index: 1000;
-    height: 3.5rem;
-    background-image: url('../img/icons/aleph-link.png');
-    background-size: cover;
-    animation: petAnimation 2s infinite alternate;
-}
-
 
 /* Estilo para o seletor de classe "body" */
 .body {
     margin: 0 auto; /* Define a margem superior e inferior como 0 e as laterais como automáticas */
     width: 100%; /* Define a largura total do site como 100% */
+}
+
+/* Estilo para a classe .pet */
+.pet {
+    position: fixed; /* Define a posição do elemento como fixa em relação à janela de visualização */
+    opacity: 0.5; /* Define a opacidade do elemento como 0.5 (semi-transparente) */
+    bottom: 10px; /* Define a distância do elemento em relação à parte inferior como 10 pixels */
+    right: 10px; /* Define a distância do elemento em relação à parte direita como 10 pixels */
+    width: 3.5rem; /* Define a largura do elemento como 3.5 rem */
+    z-index: 1000; /* Define a ordem de empilhamento do elemento, quanto maior, mais acima ele estará */
+    height: 3.5rem; /* Define a altura do elemento como 3.5 rem */
+    background-image: url('../img/icons/aleph-link.png'); /* Define uma imagem de fundo para o elemento */
+    background-size: cover; /* Faz com que a imagem de fundo cubra completamente o elemento */
+    animation: petAnimation 2s infinite alternate; /* Aplica uma animação chamada petAnimation com duração de 2 segundos, repetição infinita e direção alternada */
 }
 
 /* Estilo para a barra de navegação (navbar) */
@@ -77,24 +74,22 @@ b {
     box-shadow: 1px 1px 50px 1px #0b062d; /* Sombra na barra de navegação */
 }
 
-
 /* Estilo para o título da barra de navegação */
 .nav-title {
     font-size: 3.75rem; /* Tamanho da fonte para o título */
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /* Centraliza o conteúdo na direção do eixo principal */
+    align-items: center; /* Centraliza o conteúdo na direção do eixo transversal */
     margin-left: 10%; /* Margem à esquerda */
     width: 30%; /* Largura do título */
     font-family: 'Dancing Script', cursive; /* Fonte do título */
-    margin: 1.25rem 3.125rem 1.25rem 6.25rem; /* Margens do título */
+    margin: 1.25rem 3.125rem 1.25rem 6.25rem; /* Margens do título (a segunda declaração 'margin' sobrescreve a primeira) */
     background: #0b062d; /* Cor de fundo do título */
-    -webkit-background-clip: text; /* Aplica o fundo apenas ao texto */
-    background-clip: text;
+    -webkit-background-clip: text; /* Aplica o fundo apenas ao texto para criar um efeito de recorte */
+    background-clip: text; /* Aplica o fundo apenas ao texto para criar um efeito de recorte */
     -webkit-text-fill-color: transparent; /* Torna o texto transparente para mostrar o fundo */
-    white-space: nowrap;
-    animation: typing 3s linear 0s forwards; /* Adiciona uma animação chamada 'typing' com duração de 4 segundos, início linear após 1 segundo e retenção do estado final */
+    white-space: nowrap; /* Impede a quebra de linha dentro do título */
+    animation: typing 3s linear 0s forwards; /* Adiciona uma animação chamada 'typing' com duração de 3 segundos, início linear imediato e retenção do estado final */
 }
-
 
 /* Estilo para a barra de ícones */
 .icons-bar {
@@ -107,9 +102,9 @@ b {
     height: 3.0rem; /* Altura das imagens */
     margin: 0.5rem; /* Margem das imagens */
     transition: 0.4s ease-in-out; /* Transição suave */
-    animation: appear-right 2s ease; /* aplica a animação de aparecer da direita com duração de 0.5 segundos */
-    animation-fill-mode: forwards;
-    opacity: 0;
+    animation: appear-right 2s ease; /* Aplica a animação de aparecer da direita com duração de 2 segundos */
+    animation-fill-mode: forwards; /* Mantém o estado final da animação após a conclusão */
+    opacity: 0; /* Opacidade inicial das imagens */
 }
 
 /* Efeito ao passar o mouse nas imagens da barra de ícones */
@@ -122,6 +117,7 @@ b {
     cursor: url("../img/icons/cursor-a.png"), auto; /* Define um cursor personalizado */
 }
 
+/* Classe sobre mim */
 .sobre-mim{
     width: 100%; /* Largura total do tópico 1 */
     height: 90%; /* Altura total do tópico 1 */
@@ -130,20 +126,20 @@ b {
 }
 
 /* Estilo para a imagem sobre mim */
-.img-sobre-mim{
-    border-radius: 50%;
-    display: block;
-    margin-left: 38%;
-    margin-top: 8%;
-    opacity: 0;
-    scale: 1;
-    box-shadow: 0 0 0 0 white, 0 0 0 0 rgb(255, 255, 255);
+.img-sobre-mim {
+    border-radius: 50%; /* Borda arredondada, criando uma forma circular para a imagem */
+    display: block; /* Configura a exibição do elemento como bloco */
+    margin-left: 38%; /* Margem à esquerda da imagem */
+    margin-top: 8%; /* Margem superior da imagem */
+    opacity: 0; /* Opacidade inicial da imagem */
+    scale: 1; /* Escala inicial da imagem (parece ser um erro, talvez quis dizer 'scale' em vez de 'opacity') */
+    box-shadow: 0 0 0 0 white, 0 0 0 0 rgb(255, 255, 255); /* Sombra inicial da imagem com desfoque zero */
     animation: animateSurgimento 1.5s ease forwards; /* Define uma animação de surgimento durante 1.5 segundos com função de temporização 'ease' e mantém o estado final */
 }
 
 /* Efeito de escala ao passar o mouse sobre a imagem */
-.img-sobre-mim:hover{
-    transform: scale(1.15);
+.img-sobre-mim:hover {
+    transform: scale(1.15); /* Aplica uma escala de 1.15 quando o mouse está sobre a imagem */
 }
 
 /* Estilo para o contêiner de texto */
@@ -164,11 +160,8 @@ b {
     animation: typing 3s linear 0s forwards; /* Adiciona uma animação chamada 'typing' com duração de 4 segundos, início linear após 1 segundo e retenção do estado final */
 }
 
-
-
-
 /* Estilo para o parágrafo sobre mim */
-.paragraph-sobre-mim{
+.paragraph-sobre-mim {
     font-size: 2rem; /* Tamanho da fonte em rem */
     width: 62.5rem; /* Largura do parágrafo em rem */
     color: #ffffff; /* Cor do texto */
@@ -180,11 +173,11 @@ b {
     margin-top: -3%; /* Margem superior negativa */
     margin-left: 41.5%; /* Margem à esquerda */
     text-align: center; /* Alinhamento do texto ao centro */
-    animation: surgir 1s linear 0s forwards;
+    animation: surgir 1s linear 0s forwards; /* Adiciona uma animação chamada 'surgir' com duração de 1 segundo, início linear imediato e retenção do estado final */
 }
 
 /* Estilo para o parágrafo de tutorial */
-.tutorial{
+.tutorial {
     font-size: 2rem; /* Tamanho da fonte em rem */
     width: 62.5rem; /* Largura do parágrafo em rem */
     color: #ffffff; /* Cor do texto */
@@ -196,20 +189,17 @@ b {
     margin-top: -3%; /* Margem superior negativa */
     margin-left: 41.5%; /* Margem à esquerda */
     text-align: center; /* Alinhamento do texto ao centro */
-    animation: surgir 1s linear 0s forwards;
-
+    animation: surgir 1s linear 0s forwards; /* Adiciona uma animação chamada 'surgir' com duração de 1 segundo, início linear imediato e retenção do estado final */
 }
 
 
-
-
-/* fim da nav-bar e começo do tópico 1 */
+/* Fim da nav-bar e começo do tópico 1 */
 
 
 /* Estilo para o contêiner do tópico 1 */
 .topic-1 {
     width: 100%; /* Largura total do tópico 1 */
-    border-top: 1px solid #8841ff;
+    border-top: 1px solid #8841ff; /* Borda superior com uma cor específica */
     height: 90%; /* Altura total do tópico 1 */
     background-size: cover; /* Ajusta o tamanho do background para cobrir todo o contêiner */
     margin-top: 20px; /* Distância da nav-bar */
@@ -303,18 +293,15 @@ b {
     margin: 0.3125rem; /* Margem */
     transition: transform 0.4s ease-out; /* Transição suave ao passar o mouse */
     border: 1px solid #000000; /* Borda sólida */
-    z-index: 10;
+    z-index: 10; /* Ordem de sobreposição */
 }
 
 /* Efeito ao passar o mouse na primeira imagem do tópico  */
 .topic-1-img-1:hover {
     transform: scale(1.2); /* Aumenta a escala da imagem */
-    box-shadow: 1px 1px 20px 1px black;
-    z-index: 11;
+    box-shadow: 1px 1px 20px 1px black; /* Sombra ao passar o mouse */
+    z-index: 11; /* Ordem de sobreposição */
 }
-
-
-
 
 /* Estilo para o parágrafo final do tópico 1 */
 .topic-1-p-fim {
@@ -324,10 +311,10 @@ b {
     opacity: 0.7; /* Opacidade */
     text-align: center; /* Alinhamento do texto ao centro */
     padding: 1.25rem; /* Preenchimento */
-} 
+}
 
 
-/* fim da section 1 e inicio da section 2 */
+/* Fim da section 1 e início da section 2 */
 
 
 /* Estilo para o contêiner do tópico 2 */
@@ -335,7 +322,7 @@ b {
     width: 100%; /* Largura total do tópico 2 */
     padding: 1.25rem 1.25rem; /* Preenchimento */
     margin-top: -1.25rem; /* Margem superior negativa */
-    border-top: 0.0625rem solid #8841ff; /* Borda superior */
+    border-top: 0.0625rem solid #8841ff; /* Borda superior com uma cor específica */
 }
 
 /* Estilo para o título do tópico 2 */
@@ -362,28 +349,28 @@ b {
     width: 18.75vh; /* Largura da imagem */
     border-radius: 1.25rem; /* Borda circular */
     margin: 0.3125rem; /* Margem */
-    box-shadow: 1px 1px 30px 1px black;
+    box-shadow: 1px 1px 30px 1px black; /* Sombra da imagem com desfoque  */
     transition: transform 0.4s ease; /* Transição suave ao passar o mouse */
-    border: 3px solid #261a7f; /* Borda sólida */
-    z-index: 10;
+    border: 3px solid #261a7f; /* Borda sólida com uma cor específica */
+    z-index: 10; /* Ordem de sobreposição */
 }
 
 /* Efeito ao passar o mouse na primeira imagem do tópico 2 */
 .topic-2-img-1:hover {
-    transform: scale(1.4); /* Aumenta a escala da imagem */
-    box-shadow: 1px 1px 10px 10px black; /* Sombra */
-    z-index: 11;
+    transform: scale(1.4); /* Aumenta a escala da imagem ao passar o mouse */
+    box-shadow: 1px 1px 10px 10px black; /* Sombra da imagem ao passar o mouse com desfoque */
+    z-index: 11; /* Ordem de sobreposição */
 }
 
 /* Estilo para o primeiro parágrafo do tópico 2 */
-.topic-2-p-1{
+.topic-2-p-1 {
     font-size: 2.35rem; /* Tamanho da fonte */
     color: #ffffff; /* Cor do texto */
     padding: 0rem; /* Preenchimento */
-    box-shadow: 1px 1px 20px 1px black; /* Sombra */
-    font-family: 'Cairo Play', sans-serif; /* Fonte do texto */
+    box-shadow: 1px 1px 20px 1px black; /* Sombra do parágrafo com desfoque */
+    font-family: 'Cairo Play', sans-serif; /* Fonte do parágrafo */
     margin: 4rem; /* Margem */
-    border-radius: 3rem; /* Borda circular */
+    border-radius: 3rem; /* Borda circular do parágrafo */
     text-align: center; /* Alinhamento do texto ao centro */
     letter-spacing: 1rem; /* Espaçamento entre letras */
 }
@@ -399,12 +386,12 @@ b {
 }
 
 
-/* fechamento do topico 2 e abertura do topico 2 */
+/* Fechamento do tópico 2 e abertura do tópico 3 */
 
 
 /* Estilo para o contêiner do tópico 3 */
 .topic-3 {
-    border-top: 1px solid #8841ff; /* Borda superior */
+    border-top: 1px solid #8841ff; /* Borda superior com uma cor específica */
 }
 
 /* Estilo para o título do tópico 3 */
@@ -433,30 +420,30 @@ b {
     border-radius: 1.25rem; /* Borda circular */
     transition: transform 0.6s ease; /* Transição suave ao passar o mouse */
     box-shadow: 1px 1px 20px 1px black; /* Sombra da imagem */
-    border: 0.225rem solid #000000; /* Borda sólida */
+    border: 0.225rem solid #000000; /* Borda sólida com uma cor específica */
     margin: 1.25rem; /* Margem */
-    z-index: 10;
+    z-index: 10; /* Ordem de sobreposição */
 }
 
 /* Efeito ao passar o mouse na primeira imagem do tópico 3 */
 .topic-3-img-1:hover {
     transform: scale(1.2) translateX(-3.75rem); /* Aumenta a escala e move a imagem ao passar o mouse */
-    box-shadow: 1px 1px 20px 1px black; /* Sombra ao passar o mouse */
-    z-index: 11;
+    box-shadow: 1px 1px 20px 1px black; /* Sombra da imagem ao passar o mouse */
+    z-index: 11; /* Ordem de sobreposição */
 }
 
 /* Efeito ao passar o mouse na segunda imagem do tópico 3 */
 .topic-3-img-2:hover {
     transform: scale(1.2) translateX(0); /* Aumenta a escala da imagem ao passar o mouse */
-    box-shadow: 1px 1px 20px 1px black; /* Sombra ao passar o mouse */
-    z-index: 11;
+    box-shadow: 1px 1px 20px 1px black; /* Sombra da imagem ao passar o mouse */
+    z-index: 11; /* Ordem de sobreposição */
 }
 
 /* Efeito ao passar o mouse na terceira imagem do tópico 3 */
 .topic-3-img-3:hover {
     transform: scale(1.2) translateX(3.75rem); /* Aumenta a escala e move a imagem ao passar o mouse */
-    box-shadow: 1px 1px 20px 1px black; /* Sombra ao passar o mouse */
-    z-index: 11;
+    box-shadow: 1px 1px 20px 1px black; /* Sombra da imagem ao passar o mouse */
+    z-index: 11; /* Ordem de sobreposição */
 }
 
 /* Estilo para a lista no tópico 3 */
@@ -474,11 +461,11 @@ b {
 
 /* Estilo para os separadores de lista no tópico 3 */
 .separador-list-1,
-.separador-list-2{
+.separador-list-2 {
     font-size: 2.35rem; /* Tamanho da fonte */
     color: #ffffff; /* Cor do texto */
     padding: 0.4375rem; /* Preenchimento */
-    box-shadow: 1px 1px 20px 1px black; /* Sombra */
+    box-shadow: 1px 1px 20px 1px black; /* Sombra com desfoque */
     font-family: 'Cairo Play', sans-serif; /* Fonte do texto */
     margin: 2rem; /* Margem */
     border-radius: 3rem; /* Borda circular */
@@ -508,13 +495,13 @@ b {
 }
 
 
-/* fim da section 3 e inicio da section 4 */
+/* Fechamento do tópico 3 e abertura do tópico 4 */
 
 
 /* Estilo para o contêiner do tópico 4 */
 .topic-4 {
-    border-top: 0.0625rem solid #8841ff; /* Borda superior */
-    margin-top: -1.25rem; /* Margem superior */
+    border-top: 0.0625rem solid #8841ff; /* Borda superior com uma cor específica */
+    margin-top: -1.25rem; /* Margem superior negativa */
 }
 
 /* Estilo para o título do tópico 4 */
@@ -530,7 +517,7 @@ b {
 .topic-4-imgs {
     display: flex; /* Exibe as imagens em linha */
     margin: 0 auto; /* Margem automática nas laterais */
-    max-width: 93.75vh; /* Largura máxima */
+    max-width: 93.75vh; /* Largura máxima convertida para vh */
     flex-wrap: wrap; /* Quebra para a próxima linha se não houver espaço suficiente */
     align-items: center; /* Alinha as imagens ao centro verticalmente */
     justify-content: center; /* Alinha as imagens ao centro horizontalmente */
@@ -544,21 +531,20 @@ b {
     margin: 1.25rem; /* Margem */
     border-radius: 1.875rem; /* Borda circular */
     transition: transform 0.3s ease; /* Transição suave ao passar o mouse */
-    z-index: 12;
-    box-shadow: 1px 1px 20px 1px black; /* Sombra ao passar o mouse */
+    z-index: 12; /* Ordem de sobreposição */
 }
 
 /* Efeito ao passar o mouse na primeira imagem do tópico 4 */
 .topic-4-img-1:hover {
-    z-index: 13;
-    box-shadow: 1px 1px 20px 1px black; /* Sombra ao passar o mouse */
+    z-index: 13; /* Ordem de sobreposição ao passar o mouse */
+    box-shadow: 1px 1px 20px 1px black; /* Sombra da imagem ao passar o mouse */
     transform: scale(1.2) translateX(-0.2rem); /* Aumenta a escala e move a imagem ao passar o mouse */
 }
 
 /* Efeito ao passar o mouse na segunda imagem do tópico 4 */
 .topic-4-img-2:hover {
-    z-index: 13;
-    box-shadow: 1px 1px 20px 1px black; /* Sombra ao passar o mouse */
+    z-index: 13; /* Ordem de sobreposição ao passar o mouse */
+    box-shadow: 1px 1px 20px 1px black; /* Sombra da imagem ao passar o mouse */
     transform: scale(1.2) translateX(0.2rem); /* Aumenta a escala da imagem ao passar o mouse */
 }
 
@@ -573,12 +559,13 @@ b {
 }
 
 
-/* fim da section 4 e inicio do footer */
+/* Fechamento da section 4 e abertura do footer */
+
 
 /* Estilo para o rodapé */
 footer {
-    border-top: 0.0625rem solid #8841ff; /* Borda superior convertida para rem */
-    margin-top: -1%; /* Margem superior em porcentagem */
+    border-top: 0.0625rem solid #8841ff; /* Borda superior com uma cor específica */
+    margin-top: -1%; /* Margem superior negativa em porcentagem */
     box-shadow: inset 100px 100px 1000px 500px rgba(0, 0, 0, 0.7); /* Sombra interna */
 }
 
@@ -615,7 +602,7 @@ footer {
     width: 3.0rem; /* Largura das imagens */
     height: 3.0rem; /* Altura das imagens */
     margin: 0.5rem; /* Margem das imagens */
-    transition: 0.4s ease-in-out; /* Transição suave */
+    transition: 0.4s ease-in-out; /* Transição suave ao passar o mouse */
     filter: invert(100%); /* Inverte as cores da imagem */
 }
 
@@ -640,47 +627,22 @@ footer {
 }
 
 
-/* ANIMAÇÕES */
-
-/* Animação de fundo para o corpo da página */
-@keyframes animateBackground {
-    0%, 100% {
-        background-position: 0% 0%;
-        background-size: 100% 100%;
-    }
-    50% {
-        background-position: 100% 100%;
-        background-size: 120% 120%;
-    }
-}
+/* Espaço para as animações */
 
 
-@keyframes animateSurgimento {
-    0% {
-        opacity: 0;
-        box-shadow: 0 0 0 0 white, 0 0 0 0 rgb(255, 255, 255);
-        transform: scale(1.1);
-        border-radius: 0%;
-    }
-    100% {
-        opacity: 1;
-        box-shadow: -2px -2px 10px 5px white, 2px 2px 30px 5px rgb(255, 255, 255);
-        transform: scale(1);
-        border-radius: 50%;
-    }
-}
-
-/* Animação de digitação */
+/* ANIMAÇÃO DE DIGITAÇÃO */
 @keyframes typing {
     from {
         opacity: 0.8;
-        width: 0; /* Começa com uma largura de 0 */
+        width: 0; /* Inicia com uma largura de 0 para criar efeito de digitação */
     }
     to {
         opacity: 1;
         width: 100%; /* Aumenta gradualmente a largura para 100% */
-}}
+    }
+}
 
+/* ANIMAÇÃO DE APARECIMENTO DA DIREITA */
 @keyframes appear-right {
     from {
         opacity: 0;
@@ -692,11 +654,11 @@ footer {
     }
 }
 
+/* ANIMAÇÃO PARA O PET */
 @keyframes petAnimation {
     0% {
         transform: scale(1);
         opacity: 0.1;
-        
     }
     100% {
         transform: scale(1.3);
@@ -704,11 +666,12 @@ footer {
     }
 }
 
+/* ANIMAÇÃO DE SURGIMENTO GERAL */
 @keyframes surgir {
     0% {
         opacity: 0;
         transform: translateY(-100px);
-        transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out; /* define duração e curva de transição */
+        transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out; /* Define duração e curva de transição */
     }
     100% {
         opacity: 1;
@@ -717,7 +680,8 @@ footer {
 }
 
 
-/* BARRA DE ROLAGEM */
+/* BARRA DE ROLAGEM PARA O WEBKIT */
+
 
 /* Estilo para a barra de rolagem do WebKit */
 ::-webkit-scrollbar {
@@ -738,13 +702,18 @@ footer {
 }
 
 
-.animacao{
-opacity: 0;
-transform: translateY(-100px);
-transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out; /* define duração e curva de transição */
+/* ANIMAÇÃO GENÉRICA */
+
+
+/* Estilo inicial para a animação */
+.animacao {
+    opacity: 0; /* Inicia com opacidade 0 */
+    transform: translateY(-100px); /* Move para cima (fora da tela) */
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out; /* Define duração e curva de transição */
 }
 
+/* Estilo para aparecer (final da animação) */
 .aparecer {
-opacity: 1;
-transform: translateY(0);
+    opacity: 1; /* Opacidade completa */
+    transform: translateY(0); /* Move de volta para a posição original */
 }

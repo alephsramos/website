@@ -10,7 +10,7 @@
         margin-left: 22%; /* Margem à esquerda de 22% do contêiner pai */
         width: 50%;
         height: 50%;
-        margin-top: 22%; /* Margem superior de 20% do contêiner pai */
+        margin-top: 25%; /* Margem superior de 20% do contêiner pai */
         scale: 1; /* Não parece ser uma propriedade válida, talvez deveria ser 'transform: scale(1);' */
         display: block;
         margin: 0 auto;

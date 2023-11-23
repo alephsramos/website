@@ -1,26 +1,30 @@
 document.addEventListener('DOMContentLoaded', function() {
-    /* Efeito do Mexer do Mouse */
-    document.addEventListener('mousemove', function(e) {
-        const fumaça = document.createElement('div');
-        fumaça.classList.add('faísca');
-        document.body.appendChild(fumaça);
+    // Verifica se o dispositivo é um PC
+    if (/Windows|Mac|Linux/.test(navigator.userAgent)) {
+        // Código do efeito do mouse
+        document.addEventListener('mousemove', function(e) {
+            const fumaça = document.createElement('div');
+            fumaça.classList.add('faísca');
+            document.body.appendChild(fumaça);
 
-        const tamanho = Math.random() * 10 + 5;
-        fumaça.style.width = tamanho + 'px';
-        fumaça.style.height = tamanho + 'px';
+            const tamanho = Math.random() * 10 + 5;
+            fumaça.style.width = tamanho + 'px';
+            fumaça.style.height = tamanho + 'px';
 
-        const posX = e.pageX + Math.random() * 20 - 10;
-        const posY = e.pageY + Math.random() * 20 - 10;
-        fumaça.style.left = posX + 'px';
-        fumaça.style.top = posY + 'px';
+            const posX = e.pageX + Math.random() * 20 - 10;
+            const posY = e.pageY + Math.random() * 20 - 10;
+            fumaça.style.left = posX + 'px';
+            fumaça.style.top = posY + 'px';
 
-        const tempo = Math.random() * 0.5 + 0.3;
-        fumaça.style.animation = `smokeAnimation ${tempo}s linear`;
+            const tempo = Math.random() * 0.5 + 0.3;
+            fumaça.style.animation = `smokeAnimation ${tempo}s linear`;
 
-        fumaça.addEventListener('animationend', function() {
-            fumaça.remove();
+            fumaça.addEventListener('animationend', function() {
+                fumaça.remove();
+            });
         });
-    });
+    }
+
 
     /* Efeito do Click */
     document.addEventListener('click', function(e) {

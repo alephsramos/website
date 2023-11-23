@@ -10,7 +10,7 @@
         margin-left: 22%; /* Margem à esquerda de 22% do contêiner pai */
         width: 50%;
         height: 50%;
-        margin-top: 25%; /* Margem superior de 20% do contêiner pai */
+        margin-top: 30%; /* Margem superior de 20% do contêiner pai */
         scale: 1; /* Não parece ser uma propriedade válida, talvez deveria ser 'transform: scale(1);' */
         display: block;
         margin: 0 auto;
@@ -18,7 +18,7 @@
 
     /* Estilo para o título "sobre mim" */
     .title-sobre-mim {
-        font-size: 3vh; /* Tamanho da fonte como 3.5% da altura da viewport */
+        font-size: 2.5vh; /* Tamanho da fonte como 3.5% da altura da viewport */
     }
 
     /* Estilo para o parágrafo "sobre mim" */
@@ -69,7 +69,7 @@
 
     /* Estilo para o parágrafo "sobre mim" */
     .paragraph-sobre-mim {
-        font-size: 2.5vh;
+        font-size: 2vh;
         border-radius: 1.5px;
         width: 80%;
         padding: 2vh;

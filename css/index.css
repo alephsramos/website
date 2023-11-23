@@ -121,8 +121,9 @@ b {
     background-clip: text;
     -webkit-text-fill-color: transparent; /* Torna o texto transparente para mostrar o fundo */
     white-space: nowrap;
-    animation: typing 6s linear 1s forwards; /* Adiciona uma animação chamada 'typing' com duração de 4 segundos, início linear após 1 segundo e retenção do estado final */
+    animation: typing 6s linear 0s forwards; /* Adiciona uma animação chamada 'typing' com duração de 4 segundos, início linear após 1 segundo e retenção do estado final */
 }
+
 
 /* Estilo para a barra de ícones */
 .icons-bar {
@@ -170,8 +171,6 @@ b {
     animation: animateSurgimento 2.5s ease forwards; /* Define uma animação de surgimento durante 1.5 segundos com função de temporização 'ease' e mantém o estado final */
 }
 
-
-
 /* Efeito de escala ao passar o mouse sobre a imagem */
 .img-sobre-mim:hover{
     transform: scale(1.15);
@@ -192,8 +191,9 @@ b {
     text-align: center; /* Alinha o texto ao centro */
     font-family: 'Dancing Script', cursive; /* Define a fonte do título */
     overflow: hidden; /* Oculta qualquer conteúdo que transborde do contêiner */
-    animation: typing 4s linear 1s forwards; /* Adiciona uma animação chamada 'typing' com duração de 4 segundos, início linear após 1 segundo e retenção do estado final */
+    animation: typing 6s linear 0s forwards; /* Adiciona uma animação chamada 'typing' com duração de 4 segundos, início linear após 1 segundo e retenção do estado final */
 }
+
 
 
 
@@ -337,7 +337,6 @@ b {
     box-shadow: 1px 1px 20px 1px black;
     z-index: 11;
 }
-
 
 
 
@@ -700,12 +699,14 @@ footer {
     0% {
         opacity: 0;
         box-shadow: 0 0 0 0 white, 0 0 0 0 purple;
-        transform: scale(1.5);
+        transform: scale(1.1);
+        border-radius: 0%;
     }
     100% {
         opacity: 1;
         box-shadow: -2px -2px 10px 5px white, 2px 2px 10px 5px purple;
         transform: scale(1);
+        border-radius: 50%;
     }
 }
 

@@ -86,3 +86,6 @@ function handleAnimation() {
 }
 
 window.addEventListener('load', handleAnimation);
+
+
+

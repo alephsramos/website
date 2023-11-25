@@ -557,8 +557,87 @@ b {
     padding: 3.125rem; /* Preenchimento */
 }
 
+.section-5 {
+    border-top: 1px solid #8841ff;
+    align-items: center;
+}
+
+.section-5-img {
+    height: 50vh; /* ou qualquer altura desejada */
+    border: 1px solid white;
+    display: block;
+    border-radius: 1vh;
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    box-shadow: 1px 1px 20px 1px black; /* Sombra do parágrafo com desfoque */  
+    margin-bottom: 2% ;
+}
+
+.section-5-title {
+    color: #ffffff; /* Cor do texto */
+    font-family: 'Dancing Script', cursive; /* Fonte do título */
+    font-size: 4rem; /* Tamanho da fonte */
+    text-align: center; /* Alinhamento do texto ao centro */
+}
+
+.section-5-h4{
+    font-size: 2.5rem; /* Tamanho da fonte em rem */
+    width: 70.5rem; /* Largura do parágrafo em rem */
+    opacity: 0.8;
+    color: #ffffff; /* Cor do texto */
+    border-radius: 0.5rem; /* Borda circular do parágrafo em rem */
+    padding: 1rem; /* Preenchimento em rem */
+    font-family: 'Baloo 2', sans-serif; /* Fonte do parágrafo */
+    box-shadow: 1px 1px 20px 1px black; /* Sombra do parágrafo com desfoque */
+    line-height: 1.2; /* Altura da linha */
+    margin-top: 1%; /* Margem superior negativa */
+    margin-left: 20%; /* Margem à esquerda */
+    text-align: center; /* Alinhamento do texto ao centro */
+}
+
+.section-5-p {
+    font-size: 1.7rem; /* Tamanho da fonte em rem */
+    width: 100.5rem; /* Largura do parágrafo em rem */
+    opacity: 0.8;
+    color: #ffffff; /* Cor do texto */
+    box-shadow: 1px 1px 20px 1px black; /* Sombra do parágrafo com desfoque */
+    border-radius: 0.5rem; /* Borda circular do parágrafo em rem */
+    padding: 1rem; /* Preenchimento em rem */
+    font-family: 'Baloo 2', sans-serif; /* Fonte do parágrafo */
+    line-height: 1.2; /* Altura da linha */
+    margin-top: 2%; /* Margem superior negativa */
+    margin-left: 7%; /* Margem à esquerda */
+    text-align: center; /* Alinhamento do texto ao centro */
+}
+
+.icons-section-5 {
+    align-items: center; /* Alinhamento vertical ao centro */
+    justify-content: center; /* Alinhamento horizontal ao centro */
+    display: flex; /* Exibe os ícones em linha */
+}
+
+/* Estilo para as imagens no rodapé */
+.icons-img-section-5 {
+    width: 3.0rem; /* Largura das imagens */
+    height: 3.0rem; /* Altura das imagens */
+    margin: 0.5rem; /* Margem das imagens */
+    transition: 0.4s ease-in-out; /* Transição suave ao passar o mouse */
+    filter: invert(100%); /* Inverte as cores da imagem */
+}
+
+/* Efeito ao passar o mouse sobre as imagens no rodapé */
+.icons-img-section-5:hover {
+    width: 3.3rem; /* Aumenta a largura ao passar o mouse */
+    height: 3.3rem; /* Aumenta a altura ao passar o mouse */
+    margin: 0.625rem; /* Aumenta a margem ao passar o mouse */
+    transition: 0.2s; /* Transição mais curta */
+    transform: translateX(-0.125rem) translateY(-0.3125rem); /* Move a imagem um pouco ao passar o mouse */
+    cursor: url('/img/icons/cursor-a.png'), auto; /* Define um cursor personalizado */
+}
+
 
 /* Fechamento da section 4 e abertura do footer */
+
+
 
 
 /* Estilo para o rodapé */

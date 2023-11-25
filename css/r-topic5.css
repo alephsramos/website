@@ -1,0 +1,238 @@
+@media only screen and (max-width: 375px) {
+    /* Estilo para a imagem da seção 5 */
+    .section-5-img {
+        height: 25vh; /* Altura da imagem em 25% da altura da tela */
+        border-radius: 1vh; /* Raio da borda em 1% da altura da tela */
+        margin: 0 auto; /* Centraliza a imagem horizontalmente */
+        margin-bottom: 2%; /* Margem inferior de 2% da altura da tela */
+    }
+
+    /* Estilo para o título da seção 5 */
+    .section-5-title {
+        font-size: 1.5rem; /* Tamanho da fonte */
+        text-align: center; /* Alinhamento do texto ao centro */
+    }
+
+    /* Estilo para os subtítulos da seção 5 */
+    .section-5-h4 {
+        font-size: 2vh; /* Tamanho da fonte em porcentagem */
+        border-radius: 1.5px;
+        width: 80%; /* Largura do parágrafo em porcentagem */
+        padding: 2vh; /* Preenchimento em porcentagem */
+        margin: 0 auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        text-align: center; /* Alinhamento do texto ao centro */
+    }
+
+    /* Estilo para os parágrafos da seção 5 */
+    .section-5-p {
+        font-size: 2vh; /* Tamanho da fonte em porcentagem */
+        border-radius: 1.5px;
+        width: 80%; /* Largura do parágrafo em porcentagem */
+        padding: 2vh; /* Preenchimento em porcentagem */
+        margin: 0 auto;
+        margin-top: 5%;
+        margin-bottom: 15%;
+        text-align: center; /* Alinhamento do texto ao centro */
+    }
+
+    /* Estilo para as imagens de ícones na seção 5 */
+    .icons-img-section-5 {
+        width: 7.5vw; /* Largura relativa à largura da tela */
+        height: 7.5vw; /* Altura relativa à largura da tela */
+        margin: 1vw; /* Margem relativa à largura da tela */
+        margin-top: 10%;
+        transition: 0.4s ease-in-out;
+    }
+
+    /* Efeito hover para as imagens de ícones na seção 5 */
+    .icons-img-section-5:hover {
+        width: 7.2vw; /* Largura relativa à largura da tela */
+        height: 7.2vw; /* Altura relativa à largura da tela */
+        margin: 0.4vw; /* Margem relativa à largura da tela */
+        transition: 0.2s;
+        transform: translateX(-0rem) translateY(-0rem); /* Translação relativa à largura da tela */
+        cursor: url('/img/icons/cursor-a.png'), auto;
+    }
+}
+
+/* Estilo para telas com largura entre 376px e 650px */
+@media only screen and (min-width: 376px) and (max-width: 650px) {
+    /* Estilo para a imagem da seção 5 */
+    .section-5-img {
+        height: 40vh; /* Altura da imagem em 40% da altura da tela */
+        border-radius: 1vh;
+        margin: 0 auto; /* Centraliza a imagem horizontalmente */
+        margin-bottom: 2%;
+    }
+
+    /* Estilo para o título da seção 5 */
+    .section-5-title {
+        font-size: 2.5rem; /* Tamanho da fonte */
+        text-align: center; /* Alinhamento do texto ao centro */
+    }
+
+    /* Estilo para os subtítulos da seção 5 */
+    .section-5-h4 {
+        font-size: 2.8vh; /* Tamanho da fonte em porcentagem */
+        border-radius: 1.5px;
+        width: 80%; /* Largura do parágrafo em porcentagem */
+        padding: 2vh; /* Preenchimento em porcentagem */
+        margin: 0 auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        text-align: center; /* Alinhamento do texto ao centro */
+    }
+
+    /* Estilo para os parágrafos da seção 5 */
+    .section-5-p {
+        font-size: 2.5vh; /* Tamanho da fonte em porcentagem */
+        border-radius: 1.5px;
+        width: 80%; /* Largura do parágrafo em porcentagem */
+        padding: 2vh; /* Preenchimento em porcentagem */
+        margin: 0 auto;
+        margin-bottom: 15%;
+        margin-top: 5%;
+        text-align: center; /* Alinhamento do texto ao centro */
+    }
+
+    /* Estilo para as imagens de ícones na seção 5 */
+    .icons-img-section-5 {
+        width: 7.5vw; /* Largura relativa à largura da tela */
+        height: 7.5vw; /* Altura relativa à largura da tela */
+        margin: 1vw; /* Margem relativa à largura da tela */
+        margin-top: 2%;
+        transition: 0.4s ease-in-out;
+    }
+
+    /* Efeito hover para as imagens de ícones na seção 5 */
+    .icons-img-section-5:hover {
+        width: 7.2vw; /* Largura relativa à largura da tela */
+        height: 7.2vw; /* Altura relativa à largura da tela */
+        margin: 0.4vw; /* Margem relativa à largura da tela */
+        transition: 0.2s;
+        transform: translateX(-0rem) translateY(-0rem); /* Translação relativa à largura da tela */
+        cursor: url('/img/icons/cursor-a.png'), auto;
+    }
+}
+
+/* Estilo para telas com largura entre 651px e 1200px */
+@media only screen and (min-width: 651px) and (max-width: 1200px) {
+    /* Estilo para a imagem da seção 5 */
+    .section-5-img {
+        height: 50vh; /* Altura da imagem em 50% da altura da tela */
+        border-radius: 1vh;
+        margin: 0 auto; /* Centraliza a imagem horizontalmente */
+        margin-bottom: 2%;
+    }
+
+    /* Estilo para o título da seção 5 */
+    .section-5-title {
+        font-size: 3.2rem; /* Tamanho da fonte */
+        text-align: center; /* Alinhamento do texto ao centro */
+    }
+
+    /* Estilo para os subtítulos da seção 5 */
+    .section-5-h4 {
+        font-size: 3.3vh; /* Tamanho da fonte em porcentagem */
+        border-radius: 1.5px;
+        width: 80%; /* Largura do parágrafo em porcentagem */
+        padding: 2vh; /* Preenchimento em porcentagem */
+        margin: 0 auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        text-align: center; /* Alinhamento do texto ao centro */
+    }
+
+    /* Estilo para os parágrafos da seção 5 */
+    .section-5-p {
+        font-size: 3vh; /* Tamanho da fonte em porcentagem */
+        border-radius: 1.5px;
+        width: 80%; /* Largura do parágrafo em porcentagem */
+        padding: 2vh; /* Preenchimento em porcentagem */
+        margin: 0 auto;
+        margin-bottom: 10%;
+        margin-top: 5%;
+        text-align: center; /* Alinhamento do texto ao centro */
+    }
+
+    /* Estilo para as imagens de ícones na seção 5 */
+    .icons-img-section-5 {
+        width: 5.5vw; /* Largura relativa à largura da tela */
+        height: 5.5vw; /* Altura relativa à largura da tela */
+        margin: 0.5vw; /* Margem relativa à largura da tela */
+        margin-top: 2%;
+        transition: 0.4s ease-in-out;
+    }
+
+    /* Efeito hover para as imagens de ícones na seção 5 */
+    .icons-img-section-5:hover {
+        width: 5vw; /* Largura relativa à largura da tela */
+        height: 5vw; /* Altura relativa à largura da tela */
+        margin: 0.4vw; /* Margem relativa à largura da tela */
+        transition: 0.2s;
+        transform: translateX(-0rem) translateY(-0rem); /* Translação relativa à largura da tela */
+        cursor: url('/img/icons/cursor-a.png'), auto;
+    }
+}
+
+/* Estilo para telas com largura entre 1201px e 2000px */
+@media only screen and (min-width: 1201px) and (max-width: 2000px) {
+    /* Estilo para a imagem da seção 5 */
+    .section-5-img {
+        height: 50vh; /* Altura da imagem em 50% da altura da tela */
+        border-radius: 1vh;
+        margin: 0 auto; /* Centraliza a imagem horizontalmente */
+        margin-bottom: 2%;
+    }
+
+    /* Estilo para o título da seção 5 */
+    .section-5-title {
+        font-size: 4rem; /* Tamanho da fonte */
+        text-align: center; /* Alinhamento do texto ao centro */
+    }
+
+    /* Estilo para os subtítulos da seção 5 */
+    .section-5-h4 {
+        font-size: 4vh; /* Tamanho da fonte em porcentagem */
+        border-radius: 1.5px;
+        width: 80%; /* Largura do parágrafo em porcentagem */
+        padding: 2vh; /* Preenchimento em porcentagem */
+        margin: 0 auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        text-align: center; /* Alinhamento do texto ao centro */
+    }
+
+    /* Estilo para os parágrafos da seção 5 */
+    .section-5-p {
+        font-size: 3.5vh; /* Tamanho da fonte em porcentagem */
+        border-radius: 1.5px;
+        width: 80%; /* Largura do parágrafo em porcentagem */
+        padding: 2vh; /* Preenchimento em porcentagem */
+        margin: 0 auto;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        text-align: center; /* Alinhamento do texto ao centro */
+    }
+
+    /* Estilo para as imagens de ícones na seção 5 */
+    .icons-img-section-5 {
+        width: 4vw; /* Largura relativa à largura da tela */
+        height: 4vw; /* Altura relativa à largura da tela */
+        margin: 0.5vw; /* Margem relativa à largura da tela */
+        margin-top: 2%;
+        transition: 0.4s ease-in-out;
+    }
+
+    /* Efeito hover para as imagens de ícones na seção 5 */
+    .icons-img-section-5:hover {
+        width: 3.7vw; /* Largura relativa à largura da tela */
+        height: 3.7vw; /* Altura relativa à largura da tela */
+        margin: 0.4vw; /* Margem relativa à largura da tela */
+        transition: 0.2s;
+        transform: translateX(-0rem) translateY(-0rem); /* Translação relativa à largura da tela */
+        cursor: url('/img/icons/cursor-a.png'), auto;
+    }
+}

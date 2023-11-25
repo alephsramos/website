@@ -64,7 +64,13 @@ window.addEventListener('scroll', handleScrollAnimation);
 
 
 
+var meuVideo = document.getElementById('meuVideo');
 
+meuVideo.addEventListener('ended', function () {
+    // Quando o vídeo terminar, reinicie
+    this.currentTime = 0;
+    this.play();
+});
 
 
 

@@ -139,7 +139,7 @@
 @media only screen and (min-width: 651px) and (max-width: 1200px) {
     /* Estilo para a imagem da seção 5 */
     .section-5-img {
-        height: 50vh; /* Altura da imagem em 50% da altura da tela */
+        height: 35vh; /* Altura da imagem em 50% da altura da tela */
         border-radius: 1vh;
         margin: 0 auto; /* Centraliza a imagem horizontalmente */
         margin-bottom: 2%;

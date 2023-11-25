@@ -840,7 +840,7 @@ footer {
 .animacao2 {
     opacity: 0;
     transform: translateX(-100px); /* Move para a esquerda (fora da tela) */
-    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
 }
 
 .aparecer2 {
@@ -851,7 +851,7 @@ footer {
 .animacao3 {
     opacity: 0;
     transform: translateX(100px); /* Move para a direita (fora da tela) */
-    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
 }
 
 .aparecer3 {

@@ -41,11 +41,11 @@ function isElementInViewport(element) {
 
 // Função para lidar com o evento de rolar a página
 function handleScrollAnimation() {
-    var elementos = document.querySelectorAll('.animacao');
+    var elementos = document.querySelectorAll('.animacao, .animacao2, .animacao3');
     
     elementos.forEach(function(elemento) {
         if (isElementInViewport(elemento)) {
-            elemento.classList.add('aparecer');
+            elemento.classList.add('aparecer', 'aparecer2', 'aparecer3');
         }
     });
 }

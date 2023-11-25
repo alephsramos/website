@@ -747,6 +747,7 @@ footer {
     }
 }
 
+
 /* ANIMAÇÃO DE DIGITAÇÃO */
 @keyframes typing {
     from {
@@ -833,4 +834,27 @@ footer {
 .aparecer {
     opacity: 1; /* Opacidade completa */
     transform: translateY(0); /* Move de volta para a posição original */
+}
+
+
+.animacao2 {
+    opacity: 0;
+    transform: translateX(-100px); /* Move para a esquerda (fora da tela) */
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.aparecer2 {
+    opacity: 1;
+    transform: translateX(0); /* Move de volta para a posição original da esquerda */
+}
+
+.animacao3 {
+    opacity: 0;
+    transform: translateX(100px); /* Move para a direita (fora da tela) */
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.aparecer3 {
+    opacity: 1;
+    transform: translateX(0); /* Move de volta para a posição original da direita */
 }

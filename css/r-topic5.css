@@ -1,7 +1,8 @@
 @media only screen and (max-width: 375px) {
     /* Estilo para a imagem da seção 5 */
     .section-5-img {
-        height: 20vh; /* Altura da imagem em 25% da altura da tela */
+        height: 40%; /* Altura da imagem em 25% da altura da tela */
+        width: 65%;
         border-radius: 1vh; /* Raio da borda em 1% da altura da tela */
         margin: 0 auto; /* Centraliza a imagem horizontalmente */
         margin-bottom: 2%; /* Margem inferior de 2% da altura da tela */
@@ -70,7 +71,8 @@
 @media only screen and (min-width: 376px) and (max-width: 650px) {
     /* Estilo para a imagem da seção 5 */
     .section-5-img {
-        height: 25vh; /* Altura da imagem em 40% da altura da tela */
+        height: 45%; /* Altura da imagem em 25% da altura da tela */
+        width: 65%;
         border-radius: 1vh;
         margin: 0 auto; /* Centraliza a imagem horizontalmente */
         margin-bottom: 2%;
@@ -139,7 +141,8 @@
 @media only screen and (min-width: 651px) and (max-width: 1200px) {
     /* Estilo para a imagem da seção 5 */
     .section-5-img {
-        height: 30vh; /* Altura da imagem em 50% da altura da tela */
+        height: 55%; /* Altura da imagem em 25% da altura da tela */
+        width:70%;
         border-radius: 1vh;
         margin: 0 auto; /* Centraliza a imagem horizontalmente */
         margin-bottom: 2%;
@@ -208,7 +211,8 @@
 @media only screen and (min-width: 1201px) and (max-width: 2000px) {
     /* Estilo para a imagem da seção 5 */
     .section-5-img {
-        height: 50vh; /* Altura da imagem em 50% da altura da tela */
+        height: 50%; /* Altura da imagem em 25% da altura da tela */
+        width: 70%;
         border-radius: 1vh;
         margin: 0 auto; /* Centraliza a imagem horizontalmente */
         margin-bottom: 2%;

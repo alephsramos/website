@@ -44,7 +44,7 @@
         margin: 0 auto;
         margin-top: 5%;
         margin-bottom: 15%;
-        text-align: center; /* Alinhamento do texto ao centro */
+        text-align: justify; /* Alinhamento do texto ao centro */
     }
 
     /* Estilo para as imagens de ícones na seção 5 */
@@ -65,6 +65,52 @@
         transform: translateX(-0rem) translateY(-0rem); /* Translação relativa à largura da tela */
         cursor: url('/img/icons/cursor-a.png'), auto;
     }
+
+    .sushi-img-1{
+        width: 40%;
+    }
+    
+    .sushi-img-2{
+        width: 70%;
+        height: auto;
+        display: block;
+        border-radius: 5px;
+        margin: 0 auto;
+    }
+    
+    
+    .sushi-img-3{
+        width: 70%;
+        margin-left: 15%;
+        border-radius: 5px;
+        margin-top: 3%;
+        height: auto;
+        display: block;
+        transition: transform 0.5s ease;
+    }
+    
+    .sushi-p-1{
+        font-size: 2vh; /* Tamanho da fonte em porcentagem */
+        border-radius: 1.5px;
+        width: 80%; /* Largura do parágrafo em porcentagem */
+        padding: 2vh; /* Preenchimento em porcentagem */
+        margin: 0 auto;
+        margin-top: 5%;
+        margin-bottom: 15%;
+        text-align: justify; /* Alinhamento do texto ao centro */
+    }
+    
+    .sushi-p-2{
+        font-size: 2vh; /* Tamanho da fonte em porcentagem */
+        border-radius: 1.5px;
+        width: 80%; /* Largura do parágrafo em porcentagem */
+        padding: 2vh; /* Preenchimento em porcentagem */
+        margin: 0 auto;
+        margin-top: 5%;
+        margin-bottom: 15%;
+        text-align: center; /* Alinhamento do texto ao centro */
+    }
+
 }
 
 /* Estilo para telas com largura entre 376px e 650px */
@@ -114,7 +160,7 @@
         margin: 0 auto;
         margin-bottom: 15%;
         margin-top: 5%;
-        text-align: center; /* Alinhamento do texto ao centro */
+        text-align: justify; /* Alinhamento do texto ao centro */
     }
 
     /* Estilo para as imagens de ícones na seção 5 */
@@ -135,6 +181,52 @@
         transform: translateX(-0rem) translateY(-0rem); /* Translação relativa à largura da tela */
         cursor: url('/img/icons/cursor-a.png'), auto;
     }
+
+    .sushi-img-1{
+        width: 40%;
+    }
+    
+    .sushi-img-2{
+        width: 80%;
+        height: auto;
+        display: block;
+        border-radius: 5px;
+        margin: 0 auto;
+    }
+    
+    
+    .sushi-img-3{
+        width: 80%;
+        margin-left: 10%;
+        border-radius: 5px;
+        margin-top: 3%;
+        height: auto;
+        display: block;
+        transition: transform 0.5s ease;
+    }
+    
+    .sushi-p-1{
+        font-size: 2vh; /* Tamanho da fonte em porcentagem */
+        border-radius: 1.5px;
+        width: 80%; /* Largura do parágrafo em porcentagem */
+        padding: 2vh; /* Preenchimento em porcentagem */
+        margin: 0 auto;
+        margin-top: 1%;
+        margin-bottom: 15%;
+        text-align: justify; /* Alinhamento do texto ao centro */
+    }
+    
+    .sushi-p-2{
+        font-size: 2vh; /* Tamanho da fonte em porcentagem */
+        border-radius: 1.5px;
+        width: 80%; /* Largura do parágrafo em porcentagem */
+        padding: 2vh; /* Preenchimento em porcentagem */
+        margin: 0 auto;
+        margin-top: 5%;
+        margin-bottom: 15%;
+        text-align: center; /* Alinhamento do texto ao centro */
+    }
+
 }
 
 /* Estilo para telas com largura entre 651px e 1200px */
@@ -184,7 +276,7 @@
         margin: 0 auto;
         margin-bottom: 10%;
         margin-top: 5%;
-        text-align: center; /* Alinhamento do texto ao centro */
+        text-align: justify; /* Alinhamento do texto ao centro */
     }
 
     /* Estilo para as imagens de ícones na seção 5 */
@@ -205,6 +297,52 @@
         transform: translateX(-0rem) translateY(-0rem); /* Translação relativa à largura da tela */
         cursor: url('/img/icons/cursor-a.png'), auto;
     }
+
+    .sushi-img-1{
+        width: 20%;
+    }
+    
+    .sushi-img-2{
+        width: 60%;
+        height: auto;
+        display: block;
+        border-radius: 5px;
+        margin: 0 auto;
+    }
+    
+    
+    .sushi-img-3{
+        width: 60%;
+        margin-left: 20%;
+        border-radius: 5px;
+        margin-top: 3%;
+        height: auto;
+        display: block;
+        transition: transform 0.5s ease;
+    }
+    
+    .sushi-p-1{
+        font-size: 2.8vh; /* Tamanho da fonte em porcentagem */
+        border-radius: 1.5px;
+        width: 75%; /* Largura do parágrafo em porcentagem */
+        padding: 2vh; /* Preenchimento em porcentagem */
+        margin: 0 auto;
+        margin-top: 0%;
+        margin-bottom: 3%;
+        text-align: justify; /* Alinhamento do texto ao centro */
+    }
+    
+    .sushi-p-2{
+        font-size: 2vh; /* Tamanho da fonte em porcentagem */
+        border-radius: 1.5px;
+        width: 80%; /* Largura do parágrafo em porcentagem */
+        padding: 2vh; /* Preenchimento em porcentagem */
+        margin: 0 auto;
+        margin-top: 5%;
+        margin-bottom: 3%;
+        text-align: center; /* Alinhamento do texto ao centro */
+    }
+
 }
 
 /* Estilo para telas com largura entre 1201px e 2000px */
@@ -254,7 +392,7 @@
         margin: 0 auto;
         margin-bottom: 1%;
         margin-top: 5%;
-        text-align: center; /* Alinhamento do texto ao centro */
+        text-align: justify; /* Alinhamento do texto ao centro */
     }
 
     /* Estilo para as imagens de ícones na seção 5 */
@@ -275,4 +413,51 @@
         transform: translateX(-0rem) translateY(-0rem); /* Translação relativa à largura da tela */
         cursor: url('/img/icons/cursor-a.png'), auto;
     }
+
+
+    .sushi-img-1{
+        width: 20%;
+    }
+    
+    .sushi-img-2{
+        width: 60%;
+        height: auto;
+        display: block;
+        border-radius: 5px;
+        margin: 0 auto;
+    }
+    
+    
+    .sushi-img-3{
+        width: 60%;
+        margin-left: 20%;
+        border-radius: 5px;
+        margin-top: 3%;
+        height: auto;
+        display: block;
+        transition: transform 0.5s ease;
+    }
+    
+    .sushi-p-1{
+        font-size: 2.8vh; /* Tamanho da fonte em porcentagem */
+        border-radius: 1.5px;
+        width: 75%; /* Largura do parágrafo em porcentagem */
+        padding: 2vh; /* Preenchimento em porcentagem */
+        margin: 0 auto;
+        margin-top: 0%;
+        margin-bottom: 3%;
+        text-align: justify; /* Alinhamento do texto ao centro */
+    }
+    
+    .sushi-p-2{
+        font-size: 2vh; /* Tamanho da fonte em porcentagem */
+        border-radius: 1.5px;
+        width: 80%; /* Largura do parágrafo em porcentagem */
+        padding: 2vh; /* Preenchimento em porcentagem */
+        margin: 0 auto;
+        margin-top: 5%;
+        margin-bottom: 3%;
+        text-align: center; /* Alinhamento do texto ao centro */
+    }
+
 }

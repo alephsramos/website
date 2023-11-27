@@ -1,5 +1,8 @@
 /* Fontes importadas do (Google Fonts) */
 @import url('https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Baloo+2:wght@400;500;600;700;800&family=Cairo+Play:wght@200;300;400;500;600;700;800;900;1000&family=Dancing+Script:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Sacramento&display=swap');
+
+/*
 
 /* Estilo aplicado a tudo */
 * {
@@ -12,7 +15,6 @@ html, body {
     margin: 0; /* Remove margens padrão do corpo e do HTML */
     background-image: url("../img/backgrounds/fundo-oficial.jpg"); /* Define a imagem de fundo */
     background-attachment: fixed; /* Fixa a imagem de fundo para que ela não role com a página */
-    background-repeat: no-repeat;
     position: relative; /* Define a posição como relativa para o corpo */
     animation: animateBackground 30s linear infinite alternate; /* Aplica uma animação de fundo com duração de 30s */
     box-shadow: inset 1111px 11111px 11100px 10110px rgba(0, 0, 0, 0.7); /* Sombra leve ao redor do corpo */
@@ -78,6 +80,7 @@ b {
 .nav-title {
     font-size: 3.75rem; /* Tamanho da fonte para o título */
     justify-content: center; /* Centraliza o conteúdo na direção do eixo principal */
+
     align-items: center; /* Centraliza o conteúdo na direção do eixo transversal */
     margin-left: 10%; /* Margem à esquerda */
     width: 30%; /* Largura do título */
@@ -153,6 +156,7 @@ b {
 .title-sobre-mim {
     white-space: nowrap; /* Impede que o texto quebre em várias linhas */
     color: white; /* Define a cor do texto como branca */
+
     font-size: 6vh; /* Define o tamanho da fonte como 6% da altura da viewport */
     text-align: center; /* Alinha o texto ao centro */
     font-family: 'Dancing Script', cursive; /* Define a fonte do título */
@@ -226,6 +230,7 @@ b {
 .topic-1-title {
     font-size: 7.5rem; /* Tamanho da fonte em rem */
     font-family: 'Dancing Script', cursive; /* Fonte do título */
+    font-weight: 100;
     margin-top: -40%; /* Margem superior negativa */
     margin-left: 50%; /* Margem à esquerda */
     color: #ffffff; /* Cor do texto */
@@ -329,7 +334,8 @@ b {
     font-size: 5rem; /* Tamanho da fonte */
     color: #ffffff; /* Cor do texto */
     text-align: center; /* Alinhamento do texto ao centro */
-    font-family: 'Dancing Script', cursive; /* Fonte do título */
+    font-family: 'Great Vibes', cursive;
+    font-weight: 100;
 }
 
 /* Estilo para o contêiner das imagens no tópico 2 */
@@ -398,7 +404,8 @@ b {
     color: #ffffff; /* Cor do texto */
     font-size: 5rem; /* Tamanho da fonte */
     text-align: center; /* Alinhamento do texto ao centro */
-    font-family: 'Dancing Script', cursive; /* Fonte do título */
+    font-family: 'Great Vibes', cursive;
+    font-weight: 100;
 }
 
 /* Estilo para o contêiner das imagens no tópico 3 */
@@ -506,7 +513,8 @@ b {
 /* Estilo para o título do tópico 4 */
 .topic-4-title {
     color: #ffffff; /* Cor do texto */
-    font-family: 'Dancing Script', cursive; /* Fonte do título */
+    font-family: 'Great Vibes', cursive;
+    font-weight: 100;
     font-size: 5rem; /* Tamanho da fonte */
     text-align: center; /* Alinhamento do texto ao centro */
     padding: 0.125rem; /* Preenchimento */
@@ -575,7 +583,8 @@ b {
 .section-5-title {
     color: #ffffff; /* Cor do texto */
     font-family: 'Dancing Script', cursive; /* Fonte do título */
-    font-size: 4rem; /* Tamanho da fonte */
+    font-weight: 100;
+    font-size: 4.5rem; /* Tamanho da fonte */
     text-align: center; /* Alinhamento do texto ao centro */
 }
 
@@ -921,4 +930,12 @@ footer {
     opacity: 1;
     transform: translateX(0); /* Move de volta para a posição original da direita */
 }
+
+
+
+
+
+
+
+
 

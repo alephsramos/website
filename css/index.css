@@ -20,7 +20,7 @@ html, body {
     background-attachment: fixed; /* Fixa a imagem de fundo para que ela não role com a página */
     position: relative; /* Define a posição como relativa para o corpo */
     animation: animateBackground 30s linear infinite alternate; /* Aplica uma animação de fundo com duração de 30s */
-    box-shadow: inset 1111px 11111px 11100px 10110px rgba(0, 0, 0, 0.8); /* Sombra leve ao redor do corpo */
+    box-shadow: inset 1111px 11111px 11100px 10110px rgba(0, 0, 0, 0.65); /* Sombra leve ao redor do corpo */
     transition: opacity 1.3s ease-in-out; /* Transição suave para a propriedade de opacidade */
     cursor: url("../img/icons/cursor.png"), auto; /* Define o cursor personalizado */
     overflow-x: hidden; /* Esconde a barra de rolagem horizontal */
@@ -38,7 +38,7 @@ body::before {
 
 /* Estilo para texto dentro de todas as tags <b> na página */
 b {
-    background: #777cff; /* Cor de fundo para o texto */
+    background: #9188c8; /* Cor de fundo para o texto */
     -webkit-background-clip: text; /* Aplica o degradê apenas ao texto */
     background-clip: text; /* Aplica o degradê apenas ao texto */
     -webkit-text-fill-color: transparent; /* Torna o texto transparente para exibir o degradê */
@@ -89,7 +89,7 @@ b {
     width: 30%; /* Largura do título */
     font-family: 'Dancing Script', cursive; /* Fonte do título */
     margin: 1.25rem 3.125rem 1.25rem 6.25rem; /* Margens do título (a segunda declaração 'margin' sobrescreve a primeira) */
-    background: #0b062d; /* Cor de fundo do título */
+    background: #073566; /* Cor de fundo do título */
     -webkit-background-clip: text; /* Aplica o fundo apenas ao texto para criar um efeito de recorte */
     background-clip: text; /* Aplica o fundo apenas ao texto para criar um efeito de recorte */
     -webkit-text-fill-color: transparent; /* Torna o texto transparente para mostrar o fundo */
@@ -221,7 +221,7 @@ b {
     margin-top: -21%; /* Margem superior negativa */
     margin-bottom: 0.67%; /* Margem inferior */
     transition: transform 0.6s ease; /* Transição suave ao passar o mouse */
-    filter: drop-shadow(0.3125rem 0.3125rem 0.625rem rgba(195,112,218,255)); /* Sombra da imagem em rem */
+    filter: drop-shadow(0.3125rem 0.3125rem 0.625rem rgba(7,53,102,1)); /* Sombra da imagem em rem */
 }
 
 /* Efeito ao passar o mouse na segunda imagem do tópico 1 */
@@ -727,7 +727,8 @@ b {
 /* Estilo para o rodapé */
 footer {
     border-top: 0.0625rem solid #8841ff; /* Borda superior com uma cor específica */
-    box-shadow: inset 100px 100px 1000px 500px rgba(0, 0, 0, 0.7); /* Sombra interna */
+    box-shadow: inset 100px 100px 1000px 500px rgba(0, 0, 0, 0.6); /* Sombra interna */
+    height: 95vh;
 }
 
 /* Estilo para o título do rodapé */

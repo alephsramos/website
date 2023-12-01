@@ -140,7 +140,7 @@ b {
     margin-top: 10%; /* Margem superior da imagem */
     opacity: 0; /* Opacidade inicial da imagem */
     scale: (1); /* Escala inicial da imagem  */
-    box-shadow: 0 0 0 0 white, 0 0 0 0 rgb(255, 255, 255); /* Sombra inicial da imagem com desfoque zero */
+    box-shadow: 0 0 0 0 white, 0 0 0 0 #9ca0ea; /* Sombra inicial da imagem com desfoque zero */
     animation: animateSurgimento 1.5s ease forwards; /* Define uma animação de surgimento durante 1.5 segundos com função de temporização 'ease' e mantém o estado final */
 }
 
@@ -819,7 +819,8 @@ footer {
         opacity: 1;
         transform: translateY(0px);
         border-radius: 50%;
-        box-shadow: 1px 1px 20px 1px black;
+        box-shadow: 1px 1px 10px 1px 
+        #9ca0ea;
 
     }
 }

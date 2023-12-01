@@ -20,7 +20,7 @@ html, body {
     background-attachment: fixed; /* Fixa a imagem de fundo para que ela não role com a página */
     position: relative; /* Define a posição como relativa para o corpo */
     animation: animateBackground 30s linear infinite alternate; /* Aplica uma animação de fundo com duração de 30s */
-    box-shadow: inset 1111px 11111px 11100px 10110px rgba(0, 0, 0, 0.65); /* Sombra leve ao redor do corpo */
+    box-shadow: inset 1111px 11111px 11100px 10110px rgba(0, 0, 0, 0.45); /* Sombra leve ao redor do corpo */
     transition: opacity 1.3s ease-in-out; /* Transição suave para a propriedade de opacidade */
     cursor: url("../img/icons/cursor.png"), auto; /* Define o cursor personalizado */
     overflow-x: hidden; /* Esconde a barra de rolagem horizontal */
@@ -728,7 +728,7 @@ b {
 footer {
     border-top: 0.0625rem solid #8841ff; /* Borda superior com uma cor específica */
     box-shadow: inset 100px 100px 1000px 500px rgba(0, 0, 0, 0.6); /* Sombra interna */
-    margin-top: 5%;
+    margin-bottom: -5%;
 }
 
 /* Estilo para o título do rodapé */

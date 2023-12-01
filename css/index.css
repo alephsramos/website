@@ -20,7 +20,7 @@ html, body {
     background-attachment: fixed; /* Fixa a imagem de fundo para que ela não role com a página */
     position: relative; /* Define a posição como relativa para o corpo */
     animation: animateBackground 30s linear infinite alternate; /* Aplica uma animação de fundo com duração de 30s */
-    box-shadow: inset 1111px 11111px 11100px 10110px rgba(0, 0, 0, 0.45); /* Sombra leve ao redor do corpo */
+    box-shadow: inset 1111px 11111px 11100px 10110px rgba(0, 0, 0, 0.55); /* Sombra leve ao redor do corpo */
     transition: opacity 1.3s ease-in-out; /* Transição suave para a propriedade de opacidade */
     cursor: url("../img/icons/cursor.png"), auto; /* Define o cursor personalizado */
     overflow-x: hidden; /* Esconde a barra de rolagem horizontal */
@@ -89,7 +89,7 @@ b {
     width: 30%; /* Largura do título */
     font-family: 'Dancing Script', cursive; /* Fonte do título */
     margin: 1.25rem 3.125rem 1.25rem 6.25rem; /* Margens do título (a segunda declaração 'margin' sobrescreve a primeira) */
-    background: #073566; /* Cor de fundo do título */
+    background: #011b36; /* Cor de fundo do título */
     -webkit-background-clip: text; /* Aplica o fundo apenas ao texto para criar um efeito de recorte */
     background-clip: text; /* Aplica o fundo apenas ao texto para criar um efeito de recorte */
     -webkit-text-fill-color: transparent; /* Torna o texto transparente para mostrar o fundo */
@@ -138,6 +138,7 @@ b {
     display: block; /* Configura a exibição do elemento como bloco */
     margin-left: 38%; /* Margem à esquerda da imagem */
     margin-top: 10%; /* Margem superior da imagem */
+    border: 1px solid white;
     opacity: 0; /* Opacidade inicial da imagem */
     scale: (1); /* Escala inicial da imagem  */
     box-shadow: 0 0 0 0 white, 0 0 0 0 #9ca0ea; /* Sombra inicial da imagem com desfoque zero */

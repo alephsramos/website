@@ -729,7 +729,6 @@ b {
 footer {
     border-top: 0.0625rem solid #8841ff; /* Borda superior com uma cor específica */
     box-shadow: inset 100px 100px 1000px 500px rgba(0, 0, 0, 0.6); /* Sombra interna */
-    margin-bottom: -5%;
 }
 
 /* Estilo para o título do rodapé */

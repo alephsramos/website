@@ -301,7 +301,7 @@ b {
     border-radius: 0.55rem; /* Borda circular */
     margin: 0.3125rem; /* Margem */
     transition: transform 0.4s ease-out; /* Transição suave ao passar o mouse */
-    border: 1px solid #000000; /* Borda sólida */
+    border: 1px solid #ffffff; /* Borda sólida */
     z-index: 10; /* Ordem de sobreposição */
 }
 

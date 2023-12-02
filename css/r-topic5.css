@@ -115,6 +115,24 @@
         text-align: center; /* Alinhamento do texto ao centro */
     }
 
+    .img-eduk-logo{
+        width: 35%;
+        margin-top: 2.5%;
+        margin-bottom: 5%;
+        padding: 0;
+    }
+    
+    .eduk-p{
+        font-size: 2vh; /* Tamanho da fonte em porcentagem */
+        border-radius: 1.5px;
+        width: 80%; /* Largura do parágrafo em porcentagem */
+        padding: 2vh; /* Preenchimento em porcentagem */
+        margin: 0 auto;
+        margin-top: 5%;
+        margin-bottom: 15%;
+        text-align: center; /* Alinhamento do texto ao centro */
+    }
+
 }
 
 /* Estilo para telas com largura entre 376px e 650px */
@@ -222,6 +240,22 @@
     }
     
     .sushi-p-2{
+        font-size: 2vh; /* Tamanho da fonte em porcentagem */
+        border-radius: 1.5px;
+        width: 80%; /* Largura do parágrafo em porcentagem */
+        padding: 2vh; /* Preenchimento em porcentagem */
+        margin: 0 auto;
+        margin-top: 5%;
+        margin-bottom: 15%;
+        text-align: center; /* Alinhamento do texto ao centro */
+    }
+
+    .img-eduk-logo{
+        width: 30%;
+        margin-bottom: 5%;
+    }
+    
+    .eduk-p{
         font-size: 2vh; /* Tamanho da fonte em porcentagem */
         border-radius: 1.5px;
         width: 80%; /* Largura do parágrafo em porcentagem */
@@ -349,6 +383,22 @@
         text-align: center; /* Alinhamento do texto ao centro */
     }
 
+    .img-eduk-logo{
+        width: 15%;
+        margin-bottom: 5%;
+    }
+    
+    .eduk-p{
+        font-size: 2vh; /* Tamanho da fonte em porcentagem */
+        border-radius: 1.5px;
+        width: 80%; /* Largura do parágrafo em porcentagem */
+        padding: 2vh; /* Preenchimento em porcentagem */
+        margin: 0 auto;
+        margin-top: 5%;
+        margin-bottom: 3%;
+        text-align: center; /* Alinhamento do texto ao centro */
+    }
+
 }
 
 /* Estilo para telas com largura entre 1201px e 2000px */
@@ -457,6 +507,23 @@
     }
     
     .sushi-p-2{
+        font-size: 2vh; /* Tamanho da fonte em porcentagem */
+        border-radius: 1.5px;
+        width: 80%; /* Largura do parágrafo em porcentagem */
+        padding: 2vh; /* Preenchimento em porcentagem */
+        margin: 0 auto;
+        margin-top: 5%;
+        margin-bottom: 3%;
+        text-align: center; /* Alinhamento do texto ao centro */
+    }
+
+    .img-eduk-logo{
+        width: 10%;
+        margin-bottom: 2%;
+        
+    }
+    
+    .eduk-p{
         font-size: 2vh; /* Tamanho da fonte em porcentagem */
         border-radius: 1.5px;
         width: 80%; /* Largura do parágrafo em porcentagem */

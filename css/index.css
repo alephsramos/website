@@ -645,7 +645,6 @@ b {
     height: 3.0rem; /* Altura das imagens */
     margin: 0.5rem; /* Margem das imagens */
     transition: 0.4s ease-in-out; /* Transição suave ao passar o mouse */
-    filter: invert(100%); /* Inverte as cores da imagem */
 }
 
 /* Efeito ao passar o mouse sobre as imagens no rodapé */
@@ -708,6 +707,29 @@ b {
 }
 
 .sushi-p-2{
+    font-size: 1.5rem; /* Tamanho da fonte em rem */
+    width: 100.5rem; /* Largura do parágrafo em rem */
+    opacity: 0.8;
+    color: #ffffff; /* Cor do texto */
+    box-shadow: 1px 1px 20px 1px black; /* Sombra do parágrafo com desfoque */
+    border-radius: 0.5rem; /* Borda circular do parágrafo em rem */
+    padding: 1rem; /* Preenchimento em rem */
+    font-family: 'Baloo 2', sans-serif; /* Fonte do parágrafo */
+    line-height: 1.2; /* Altura da linha */
+    margin-top: 2%; /* Margem superior negativa */
+    margin-left: 7%; /* Margem à esquerda */
+    text-align: center; /* Alinhamento do texto ao centro */
+}
+
+.img-eduk-logo{
+    width: 20%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    filter: invert(100%);
+}
+
+.eduk-p{
     font-size: 1.5rem; /* Tamanho da fonte em rem */
     width: 100.5rem; /* Largura do parágrafo em rem */
     opacity: 0.8;

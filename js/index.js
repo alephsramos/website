@@ -74,4 +74,12 @@ meuVideo.addEventListener('ended', function () {
 
 
 
- 
+const sidebar = document.getElementById('sidebar');
+
+sidebar.addEventListener('mouseenter', () => {
+    sidebar.style.width = '120px'; // Largura da barra lateral ao ser puxada
+});
+
+sidebar.addEventListener('mouseleave', () => {
+    sidebar.style.width = '10px'; // Largura inicial da barra lateral quase invisível
+});

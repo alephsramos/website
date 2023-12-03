@@ -1,0 +1,88 @@
+
+.sidebar {
+    width: 10px;
+    height: 60%;
+    background-color: transparent;
+    background: black;
+    border-radius: 0px 5px 5px 0px;
+    margin-top: 10%;
+    transition: width 0.3s;
+    position: fixed; /* Torna a barra lateral fixa */
+    overflow: hidden; /* Oculta os itens quando a largura é reduzida */
+}
+
+.sidebar:hover {
+    width: 120px; /* Ajuste a largura conforme necessário */
+    border-radius: 0px 15px 15px 0px;
+    box-shadow: 1px 1px 10px 1px black;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: none; /* Inicialmente oculta os itens */
+    flex-direction: column;
+    font-size: 0.7rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.sidebar:hover a {
+    display: flex; /* Mostra os itens quando .sidebar está em :hover */
+}
+
+.links {
+    display: flex;
+    margin: 10% auto;
+    align-items: center;
+    text-align: center;
+}
+
+.links a {
+    margin: 15px;
+    text-decoration: none;
+    font-family: 'Baloo 2', sans-serif; /* Fonte do parágrafo */
+    font-size: 0.5rem;
+    padding: 0.2rem;
+    font-weight: 600;
+    color: black;
+}
+
+i {
+    font-size: 1.0rem;
+    text-align: center;
+    border-radius: 50%;
+    padding: 1rem;
+    transition: transform 0.1s ease-in-out;
+    color: white;
+}
+
+i:hover {
+    transform: scale(1.5) translateY(-5px);
+}
+
+.link-aleph:hover i {
+    color: rgb(0, 195, 255);
+}
+
+
+.link-designs:hover i {
+    color: rgb(0, 195, 255);
+}
+
+.link-desenhos:hover i{
+    color: rgb(0, 195, 255);
+}
+
+.link-certificados:hover i{
+    color: rgb(0, 200, 255);
+}
+
+.link-projetos:hover i{
+    color: rgb(0, 195, 255);
+}
+
+.link-curriculo:hover i{
+    color: rgb(0, 195, 255);
+}

@@ -7,7 +7,7 @@
 	--color-gray-dark-3: #9a9a9a;
 	--color-blue-dark-1: #00387f;
 	--color-tiffany: #000000;
-	--profile-theme: #261a7f;
+	--profile-theme: #2596be;
     --color-black: #000000;
 	--timeline-circle-theme: #14253e;
 	
@@ -21,7 +21,7 @@
 
 .wrapper {
 	margin: 0 auto;
-	max-width: 70rem;
+	max-width: 80%;
     margin-bottom: 10%;
 	background-color: var(--color-gray-light-2);
 	display: flex;
@@ -391,11 +391,12 @@
 		flex-wrap: wrap;
 	}
 	.tool-list > li {
-		flex: 0 0 33.33%;
+		flex: 0 0 43.33%;
 	}
 	.favor-list > li {
-		flex: 0 0 33.3333%;
+		flex: 0 0 48.3333%;
 	}
+
 }
 @media (max-width: 500px) {
 	.wrapper{

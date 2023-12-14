@@ -75,16 +75,17 @@ i:hover {
 @media only screen and (max-width: 320px){
     .sidebar {
         width: 10%;
+        display: none;
         height: 5%;
         background-color: transparent;
         background: #e2eaf6;
-        border-radius: 50%;
         z-index: 1000;
         margin-top: 15%;
         margin-left: 5%;
         transition: width 0.2s ease-in-out;
         position: fixed; /* Torna a barra lateral fixa */
         overflow: hidden; /* Oculta os itens quando a largura é reduzida */
+
     }
     
     .sidebar:hover {
@@ -153,6 +154,7 @@ i:hover {
     .sidebar {
         width: 10%;
         height: 5%;
+        display: none;
         background-color: transparent;
         background: #e2eaf6;
         border-radius: 50%;
@@ -227,6 +229,7 @@ i:hover {
         width: 7%;
         height: 5%;
         background-color: transparent;
+        display: none;
         background: #e2eaf6;
         border-radius: 50%;
         z-index: 1000;
@@ -299,6 +302,7 @@ i:hover {
     .sidebar {
         width: 7%;
         height: 5%;
+        display: none;
         background-color: transparent;
         background: #e2eaf6;
         border-radius: 50%;
@@ -373,6 +377,7 @@ i:hover {
         width: 10px;
         height: 60%;
         background-color: transparent;
+        display: none;
         background: #e2eaf6;
         border-radius: 0px 5px 5px 0px;
         z-index: 1000;

@@ -3,7 +3,7 @@
 
     .topic-4 {
         border-top: 0.0625rem solid white; /* Borda superior convertida para rem */
-        margin-top: -1.25rem; /* Margem superior convertida para rem */
+        margin-top: 1.25rem; /* Margem superior convertida para rem */
     }
     
     .topic-4-title {
@@ -46,7 +46,7 @@
 
     .topic-4 {
         border-top: 0.0625rem solid white; /* Borda superior convertida para rem */
-        margin-top: -1.25rem; /* Margem superior convertida para rem */
+        margin-top: 1.25rem; /* Margem superior convertida para rem */
     }
     
     .topic-4-title {
@@ -86,7 +86,7 @@
 @media only screen and (min-width: 651px) and (max-width: 1200px){
 
     .topic-4 {
-        margin-top: 0rem; /* Margem superior convertida para rem */
+        margin-top: 1rem; /* Margem superior convertida para rem */
     }
     
     .topic-4-title {

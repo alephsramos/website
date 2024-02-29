@@ -43,7 +43,6 @@
     font-size: 1rem; /* Tamanho da fonte */
     padding: 0rem; /* Preenchimento */
     margin: 2rem; /* Margem */
-    border-radius: 3rem; /* Borda circular */
     text-align: center; /* Alinhamento do texto ao centro */
     letter-spacing: 0rem; /* Espaçamento entre letras */
 }
@@ -110,7 +109,6 @@
     font-size: 1.5rem; /* Tamanho da fonte */
     padding: 0rem; /* Preenchimento */
     margin: 2rem; /* Margem */
-    border-radius: 3rem; /* Borda circular */
     text-align: center; /* Alinhamento do texto ao centro */
     letter-spacing: 0rem; /* Espaçamento entre letras */
 }
@@ -175,7 +173,6 @@
     font-size: 1.3rem; /* Tamanho da fonte */
     padding: 0rem; /* Preenchimento */
     margin: 3rem; /* Margem */
-    border-radius: 3rem; /* Borda circular */
     text-align: center; /* Alinhamento do texto ao centro */
     letter-spacing: 0rem; /* Espaçamento entre letras */
 }
@@ -239,7 +236,6 @@
     font-size: 2rem; /* Tamanho da fonte */
     padding: 0rem; /* Preenchimento */
     margin: 0rem; /* Margem */
-    border-radius: 3rem; /* Borda circular */
     text-align: center; /* Alinhamento do texto ao centro */
     letter-spacing: 0rem; /* Espaçamento entre letras */
 }

@@ -382,7 +382,7 @@ b {
     box-shadow: 1px 1px 20px 1px black; /* Sombra do parágrafo com desfoque */
     font-family: 'Cairo Play', sans-serif; /* Fonte do parágrafo */
     margin: 4rem; /* Margem */
-    border-radius: 3rem; /* Borda circular do parágrafo */
+    border-radius: 1rem; /* Borda circular do parágrafo */
     text-align: center; /* Alinhamento do texto ao centro */
     letter-spacing: 1rem; /* Espaçamento entre letras */
 }
@@ -475,13 +475,13 @@ b {
 /* Estilo para os separadores de lista no tópico 3 */
 .separador-list-1,
 .separador-list-2 {
-    font-size: 2.35rem; /* Tamanho da fonte */
+    font-size: 2rem; /* Tamanho da fonte */
     color: #ffffff; /* Cor do texto */
     padding: 0.4375rem; /* Preenchimento */
     box-shadow: 1px 1px 20px 1px black; /* Sombra com desfoque */
     font-family: 'Cairo Play', sans-serif; /* Fonte do texto */
     margin: 2rem; /* Margem */
-    border-radius: 3rem; /* Borda circular */
+    border-radius: 1rem; /* Borda circular */
     text-align: center; /* Alinhamento do texto ao centro */
     letter-spacing: 1rem; /* Espaçamento entre letras */
 }

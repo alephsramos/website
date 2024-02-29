@@ -140,10 +140,10 @@ b {
     display: block; /* Configura a exibição do elemento como bloco */
     margin-left: 38%; /* Margem à esquerda da imagem */
     margin-top: 10%; /* Margem superior da imagem */
-    border: 1px solid white;
+    border: 0,5px solid white;
     opacity: 0; /* Opacidade inicial da imagem */
     scale: (1); /* Escala inicial da imagem  */
-    box-shadow: 0 0 0 0 white, 0 0 0 0 #9ca0ea; /* Sombra inicial da imagem com desfoque zero */
+    box-shadow: 0 0 0 0 white, 0 0 0 0 #ffffff; /* Sombra inicial da imagem com desfoque zero */
     animation: animateSurgimento 1.5s ease forwards; /* Define uma animação de surgimento durante 1.5 segundos com função de temporização 'ease' e mantém o estado final */
 }
 

@@ -7,6 +7,7 @@
 /* Estilo aplicado a tudo */
 * {
     box-sizing: border-box;
+
 }
 
 
@@ -801,7 +802,10 @@ b {
 /* Estilo para o rodapé */
 footer {
     border-top: 0.0625rem solid #8841ff; /* Borda superior com uma cor específica */
-    box-shadow: inset 100px 100px 1000px 500px rgba(0, 0, 0, 0.6); /* Sombra interna */
+    box-shadow: inset 100px 100px 1000px 500px rgba(0, 0, 0, 0.3); /* Sombra interna */
+   
+    overflow: hidden;
+    
 }
 
 /* Estilo para o título do rodapé */
@@ -838,7 +842,6 @@ footer {
     height: 3.0rem; /* Altura das imagens */
     margin: 0.5rem; /* Margem das imagens */
     transition: 0.4s ease-in-out; /* Transição suave ao passar o mouse */
-    filter: invert(100%); /* Inverte as cores da imagem */
 }
 
 /* Efeito ao passar o mouse sobre as imagens no rodapé */

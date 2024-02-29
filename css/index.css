@@ -834,6 +834,7 @@ footer {
     align-items: center; /* Alinhamento vertical ao centro */
     justify-content: center; /* Alinhamento horizontal ao centro */
     display: flex; /* Exibe os ícones em linha */
+    
 }
 
 /* Estilo para as imagens no rodapé */

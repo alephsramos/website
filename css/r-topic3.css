@@ -234,8 +234,7 @@
     .separador-list-1,
     .separador-list-2{
     font-size: 2rem; /* Tamanho da fonte */
-    width: 80%;
-    margin-left: 0%;
+    margin: 0;
     padding: 0rem; /* Preenchimento */
     text-align: center; /* Alinhamento do texto ao centro */
     letter-spacing: 0rem; /* Espaçamento entre letras */

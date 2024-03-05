@@ -903,7 +903,10 @@ footer {
     width: 3.0rem; /* Largura das imagens */
     height: 3.0rem; /* Altura das imagens */
     margin: 0.5rem; /* Margem das imagens */
-    transition: 0.4s ease-in-out; /* Transição suave ao passar o mouse */
+    transition: 0.4s ease-in-out; /* Transição suave */
+    animation: appear-right 2s ease; /* Aplica a animação de aparecer da direita com duração de 2 segundos */
+    animation-fill-mode: forwards; /* Mantém o estado final da animação após a conclusão */
+    opacity: 0; /* Opacidade inicial das imagens */
 }
 
 /* Efeito ao passar o mouse sobre as imagens no rodapé */

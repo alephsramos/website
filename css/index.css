@@ -380,7 +380,6 @@ b {
     box-shadow: 1px 1px 20px 1px black; /* Sombra do parágrafo com desfoque */
     font-family: 'Cairo Play', sans-serif; /* Fonte do parágrafo */
     margin: 4rem; /* Margem */
-    border-radius: 1rem; /* Borda circular do parágrafo */
     text-align: center; /* Alinhamento do texto ao centro */
     letter-spacing: 1rem; /* Espaçamento entre letras */
 }

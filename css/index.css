@@ -248,7 +248,6 @@ b {
     font-size: 2rem; /* Tamanho da fonte em rem */
     width: 62.5rem; /* Largura do parágrafo em rem */
     color: #ffffff; /* Cor do texto */
-    border-radius: 2rem; /* Borda circular do parágrafo em rem */
     padding: 0.9375rem; /* Preenchimento em rem */
     box-shadow: 0.03rem 0.03rem 4rem 0.1rem rgba(0, 0, 0, 1); /* Sombra do parágrafo em rem */
     font-family: 'Baloo 2', sans-serif; /* Fonte do parágrafo */
@@ -263,7 +262,6 @@ b {
     color: #ffffff; /* Cor do texto */
     font-family: 'Baloo 2', sans-serif; /* Fonte do parágrafo */
     line-height: 1.2; /* Altura da linha */
-    border-radius: 2rem; /* Borda circular do parágrafo em rem */
     padding: 0.9375rem; /* Preenchimento em rem */
     box-shadow: 0.03rem 0.03rem 4rem 0.1rem rgba(0, 0, 0, 1); /* Sombra do parágrafo em rem */
     font-size: 1.875rem; /* Tamanho da fonte em rem */
@@ -282,7 +280,7 @@ b {
     box-shadow: 0.03125rem 0.03125rem 5.125rem 1.125rem rgba(1,13,72,255); /* Sombra em rem */
     font-family: 'Cairo Play', sans-serif; /* Fonte do texto */
     margin: 4rem; /* Margem */
-    border-radius: 3rem; /* Borda circular em rem */
+
     text-align: center; /* Alinhamento do texto ao centro */
     letter-spacing: 1rem; /* Espaçamento entre letras */
 }
@@ -481,7 +479,6 @@ b {
     box-shadow: 1px 1px 20px 1px black; /* Sombra com desfoque */
     font-family: 'Cairo Play', sans-serif; /* Fonte do texto */
     margin: 2rem; /* Margem */
-    border-radius: 1rem; /* Borda circular */
     text-align: center; /* Alinhamento do texto ao centro */
     letter-spacing: 1rem; /* Espaçamento entre letras */
 }

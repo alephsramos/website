@@ -225,13 +225,13 @@
 
     /* Estilo para os parágrafos da seção 5 */
     .section-5-p {
-        font-size: 2.5vh; /* Tamanho da fonte em porcentagem */
+        font-size: 2vh; /* Tamanho da fonte em porcentagem */
         border-radius: 1.5px;
         width: 80%; /* Largura do parágrafo em porcentagem */
         padding: 2vh; /* Preenchimento em porcentagem */
         margin: 0 auto;
+        margin-top: 1%;
         margin-bottom: 15%;
-        margin-top: 5%;
         text-align: justify; /* Alinhamento do texto ao centro */
     }
 
@@ -409,13 +409,13 @@
 
     /* Estilo para os parágrafos da seção 5 */
     .section-5-p {
-        font-size: 3vh; /* Tamanho da fonte em porcentagem */
+        font-size: 2.8vh; /* Tamanho da fonte em porcentagem */
         border-radius: 1.5px;
-        width: 80%; /* Largura do parágrafo em porcentagem */
+        width: 75%; /* Largura do parágrafo em porcentagem */
         padding: 2vh; /* Preenchimento em porcentagem */
         margin: 0 auto;
-        margin-bottom: 10%;
-        margin-top: 5%;
+        margin-top: -5%;
+        margin-bottom: 3%;
         text-align: justify; /* Alinhamento do texto ao centro */
     }
 

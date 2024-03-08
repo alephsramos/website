@@ -721,7 +721,7 @@
     
     .ifrj-p{
         font-size: 1.5rem; /* Tamanho da fonte em rem */
-        width: 100.5rem; /* Largura do parágrafo em rem */
+        width: 75%; /* Largura do parágrafo em rem */
         opacity: 0.8;
         color: #ffffff; /* Cor do texto */
         box-shadow: 1px 1px 20px 1px black; /* Sombra do parágrafo com desfoque */

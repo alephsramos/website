@@ -909,53 +909,53 @@ b {
 }
 
 .skill-bar1::-webkit-progress-value {
-    background: linear-gradient(to right, #041c70, #41a5ee);
+    background: linear-gradient(to right,  #f7e018, #e43c04, #f7e018);
     border-radius: 15px;
 }
 
 .skill-bar2::-webkit-progress-value {
-    background: linear-gradient(to right, #0d5230, #4c9c6c);
+    background: linear-gradient(to right, #f7e018, #e43c04, #f7e018);
     border-radius: 15px;
 }
 
 .skill-bar3::-webkit-progress-value {
-    background: linear-gradient(to right, #c1240e, #fa916c);
+    background: linear-gradient(to right, #f7e018, #e43c04, #f7e018);
     border-radius: 15px;
 }
 .skill-bar4::-webkit-progress-value {
-    background: linear-gradient(to right, #e43c04, #e08a72);
+    background: linear-gradient(to right, #f7e018, #e43c04, #f7e018);
     border-radius: 15px;
 }
 .skill-bar5::-webkit-progress-value {
-    background: linear-gradient(to right, #234be4, #8ca4f4);
+    background: linear-gradient(to right, #f7e018, #e43c04, #f7e018);
     border-radius: 15px;
 }
 .skill-bar6::-webkit-progress-value {
-    background: linear-gradient(to right, #f7e018, #f7e018);
+    background: linear-gradient(to right, #f7e018, #e43c04, #f7e018);
     border-radius: 15px;
 }
 .skill-bar7::-webkit-progress-value {
-    background: linear-gradient(to right, #fbbb05, #3b8bdb);
+    background: linear-gradient(to right, #f7e018, #e43c04, #f7e018);
     border-radius: 15px;
 }
 .skill-bar8::-webkit-progress-value {
-    background: linear-gradient(to right, #c87eff, #c87eff);
+    background: linear-gradient(to right, #f7e018, #e43c04, #f7e018);
     border-radius: 15px;
 }
 .skill-bar9::-webkit-progress-value {
-    background: linear-gradient(to right, #04a086, #0af5ce);
+    background: linear-gradient(to right, #f7e018, #e43c04, #f7e018);
     border-radius: 15px;
 }
 .skill-bar10::-webkit-progress-value {
-    background: linear-gradient(to right, #000000, #3a3a3a);
+    background: linear-gradient(to right, #f7e018, #e43c04, #f7e018);
     border-radius: 15px;
 }
 .skill-bar11::-webkit-progress-value {
-    background: linear-gradient(to right, #6100ac, #ae45ff);
+    background: linear-gradient(to right, #f7e018, #e43c04, #f7e018);
     border-radius: 15px;
 }
 .skill-bar12::-webkit-progress-value {
-    background: linear-gradient(to right, #005e14, #1be747);
+    background: linear-gradient(to right, #f7e018, #e43c04, #f7e018);
     border-radius: 15px;
 }
 

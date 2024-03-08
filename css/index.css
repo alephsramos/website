@@ -867,8 +867,52 @@ b {
     text-align: center; /* Alinhamento do texto ao centro */
 }
 
+.section-7{
+    border-top: 0.0625rem solid #8841ff; /* Borda superior com uma cor específica */
+}
 
+.section7 {
+    margin-left: 20%;
+    margin-right: 20%;
+    color: #ffffff;
+}
 
+.title-section7 {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+progress {
+    width: 100%;
+    height: 15px;
+    appearance: none;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 10px; /* Espaçamento entre as habilidades */
+}
+
+progress::-webkit-progress-bar {
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+progress::-webkit-progress-value {
+    background: linear-gradient(to right, #9188c8, #9188c8);
+    border-radius: 15px;
+}
+
+.p7 {
+    font-family: 'Baloo 2', sans-serif;
+    font-size: 1rem;
+    flex: 0 0 48%; /* Define a largura da habilidade conforme necessário */
+}
 
 /* Fechamento da section 4 e abertura do footer */
 
@@ -1030,6 +1074,7 @@ footer {
 }
 
 
+
 /* BARRA DE ROLAGEM PARA O WEBKIT */
 
 
@@ -1090,7 +1135,6 @@ footer {
     opacity: 1;
     transform: translateX(0); /* Move de volta para a posição original da direita */
 }
-
 
 
 

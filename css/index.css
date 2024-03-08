@@ -403,6 +403,20 @@ b {
     border-top: 1px solid #8841ff; /* Borda superior com uma cor específica */
 }
 
+.insignias{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5%;
+
+}
+
+.insignias img{
+    width: 7%;
+    height: 15%;
+    margin: 5px;
+}
+
 /* Estilo para o título do tópico 3 */
 .topic-3-title {
     color: #ffffff; /* Cor do texto */

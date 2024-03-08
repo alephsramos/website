@@ -4,6 +4,12 @@
     .topic-3-title {
         font-size: 5vw; /* Tamanho relativo à largura da tela */
     }
+
+    .insignias img{
+        width: 13%;
+        height: 15%;
+        margin: 2px;
+    }
     
     .topic-3-imgs {
         max-width: 100%; /* Largura máxima relativa à largura da tela */
@@ -69,6 +75,12 @@
     .topic-3-title {
         font-size: 6.5vw; /* Tamanho relativo à largura da tela */
     }
+
+    .insignias img{
+        width: 15%;
+        height: 15%;
+        margin: 2px;
+    }
     
     .topic-3-imgs {
         max-width: 100%; /* Largura máxima relativa à largura da tela */
@@ -133,6 +145,12 @@
     
     .topic-3-title {
         font-size: 4.5vw; /* Tamanho relativo à largura da tela */
+    }
+
+    .insignias img{
+        width: 13%;
+        height: 15%;
+        margin: 2px;
     }
     
     .topic-3-imgs {

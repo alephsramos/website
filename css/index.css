@@ -869,6 +869,7 @@ b {
 
 .section-7{
     border-top: 0.0625rem solid #8841ff; /* Borda superior com uma cor específica */
+    box-shadow: inset 100px 100px 1000px 500px rgba(0, 0, 0, 0.3); /* Sombra interna */
 }
 
 .section7 {
@@ -971,7 +972,7 @@ b {
 
 /* Estilo para o rodapé */
 footer {
-    border-top: 0.0625rem solid #8841ff; /* Borda superior com uma cor específica */
+
     box-shadow: inset 100px 100px 1000px 500px rgba(0, 0, 0, 0.3); /* Sombra interna */
    
     overflow: hidden;

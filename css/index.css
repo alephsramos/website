@@ -889,7 +889,7 @@ b {
     justify-content: space-between;
 }
 
-progress {
+.skill-bar {
     width: 100%;
     height: 15px;
     appearance: none;
@@ -898,15 +898,62 @@ progress {
     margin-bottom: 10px; /* Espaçamento entre as habilidades */
 }
 
-progress::-webkit-progress-bar {
+.skill-bar::-webkit-progress-bar {
     background-color: #fff;
     border-radius: 15px;
 }
 
-progress::-webkit-progress-value {
-    background: linear-gradient(to right, #9188c8, #9188c8);
+.skill-bar1::-webkit-progress-value {
+    background: linear-gradient(to right, #041c70, #41a5ee);
     border-radius: 15px;
 }
+
+.skill-bar2::-webkit-progress-value {
+    background: linear-gradient(to right, #0d5230, #4c9c6c);
+    border-radius: 15px;
+}
+
+.skill-bar3::-webkit-progress-value {
+    background: linear-gradient(to right, #c1240e, #fa916c);
+    border-radius: 15px;
+}
+.skill-bar4::-webkit-progress-value {
+    background: linear-gradient(to right, #e43c04, #e08a72);
+    border-radius: 15px;
+}
+.skill-bar5::-webkit-progress-value {
+    background: linear-gradient(to right, #234be4, #8ca4f4);
+    border-radius: 15px;
+}
+.skill-bar6::-webkit-progress-value {
+    background: linear-gradient(to right, #f7e018, #f7e018);
+    border-radius: 15px;
+}
+.skill-bar7::-webkit-progress-value {
+    background: linear-gradient(to right, #fbbb05, #3b8bdb);
+    border-radius: 15px;
+}
+.skill-bar8::-webkit-progress-value {
+    background: linear-gradient(to right, #c87eff, #c87eff);
+    border-radius: 15px;
+}
+.skill-bar9::-webkit-progress-value {
+    background: linear-gradient(to right, #04a086, #0af5ce);
+    border-radius: 15px;
+}
+.skill-bar10::-webkit-progress-value {
+    background: linear-gradient(to right, #000000, #3a3a3a);
+    border-radius: 15px;
+}
+.skill-bar11::-webkit-progress-value {
+    background: linear-gradient(to right, #6100ac, #ae45ff);
+    border-radius: 15px;
+}
+.skill-bar12::-webkit-progress-value {
+    background: linear-gradient(to right, #005e14, #1be747);
+    border-radius: 15px;
+}
+
 
 .p7 {
     font-family: 'Baloo 2', sans-serif;

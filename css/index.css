@@ -880,7 +880,11 @@ b {
 .title-section7 {
     text-align: center;
     font-family: 'Dancing Script', cursive;
+    font-weight: 800;
     font-size: 3rem;
+    background: linear-gradient(45deg, #ffffff, #f7e018, #e43c04, #f7e018, #6100ac);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .skills-container {

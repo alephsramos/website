@@ -49,6 +49,10 @@
     }
     
 
+    .img-socialmedia{
+        width: 80%;
+    }
+
 }
 
 @media only screen and (min-width: 376px) and (max-width: 650px) {
@@ -96,6 +100,10 @@
         margin-top: -5%;
     }
     
+    .img-socialmedia{
+        width: 70%;
+    }
+
 }
 
 @media only screen and (min-width: 651px) and (max-width: 1200px) {
@@ -143,6 +151,9 @@
         margin-top: -10%;
     }
     
+    .img-socialmedia{
+        width: 65%;
+    }
 
 }
 
@@ -155,7 +166,7 @@
     }
 
     .section-6-h1 {
-        font-size: 6vh; /* Tamanho da fonte em porcentagem */
+        font-size: 4rem; /* Tamanho da fonte em porcentagem */
         border-radius: 1.5px;
         width: 80%; /* Largura do parágrafo em porcentagem */
         padding: 2vh; /* Preenchimento em porcentagem */
@@ -168,7 +179,7 @@
 
     /* Estilo para os parágrafos da seção 5 */
     .section-6-p {
-        font-size: 2.6vh; /* Tamanho da fonte em porcentagem */
+        font-size: 1.5rem; /* Tamanho da fonte em porcentagem */
         border-radius: 1.5px;
         width: 80%; /* Largura do parágrafo em porcentagem */
         padding: 1vh; /* Preenchimento em porcentagem */
@@ -177,6 +188,10 @@
         
         margin-top: 4%;
         text-align: justify; /* Alinhamento do texto ao centro */
+    }
+
+    .img-socialmedia{
+        width: 45%;
     }
 
 

@@ -7,7 +7,6 @@
 /* Estilo aplicado a tudo */
 * {
     box-sizing: border-box;
-
 }
 
 
@@ -26,7 +25,7 @@ html, body {
     transition: opacity 1.3s ease-in-out; /* Transição suave para a propriedade de opacidade */
     cursor: url("../img/icons/cursor.png"), auto; /* Define o cursor personalizado */
     overflow-x: hidden; /* Esconde a barra de rolagem horizontal */
-    filter: brightness(100%) saturate(120%);
+
 }
 
 /* Pseudo-elemento antes do corpo da página */
@@ -376,7 +375,7 @@ b {
     width: 20rem;
     border-radius: 20px;
     border: #000000 2px solid;
-    box-shadow: 4px 6px 1px 1px black;
+    box-shadow: 2px 2px 30px 1px black;
   }
   
   .pic-ctn > img {
@@ -469,6 +468,7 @@ b {
 /* Estilo para a primeira imagem no tópico 2 */
 .topic-2-img-1 {
     width: 18.75vh; /* Largura da imagem */
+    filter: saturate(120%);
     border-radius: 1.25rem; /* Borda circular */
     margin: 0.3125rem; /* Margem */
     box-shadow: 1px 1px 30px 1px black; /* Sombra da imagem com desfoque  */

@@ -342,7 +342,7 @@ b {
   
   @keyframes display {
     0% {
-      transform: translateX(0px) scale(1.3);
+      transform: translateX(0px) scale(1);
       opacity: 0;
 
     }
@@ -373,6 +373,9 @@ b {
 
   .pic-ctn img{
     width: 20rem;
+    border-radius: 20px;
+    border: #000000 2px solid;
+    box-shadow: 4px 6px 1px 1px black;
   }
   
   .pic-ctn > img {

@@ -73,7 +73,7 @@
 }
 
 .topic-1-img-1:hover{
-    transform: scale(1.12);
+    transform: scale(1.4);
 }
 
 /* Estilo para o parágrafo final do tópico 1 */
@@ -155,6 +155,10 @@
 .topic-1-img-1 {
     width: 25%; /* Largura da imagem */
     margin: 2px;
+}
+
+.topic-1-img-1:hover {
+    transform: scale(1.4); /* Aumenta a escala da imagem */
 }
 
 /* Estilo para o parágrafo final do tópico 1 */

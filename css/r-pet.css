@@ -5,7 +5,7 @@
         z-index: 1000;
 
         margin-bottom: 20px;
-        margin-right: 5px;
+        margin-right: -3px;
         }
 
         .pet2{
@@ -13,7 +13,7 @@
             height: 1.6rem;
             z-index: 1000;
             margin-bottom: 60px;
-            margin-right: 5px;
+            margin-right: -3px;
             }
 
             .pet3{
@@ -21,7 +21,7 @@
                 height: 1.6rem;
                 z-index: 1000;
                 margin-bottom: 100px;
-                margin-right: 5px;
+                margin-right: -3px;
                 }
         
                 .pet4{
@@ -29,7 +29,7 @@
                     height: 1.6rem;
                     z-index: 1000;
                     margin-bottom: 140px;
-                    margin-right: 5px;
+                    margin-right: -3px;
                     }
 }
 
@@ -39,31 +39,31 @@
         height: 1.9rem;
         z-index: 1000;
         margin-bottom: 20px;
-        margin-right: 5px;
+        margin-right: -5px;
         }
 
         .pet2{
             width: 1.9rem;
             height: 1.9rem;
             z-index: 1000;
-            margin-bottom: 70px;
-            margin-right: 5px;
+            margin-bottom: 65px;
+            margin-right: -5px;
             }
 
             .pet3{
                 width: 1.9rem;
                 height: 1.9rem;
                 z-index: 1000;
-                margin-bottom: 120px;
-                margin-right: 5px;
+                margin-bottom: 110px;
+                margin-right: -5px;
                 }
         
                 .pet4{
                     width: 1.9rem;
                     height: 1.9rem;
                     z-index: 1000;
-                    margin-bottom: 170px;
-                    margin-right: 5px;
+                    margin-bottom: 155px;
+                    margin-right: -5px;
                     }
 }
 

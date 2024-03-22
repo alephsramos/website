@@ -113,6 +113,7 @@ b {
     animation: appear-right 2s ease; /* Aplica a animação de aparecer da direita com duração de 2 segundos */
     animation-fill-mode: forwards; /* Mantém o estado final da animação após a conclusão */
     opacity: 0; /* Opacidade inicial das imagens */
+    
 }
 
 /* Efeito ao passar o mouse nas imagens da barra de ícones */
@@ -136,14 +137,12 @@ b {
 
 /* Estilo para a imagem sobre mim */
 .img-sobre-mim {
-    border-radius: 50%; /* Borda arredondada, criando uma forma circular para a imagem */
     display: block; /* Configura a exibição do elemento como bloco */
     margin-left: 38%; /* Margem à esquerda da imagem */
     margin-top: 10%; /* Margem superior da imagem */
-    border: 0,5px solid white;
-    opacity: 0; /* Opacidade inicial da imagem */
+    opacity: 1; /* Opacidade inicial da imagem */
     scale: (1); /* Escala inicial da imagem  */
-    box-shadow: 0 0 0 0 white, 0 0 0 0 #ffffff; /* Sombra inicial da imagem com desfoque zero */
+    box-shadow: 0 0 50px 50px rgba(0, 0, 0, 0.5); /* Sombra inicial da imagem com desfoque zero */
     animation: animateSurgimento 1.5s ease forwards; /* Define uma animação de surgimento durante 1.5 segundos com função de temporização 'ease' e mantém o estado final */
 }
 

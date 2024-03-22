@@ -83,3 +83,5 @@ sidebar.addEventListener('mouseenter', () => {
 sidebar.addEventListener('mouseleave', () => {
     sidebar.style.width = '10px'; // Largura inicial da barra lateral quase invisível
 });
+
+

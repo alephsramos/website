@@ -1,21 +1,70 @@
 @media only screen and (max-width: 320px){
     .pet{
-    width: 1.2rem;
-    height: 1.2rem;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    z-index: 1000;
-    }
+        width: 1.6rem;
+        height: 1.6rem;
+        z-index: 1000;
+
+        margin-bottom: 170px;
+        margin-right: 10px;
+        }
+
+        .pet2{
+            width: 1.6rem;
+            height: 1.6rem;
+            z-index: 1000;
+            margin-bottom: 210px;
+            margin-right: 10px;
+            }
+
+            .pet3{
+                width: 1.6rem;
+                height: 1.6rem;
+                z-index: 1000;
+                margin-bottom: 250px;
+                margin-right: 10px;
+                }
+        
+                .pet4{
+                    width: 1.6rem;
+                    height: 1.6rem;
+                    z-index: 1000;
+                    margin-bottom: 290px;
+                    margin-right: 10px;
+                    }
 }
 
 @media only screen and (min-width: 321px) and (max-width: 480px){
     .pet{
-        width: 1.5rem;
-        height: 1.5rem;
+        width: 1.9rem;
+        height: 1.9rem;
         z-index: 1000;
-        margin-bottom: 25px;
-        margin-right: 25px;
+        margin-bottom: 220px;
+        margin-right: 10px;
         }
+
+        .pet2{
+            width: 1.9rem;
+            height: 1.9rem;
+            z-index: 1000;
+            margin-bottom: 270px;
+            margin-right: 10px;
+            }
+
+            .pet3{
+                width: 1.9rem;
+                height: 1.9rem;
+                z-index: 1000;
+                margin-bottom: 320px;
+                margin-right: 10px;
+                }
+        
+                .pet4{
+                    width: 1.9rem;
+                    height: 1.9rem;
+                    z-index: 1000;
+                    margin-bottom: 370px;
+                    margin-right: 10px;
+                    }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 720px){
@@ -28,12 +77,36 @@
 
 @media only screen and (min-width: 721px) and (max-width: 1260px){
     .pet{
-        width: 2.2rem;
-        height: 2.2rem;
+        width: 3.5rem;
+        height: 3.5rem;
         z-index: 1000;
-        margin-bottom: 25px;
-        margin-right: 25px;
+        margin-bottom: 20px;
+        margin-right: 15px;
         }
+
+        .pet2{
+            width: 3.5rem;
+            height: 3.5rem;
+            z-index: 1000;
+            margin-bottom: 100px;
+            margin-right: 15px;
+            }
+
+            .pet3{
+                width: 3.5rem;
+                height: 3.5rem;
+                z-index: 1000;
+                margin-bottom: 180px;
+                margin-right: 15px;
+                }
+        
+                .pet4{
+                    width: 3.5rem;
+                    height: 3.5rem;
+                    z-index: 1000;
+                    margin-bottom: 260px;
+                    margin-right: 15px;
+                    }
 }
 
 @media only screen and (min-width: 1261px) and (max-width: 2260px){
@@ -44,4 +117,28 @@
         margin-bottom: 20px;
         margin-right: 20px;
         }
+
+        .pet2{
+            width: 2.5rem;
+            height: 2.5rem;
+            z-index: 1000;
+            margin-bottom: 80px;
+            margin-right: 20px;
+            }
+
+            .pet3{
+                width: 2.5rem;
+                height: 2.5rem;
+                z-index: 1000;
+                margin-bottom: 140px;
+                margin-right: 20px;
+                }
+        
+                .pet4{
+                    width: 2.5rem;
+                    height: 2.5rem;
+                    z-index: 1000;
+                    margin-bottom: 200px;
+                    margin-right: 20px;
+                    }
     }

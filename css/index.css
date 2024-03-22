@@ -59,12 +59,56 @@ b {
     bottom: 10px; /* Define a distância do elemento em relação à parte inferior como 10 pixels */
     right: 10px; /* Define a distância do elemento em relação à parte direita como 10 pixels */
     width: 3.5rem; /* Define a largura do elemento como 3.5 rem */
+    border-radius: 50%;
     z-index: 1000; /* Define a ordem de empilhamento do elemento, quanto maior, mais acima ele estará */
     height: 3.5rem; /* Define a altura do elemento como 3.5 rem */
-    background-image: url('../img/icons/aleph-link.png'); /* Define uma imagem de fundo para o elemento */
+    background-image: url('../img/icons/whatsapp-1.png'); /* Define uma imagem de fundo para o elemento */
     background-size: cover; /* Faz com que a imagem de fundo cubra completamente o elemento */
-    animation: petAnimation 2s infinite alternate; /* Aplica uma animação chamada petAnimation com duração de 2 segundos, repetição infinita e direção alternada */
+    animation: petAnimation 0.5s infinite alternate; /* Aplica uma animação chamada petAnimation com duração de 2 segundos, repetição infinita e direção alternada */
 }
+
+.pet2 {
+    position: fixed; /* Define a posição do elemento como fixa em relação à janela de visualização */
+    opacity: 0.5; /* Define a opacidade do elemento como 0.5 (semi-transparente) */
+    bottom: 10px; /* Define a distância do elemento em relação à parte inferior como 10 pixels */
+    right: 10px; /* Define a distância do elemento em relação à parte direita como 10 pixels */
+    width: 3.5rem; /* Define a largura do elemento como 3.5 rem */
+    z-index: 1000; /* Define a ordem de empilhamento do elemento, quanto maior, mais acima ele estará */
+    height: 3.5rem; /* Define a altura do elemento como 3.5 rem */
+    border-radius: 50%;
+    background-image: url('../img/icons/linkedin\(pet\).png'); /* Define uma imagem de fundo para o elemento */
+    background-size: cover; /* Faz com que a imagem de fundo cubra completamente o elemento */
+    animation: petAnimation 0.5s infinite alternate; /* Aplica uma animação chamada petAnimation com duração de 2 segundos, repetição infinita e direção alternada */
+}
+
+.pet3 {
+    position: fixed; /* Define a posição do elemento como fixa em relação à janela de visualização */
+    opacity: 0.5; /* Define a opacidade do elemento como 0.5 (semi-transparente) */
+    bottom: 10px; /* Define a distância do elemento em relação à parte inferior como 10 pixels */
+    right: 10px; /* Define a distância do elemento em relação à parte direita como 10 pixels */
+    width: 3.5rem; /* Define a largura do elemento como 3.5 rem */
+    z-index: 1000; /* Define a ordem de empilhamento do elemento, quanto maior, mais acima ele estará */
+    height: 3.5rem; /* Define a altura do elemento como 3.5 rem */
+    border-radius: 50%;
+    background-image: url('../img/icons/github-1.png'); /* Define uma imagem de fundo para o elemento */
+    background-size: cover; /* Faz com que a imagem de fundo cubra completamente o elemento */
+    animation: petAnimation 0.5s infinite alternate; /* Aplica uma animação chamada petAnimation com duração de 2 segundos, repetição infinita e direção alternada */
+}
+
+.pet4 {
+    position: fixed; /* Define a posição do elemento como fixa em relação à janela de visualização */
+    opacity: 0.5; /* Define a opacidade do elemento como 0.5 (semi-transparente) */
+    bottom: 10px; /* Define a distância do elemento em relação à parte inferior como 10 pixels */
+    right: 10px; /* Define a distância do elemento em relação à parte direita como 10 pixels */
+    width: 3.5rem; /* Define a largura do elemento como 3.5 rem */
+    z-index: 1000; /* Define a ordem de empilhamento do elemento, quanto maior, mais acima ele estará */
+    height: 3.5rem; /* Define a altura do elemento como 3.5 rem */
+    border-radius: 50%;
+    background-image: url('../img/icons/email-1.png'); /* Define uma imagem de fundo para o elemento */
+    background-size: cover; /* Faz com que a imagem de fundo cubra completamente o elemento */
+    animation: petAnimation 0.5s infinite alternate; /* Aplica uma animação chamada petAnimation com duração de 2 segundos, repetição infinita e direção alternada */
+}
+
 
 /* Estilo para a barra de navegação (navbar) */
 .nav-bar {

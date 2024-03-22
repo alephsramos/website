@@ -1,4 +1,6 @@
 @media only screen and (max-width: 320px){
+
+    
     .pet{
         width: 2rem;
         height: 2rem;
@@ -62,17 +64,42 @@
                     height: 2rem;
                     z-index: 1000;
                     margin-bottom: 10px;
-                    margin-right: 240px;
+                    margin-right: 20px;
                     }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 720px){
     .pet{
-        width: 1.8rem;
-        height: 1.8rem;
+        width: 2rem;
+        height: 2rem;
         z-index: 1000;
+        margin-bottom: 20px;
+        margin-right: 5px;
         }
-}
+
+        .pet2{
+            width: 2rem;
+            height: 2rem;
+            z-index: 1000;
+            margin-bottom: 60px;
+            margin-right: 5px;
+            }
+
+            .pet3{
+                width: 2rem;
+                height: 2rem;
+                z-index: 1000;
+                margin-bottom: 100px;
+                margin-right: 5px;
+                }
+        
+                .pet4{
+                    width: 2rem;
+                    height: 2rem;
+                    z-index: 1000;
+                    margin-bottom: 140px;
+                    margin-right: 5px;
+                    }
 
 @media only screen and (min-width: 721px) and (max-width: 1260px){
     .pet{

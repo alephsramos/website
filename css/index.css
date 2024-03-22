@@ -52,6 +52,8 @@ b {
     width: 100%; /* Define a largura total do site como 100% */
 }
 
+
+
 /* Estilo para a classe .pet */
 .pet {
     position: fixed; /* Define a posição do elemento como fixa em relação à janela de visualização */

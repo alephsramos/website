@@ -4,32 +4,32 @@
         height: 1.6rem;
         z-index: 1000;
 
-        margin-bottom: 170px;
-        margin-right: 10px;
+        margin-bottom: 20px;
+        margin-right: 5px;
         }
 
         .pet2{
             width: 1.6rem;
             height: 1.6rem;
             z-index: 1000;
-            margin-bottom: 210px;
-            margin-right: 10px;
+            margin-bottom: 60px;
+            margin-right: 5px;
             }
 
             .pet3{
                 width: 1.6rem;
                 height: 1.6rem;
                 z-index: 1000;
-                margin-bottom: 250px;
-                margin-right: 10px;
+                margin-bottom: 100px;
+                margin-right: 5px;
                 }
         
                 .pet4{
                     width: 1.6rem;
                     height: 1.6rem;
                     z-index: 1000;
-                    margin-bottom: 290px;
-                    margin-right: 10px;
+                    margin-bottom: 140px;
+                    margin-right: 5px;
                     }
 }
 
@@ -38,32 +38,32 @@
         width: 1.9rem;
         height: 1.9rem;
         z-index: 1000;
-        margin-bottom: 220px;
-        margin-right: 10px;
+        margin-bottom: 20px;
+        margin-right: 5px;
         }
 
         .pet2{
             width: 1.9rem;
             height: 1.9rem;
             z-index: 1000;
-            margin-bottom: 270px;
-            margin-right: 10px;
+            margin-bottom: 70px;
+            margin-right: 5px;
             }
 
             .pet3{
                 width: 1.9rem;
                 height: 1.9rem;
                 z-index: 1000;
-                margin-bottom: 320px;
-                margin-right: 10px;
+                margin-bottom: 120px;
+                margin-right: 5px;
                 }
         
                 .pet4{
                     width: 1.9rem;
                     height: 1.9rem;
                     z-index: 1000;
-                    margin-bottom: 370px;
-                    margin-right: 10px;
+                    margin-bottom: 170px;
+                    margin-right: 5px;
                     }
 }
 

@@ -17,7 +17,7 @@ html, body {
     height: auto;
     background-size: cover;
     background-position: center;
-    background-image: url("../img/backgrounds/fundo-teste.jpg"); /* Define a imagem de fundo */
+    background-image: url("../img/backgrounds/fundo-teste2.jpg"); /* Define a imagem de fundo */
     background-attachment: fixed; /* Fixa a imagem de fundo para que ela não role com a página */
     position: relative; /* Define a posição como relativa para o corpo */
     animation: animateBackground 30s linear infinite alternate; /* Aplica uma animação de fundo com duração de 30s */
@@ -25,6 +25,7 @@ html, body {
     transition: opacity 1.3s ease-in-out; /* Transição suave para a propriedade de opacidade */
     cursor: url("../img/icons/cursor.png"), auto; /* Define o cursor personalizado */
     overflow-x: hidden; /* Esconde a barra de rolagem horizontal */
+
 
 }
 

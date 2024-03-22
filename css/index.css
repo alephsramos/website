@@ -145,6 +145,7 @@ b {
     animation: typing 3s linear 0s forwards; /* Adiciona uma animação chamada 'typing' com duração de 3 segundos, início linear imediato e retenção do estado final */
 }
 
+
 /* Estilo para a barra de ícones */
 .icons-bar {
     margin-right: 6.25rem; /* Margem à direita */

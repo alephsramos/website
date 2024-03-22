@@ -26,6 +26,7 @@ html, body {
     transition: opacity 1.3s ease-in-out; /* Transição suave para a propriedade de opacidade */
     cursor: url("../img/icons/cursor.png"), auto; /* Define o cursor personalizado */
     overflow-x: hidden; /* Esconde a barra de rolagem horizontal */
+    filter: brightness(100%) saturate(120%);
 }
 
 /* Pseudo-elemento antes do corpo da página */

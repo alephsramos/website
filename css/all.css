@@ -1,7 +1,7 @@
 @media only screen and (min-width: 10px) and (max-width: 1200px){
     html, body {
         margin: 0; /* Remove margens padrão do corpo e do HTML */
-        background-image: url("../img/backgrounds/fundo-teste3.png"); /* Define a imagem de fundo */
+        background-image: url("../img/backgrounds/fundo-teste3teste.png"); /* Define a imagem de fundo */
         background-attachment: fixed; /* Fixa a imagem de fundo para que ela não role com a página */
         background-position: center; /* Centraliza a posição da imagem de fundo */
         background-size: cover;

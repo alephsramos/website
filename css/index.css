@@ -71,7 +71,7 @@ b {
     opacity: 0.5; /* Define a opacidade do elemento como 0.5 (semi-transparente) */
     bottom: 10px; /* Define a distância do elemento em relação à parte inferior como 10 pixels */
     right: 10px; /* Define a distância do elemento em relação à parte direita como 10 pixels */
-    width: 3.5rem; /* Define a largura do elemento como 3.5 rem */
+    width: 3.5rem;
     z-index: 1000; /* Define a ordem de empilhamento do elemento, quanto maior, mais acima ele estará */
     height: 3.5rem; /* Define a altura do elemento como 3.5 rem */
     border-radius: 50%;

@@ -10,7 +10,7 @@
         animation: none; /* Aplica uma animação de fundo com duração de 30s */
         transition: none; /* Transição suave para a propriedade de opacidade */
         cursor: url("../img/icons/cursor.png"), auto; /* Define o cursor personalizado */
-        box-shadow: inset 1111px 11111px 11100px 10110px rgba(0, 0, 0, 0.4); /* Sombra leve ao redor do corpo */
+        box-shadow: inset 1111px 11111px 11100px 10110px rgba(0, 0, 0, 0.5); /* Sombra leve ao redor do corpo */
         overflow-x: hidden; /* Esconde a barra de rolagem horizontal */
     }
 

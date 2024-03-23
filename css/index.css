@@ -1176,19 +1176,19 @@ footer {
 @keyframes animateSurgimento {
     0% {
         opacity: 0;
-        transform: translateY(-10px);
-        border-radius: 0;
+        transform: rotate(280deg);
+        border-radius: 40%;
         transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out; /* Define duração e curva de transição */
-        box-shadow: 1px 1px 20px 1px black;
+        box-shadow: 10px 10px 50px 10px #945AEF;
 
 
     }
     100% {
         opacity: 1;
-        transform: translateY(0px);
+        transform: rotate(360deg);
         border-radius: 50%;
-        box-shadow: 1px 1px 10px 1px 
-        #9ca0ea;
+        box-shadow: 0px 0px 2px 0px 
+        #945AEF;
 
     }
 }

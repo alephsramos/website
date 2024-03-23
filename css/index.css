@@ -1091,7 +1091,7 @@ b {
 /* Estilo para o rodapé */
 footer {
 
-    box-shadow: inset 100px 100px 1000px 500px rgba(0, 0, 0, 0.3); /* Sombra interna */
+    box-shadow: inset 100px 100px 1000px 500px rgba(0, 0, 0, 0.5); /* Sombra interna */
    
     overflow: hidden;
     

@@ -5,11 +5,20 @@
         font-size: 5vw; /* Tamanho relativo à largura da tela */
     }
 
-    .insignias img{
-        width: 13%;
-        height: 15%;
-        margin: 2px;
-    }
+.insignias{
+    margin-top: 10%;
+}
+
+.insignias img {
+    width: 13%;
+    height: 15%;
+    margin: 2px;
+    transition: width 0.3s ease; /* Adiciona uma transição suave para a mudança de largura */
+}
+
+.insignias img:hover {
+    width: 15%; /* Aumenta a largura quando o mouse passa por cima */
+}
     
     .topic-3-imgs {
         max-width: 100%; /* Largura máxima relativa à largura da tela */

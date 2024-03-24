@@ -129,72 +129,44 @@
     }
 }
 
-
-
 @media only screen and (min-width: 1201px) and (max-width: 2000px) {
 
-    /* Estilo para o contêiner geral */
-.container {
-    width: 100%; /* Largura total do contêiner */
-    text-align: center;
-    align-items: center;
-}
+    /* Estilo para a seção "sobre mim" */
+    .sobre-mim {
+        margin-top: 10%;
+    }
 
-/* Estilo para a imagem */
-.img-sobre-mim {
-    float: left; /* Faz a imagem flutuar para a esquerda */
-    margin-right: 20px; /* Adiciona uma margem à direita da imagem */
-    width: 25%;
-margin-left: 10%;
-}
+    /* Estilo para a imagem "sobre mim" */
+    .img-sobre-mim {
+        margin-left: 22%;
+        width: 20%;
+        margin-top: 15%;
+        scale: 1;
+        display: block;
+        margin: 0 auto;
+    }
 
-/* Estilo para o contêiner de texto */
-.text-container {
-    overflow: hidden; /* Limpa o overflow dos elementos flutuantes */
-    align-items: center; /* Centraliza os filhos ao longo do eixo transversal (verticalmente) */
-    display: flex; /* Exibe os elementos como um contêiner flexível */
-    justify-content: center; /* Centraliza os filhos ao longo do eixo principal (horizontalmente) */
-    flex-direction: column; /* Define a direção dos elementos filhos como coluna */
-}
-}
+    /* Estilo para o título "sobre mim" */
+    .title-sobre-mim {
+        font-size: 6vh;
+    }
 
-/* Estilo para o título sobre mim */
-.title-sobre-mim {
-    color: white; /* Define a cor do texto como branca */
-    font-size: 8vh; /* Define o tamanho da fonte como 6% da altura da viewport */
-    text-align: center; /* Alinha o texto ao centro */
-    font-family: 'Dancing Script', cursive; /* Define a fonte do título */
-    margin-top: 15%;
-    width: 50%;
-    text-align: center;
-    margin-left: -5%;
-}
+    /* Estilo para o parágrafo "sobre mim" */
+    .paragraph-sobre-mim {
+        font-size: 2.8vh;
+        border-radius: 1.5px;
+        width: 80%;
+        padding: 2vh;
+        margin: 0 auto;
+    }
 
-/* Estilo para o parágrafo sobre mim */
-.paragraph-sobre-mim {
-    font-size: 1.2rem; /* Tamanho da fonte em rem */
-    color: #ffffff; /* Cor do texto */
-    width: 50%;
-    margin-top: 0px;
-    border-radius: 0rem; /* Borda circular do parágrafo em rem */
-    padding: 0.9375rem; /* Preenchimento em rem */
-    box-shadow: 0.03rem 0.03rem 4rem 0.1rem rgba(0, 0, 0, 1); /* Sombra do parágrafo em rem */
-    font-family: 'Baloo 2', sans-serif; /* Fonte do parágrafo */
-    line-height: 1.2; /* Altura da linha */
-    text-align: center; /* Alinhamento do texto justificado */
-}
-
-/* Estilo para o parágrafo de tutorial */
-.tutorial {
-    font-size: 0.8rem; /* Tamanho da fonte em rem */
-    text-align: center;
-    width: 50%;
-    color: #ffffff; /* Cor do texto */
-    font-weight: 300;
-    border-radius: 2rem; /* Borda circular do parágrafo em rem */
-    padding: 0.9375rem; /* Preenchimento em rem */
-    font-family: 'Baloo 2', sans-serif; /* Fonte do parágrafo */
-    line-height: 1.2; /* Altura da linha */
-    text-align: center; /* Alinhamento do texto justificado */
-    margin-bottom: 5%;
+    /* Estilo para o parágrafo de tutorial */
+    .tutorial {
+        font-size: 2vh;
+        border-radius: 1.5px;
+        width: 80%;
+        padding: 2vh;
+        margin: 0 auto;
+        margin-bottom: 5%;
+    }
 }

@@ -623,7 +623,9 @@ b {
     list-style-position: inside; /* Posição do marcador de lista */
     column-count: 2; /* Divisão em duas colunas */
     column-gap: 1.25rem; /* Espaçamento entre colunas */
+    
 }
+
 
 /* Estilo para os separadores de lista no tópico 3 */
 .separador-list-1,

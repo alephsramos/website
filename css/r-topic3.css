@@ -86,6 +86,10 @@
         font-size: 6.5vw; /* Tamanho relativo à largura da tela */
     }
 
+    .insignias{
+        margin-top: 10%;
+    }
+
     .insignias img{
         width: 15%;
         height: 15%;

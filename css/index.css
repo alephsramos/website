@@ -526,6 +526,8 @@ b {
     width: 7%;
     height: 15%;
     margin: 5px;
+    filter: drop-shadow(5px 5px 2px black);
+
 }
 
 /* Estilo para o título do tópico 3 */
@@ -753,6 +755,9 @@ b {
     margin-left: 7%; /* Margem à esquerda */
     text-align: left; /* Alinhamento do texto ao centro */
 }
+
+
+
 
 
 

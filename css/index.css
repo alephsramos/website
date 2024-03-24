@@ -116,7 +116,7 @@ b {
 
 /* Estilo para a barra de navegação (navbar) */
 .nav-bar {
-    background: #e2eaf6; /* Cor de fundo da barra de navegação */
+    background: #C9D7E4; /* Cor de fundo da barra de navegação */
     display: flex; /* Alinha os itens na horizontal */
     height: 100px; /* Altura da barra de navegação */
     position: fixed; /* Posicionamento fixo, não se move ao rolar a página */
@@ -126,7 +126,7 @@ b {
     width: 100%; /* Largura da barra de navegação */
     align-items: center; /* Alinha os itens ao centro */
     justify-content: space-between; /* Distribui o espaço igualmente entre os itens */
-    box-shadow: 1px 1px 70px 1px #0b062d; /* Sombra na barra de navegação */
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.5); /* Sombra na barra de navegação */
 }
 
 /* Estilo para o título da barra de navegação */

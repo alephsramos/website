@@ -531,7 +531,7 @@ b {
     height: 15%;
     margin: 5px;
     filter: drop-shadow(5px 5px 2px black);
-    animation: aumentar 4s ease-in-out infinite; /* Animação para aumentar */
+    animation: aumentar 1.5s ease-in-out infinite; /* Animação para aumentar */
 }
 
 @keyframes aumentar {

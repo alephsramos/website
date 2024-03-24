@@ -47,10 +47,11 @@
     .separador-list-1,
     .separador-list-2{
     font-size: 1rem; /* Tamanho da fonte */
-    padding: 0rem; /* Preenchimento */
+    padding: 0.3rem; /* Preenchimento */
     margin: 2rem; /* Margem */
     text-align: center; /* Alinhamento do texto ao centro */
     letter-spacing: 0rem; /* Espaçamento entre letras */
+    font-weight: 100;
 }
     
     .topic-3-p-1 {
@@ -119,7 +120,7 @@
     .separador-list-1,
     .separador-list-2{
     font-size: 1.5rem; /* Tamanho da fonte */
-    padding: 0rem; /* Preenchimento */
+    padding: 0.3rem; /* Preenchimento */
     margin: 2rem; /* Margem */
     text-align: center; /* Alinhamento do texto ao centro */
     letter-spacing: 0rem; /* Espaçamento entre letras */
@@ -189,7 +190,7 @@
     .separador-list-1,
     .separador-list-2{
     font-size: 1.3rem; /* Tamanho da fonte */
-    padding: 0rem; /* Preenchimento */
+    padding: 0.3rem; /* Preenchimento */
     margin: 3rem; /* Margem */
     text-align: center; /* Alinhamento do texto ao centro */
     letter-spacing: 0rem; /* Espaçamento entre letras */
@@ -252,8 +253,9 @@
     .separador-list-1,
     .separador-list-2{
     font-size: 2rem; /* Tamanho da fonte */
-    margin: 0;
-    padding: 0rem; /* Preenchimento */
+    width: 80%;
+    margin-left: 10%;
+    padding: 0.3rem; /* Preenchimento */
     text-align: center; /* Alinhamento do texto ao centro */
     letter-spacing: 0rem; /* Espaçamento entre letras */
 }

@@ -488,8 +488,7 @@ b {
     color: #ffffff; /* Cor do texto */
     padding: 0rem; /* Preenchimento */
     box-shadow: 1px 1px 20px 1px black; /* Sombra do parágrafo com desfoque */
-    font-family: 'Cairo Play', sans-serif; /* Fonte do parágrafo */
-    margin: 4rem; /* Margem */
+    font-family: 'Times New Roman', Times, serif; /* Fonte do parágrafo */
     text-align: center; /* Alinhamento do texto ao centro */
     letter-spacing: 1rem; /* Espaçamento entre letras */
 }

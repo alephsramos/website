@@ -168,11 +168,13 @@
     }
     
     .topic-2-title {
-        font-size: 5vw; /* Tamanho relativo à largura da tela */
+        font-size: 4vw; /* Tamanho relativo à largura da tela */
     }
     
     .topic-2-imgs {
         max-width: 100%; /* Largura máxima relativa à largura da tela */
+        margin-left: 10%;
+        margin-right: 10%;
     }
     
     .topic-2-img-1 {

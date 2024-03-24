@@ -60,6 +60,7 @@ b {
     right: 10px; /* Define a distância do elemento em relação à parte direita como 10 pixels */
     width: 3.5rem; /* Define a largura do elemento como 3.5 rem */
     border-radius: 50%;
+    box-shadow: 0px 0px 20px black;
     z-index: 1000; /* Define a ordem de empilhamento do elemento, quanto maior, mais acima ele estará */
     height: 3.5rem; /* Define a altura do elemento como 3.5 rem */
     background-image: url('../img/icons/whatsapp-1.png'); /* Define uma imagem de fundo para o elemento */
@@ -76,6 +77,7 @@ b {
     z-index: 1000; /* Define a ordem de empilhamento do elemento, quanto maior, mais acima ele estará */
     height: 3.5rem; /* Define a altura do elemento como 3.5 rem */
     border-radius: 50%;
+    box-shadow: 0px 0px 20px black;
     background-image: url('../img/icons/linkedin\(pet\).png'); /* Define uma imagem de fundo para o elemento */
     background-size: cover; /* Faz com que a imagem de fundo cubra completamente o elemento */
     animation: petAnimation 4s infinite alternate; /* Aplica uma animação chamada petAnimation com duração de 2 segundos, repetição infinita e direção alternada */
@@ -90,6 +92,7 @@ b {
     z-index: 1000; /* Define a ordem de empilhamento do elemento, quanto maior, mais acima ele estará */
     height: 3.5rem; /* Define a altura do elemento como 3.5 rem */
     border-radius: 50%;
+    box-shadow: 0px 0px 20px black;
     background-image: url('../img/icons/github-1.png'); /* Define uma imagem de fundo para o elemento */
     background-size: cover; /* Faz com que a imagem de fundo cubra completamente o elemento */
     animation: petAnimation 4s infinite alternate; /* Aplica uma animação chamada petAnimation com duração de 2 segundos, repetição infinita e direção alternada */
@@ -104,6 +107,7 @@ b {
     z-index: 1000; /* Define a ordem de empilhamento do elemento, quanto maior, mais acima ele estará */
     height: 3.5rem; /* Define a altura do elemento como 3.5 rem */
     border-radius: 50%;
+    box-shadow: 0px 0px 20px black;
     background-image: url('../img/icons/email-1.png'); /* Define uma imagem de fundo para o elemento */
     background-size: cover; /* Faz com que a imagem de fundo cubra completamente o elemento */
     animation: petAnimation 4s infinite alternate; /* Aplica uma animação chamada petAnimation com duração de 2 segundos, repetição infinita e direção alternada */

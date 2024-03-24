@@ -527,37 +527,33 @@ b {
     height: 15%;
     margin: 5px;
     filter: drop-shadow(5px 5px 2px black);
-    animation: aumentar 1s ease forwards; /* Animação para aumentar */
+    animation: aumentar 4s ease-in-out infinite; /* Animação para aumentar */
 }
 
 @keyframes aumentar {
-    0% { transform: scale(1); }
-    100% { transform: scale(1.10); }
+    0% {
+        transform: scale(1);
+    }
+    30% {
+        transform: scale(1.10);
+    }
+    70% {
+        transform: scale(1.10);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 
 .insignias img:nth-child(1) { animation-delay: 0s; }
-.insignias img:nth-child(2) { animation-delay: 1s; }
-.insignias img:nth-child(3) { animation-delay: 2s; }
-.insignias img:nth-child(4) { animation-delay: 3s; }
-.insignias img:nth-child(5) { animation-delay: 4s; }
-.insignias img:nth-child(6) { animation-delay: 5s; }
-.insignias img:nth-child(7) { animation-delay: 6s; }
-.insignias img:nth-child(8) { animation-delay: 7s; }
-.insignias img:nth-child(9) { animation-delay: 8s; }
-
-.insignias img {
-    animation: aumentar 1s ease forwards, repetir 9s infinite; /* Animação para aumentar e repetir */
-}
-
-@keyframes repetir {
-    0%, 100% { animation: aumentar 1s ease forwards; } /* Aplica a animação de aumento no início e final */
-    50% { animation: diminuir 1s ease forwards; } /* Aplica a animação de diminuição no meio */
-}
-
-@keyframes diminuir {
-    0% { transform: scale(1.10); }
-    100% { transform: scale(1); }
-}
+.insignias img:nth-child(2) { animation-delay: .5s; }
+.insignias img:nth-child(3) { animation-delay: 1s; }
+.insignias img:nth-child(4) { animation-delay: 1.5s; }
+.insignias img:nth-child(5) { animation-delay: 2s; }
+.insignias img:nth-child(6) { animation-delay: 2.5s; }
+.insignias img:nth-child(7) { animation-delay: 3s; }
+.insignias img:nth-child(8) { animation-delay: 3.5s; }
+.insignias img:nth-child(9) { animation-delay: 4s; }
 
 /* Estilo para o título do tópico 3 */
 .topic-3-title {

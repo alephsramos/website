@@ -555,7 +555,7 @@ b {
 }
 
 @keyframes diminuir {
-    0% { transform: scale(1.05); }
+    0% { transform: scale(1.10); }
     100% { transform: scale(1); }
 }
 

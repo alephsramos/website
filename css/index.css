@@ -1,10 +1,15 @@
 /* Fontes importadas do (Google Fonts) */
 @import url('https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Baloo+2:wght@400;500;600;700;800&family=Cairo+Play:wght@200;300;400;500;600;700;800;900;1000&family=Dancing+Script:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 
 /*
+
+#0F294B
+#ffffff
+#000000
 
 /* Estilo aplicado a tudo */
 * {
@@ -15,13 +20,9 @@
 html, body {
     margin: 0; /* Remove margens padrão do corpo e do HTML */
     height: auto;
-    background-size: cover;
-    background-position: center;
-    background-image: url("../img/backgrounds/fundo-teste2.jpg"); /* Define a imagem de fundo */
-    background-attachment: fixed; /* Fixa a imagem de fundo para que ela não role com a página */
+
     position: relative; /* Define a posição como relativa para o corpo */
     animation: animateBackground 30s linear infinite alternate; /* Aplica uma animação de fundo com duração de 30s */
-    box-shadow: inset 1111px 11111px 11100px 10110px rgba(0, 0, 0, 0.45); /* Sombra leve ao redor do corpo */
     transition: opacity 1.3s ease-in-out; /* Transição suave para a propriedade de opacidade */
     cursor: url("../img/icons/cursor.png"), auto; /* Define o cursor personalizado */
     overflow-x: hidden; /* Esconde a barra de rolagem horizontal */
@@ -39,7 +40,8 @@ body::before {
 
 /* Estilo para texto dentro de todas as tags <b> na página */
 b {
-    background: #9188c8; /* Cor de fundo para o texto */
+    background: #0F294B; /* Cor de fundo para o texto */
+    font-weight: 600;
     -webkit-background-clip: text; /* Aplica o degradê apenas ao texto */
     background-clip: text; /* Aplica o degradê apenas ao texto */
     -webkit-text-fill-color: transparent; /* Torna o texto transparente para exibir o degradê */
@@ -55,12 +57,11 @@ b {
 /* Estilo para a classe .pet */
 .pet {
     position: fixed; /* Define a posição do elemento como fixa em relação à janela de visualização */
-    opacity: 0.5; /* Define a opacidade do elemento como 0.5 (semi-transparente) */
+    opacity: 0.8; /* Define a opacidade do elemento como 0.5 (semi-transparente) */
     bottom: 10px; /* Define a distância do elemento em relação à parte inferior como 10 pixels */
     right: 10px; /* Define a distância do elemento em relação à parte direita como 10 pixels */
     width: 3.5rem; /* Define a largura do elemento como 3.5 rem */
     border-radius: 50%;
-    box-shadow: 0px 0px 10px black;
     z-index: 1000; /* Define a ordem de empilhamento do elemento, quanto maior, mais acima ele estará */
     height: 3.5rem; /* Define a altura do elemento como 3.5 rem */
     background-image: url('../img/icons/whatsapp-rosa.png'); /* Define uma imagem de fundo para o elemento */
@@ -70,14 +71,13 @@ b {
 
 .pet2 {
     position: fixed; /* Define a posição do elemento como fixa em relação à janela de visualização */
-    opacity: 0.5; /* Define a opacidade do elemento como 0.5 (semi-transparente) */
+    opacity: 0.8; /* Define a opacidade do elemento como 0.5 (semi-transparente) */
     bottom: 10px; /* Define a distância do elemento em relação à parte inferior como 10 pixels */
     right: 10px; /* Define a distância do elemento em relação à parte direita como 10 pixels */
     width: 3.5rem;
     z-index: 1000; /* Define a ordem de empilhamento do elemento, quanto maior, mais acima ele estará */
     height: 3.5rem; /* Define a altura do elemento como 3.5 rem */
     border-radius: 50%;
-    box-shadow: 0px 0px 10px black;
     background-image: url('../img/icons/linkedin-rosa.png'); /* Define uma imagem de fundo para o elemento */
     background-size: cover; /* Faz com que a imagem de fundo cubra completamente o elemento */
     animation: petAnimation 4s infinite alternate; /* Aplica uma animação chamada petAnimation com duração de 2 segundos, repetição infinita e direção alternada */
@@ -85,14 +85,13 @@ b {
 
 .pet3 {
     position: fixed; /* Define a posição do elemento como fixa em relação à janela de visualização */
-    opacity: 0.5; /* Define a opacidade do elemento como 0.5 (semi-transparente) */
+    opacity: 0.8; /* Define a opacidade do elemento como 0.5 (semi-transparente) */
     bottom: 10px; /* Define a distância do elemento em relação à parte inferior como 10 pixels */
     right: 10px; /* Define a distância do elemento em relação à parte direita como 10 pixels */
     width: 3.5rem; /* Define a largura do elemento como 3.5 rem */
     z-index: 1000; /* Define a ordem de empilhamento do elemento, quanto maior, mais acima ele estará */
     height: 3.5rem; /* Define a altura do elemento como 3.5 rem */
     border-radius: 50%;
-    box-shadow: 0px 0px 10px black;
     background-image: url('../img/icons/github-rosa.png'); /* Define uma imagem de fundo para o elemento */
     background-size: cover; /* Faz com que a imagem de fundo cubra completamente o elemento */
     animation: petAnimation 4s infinite alternate; /* Aplica uma animação chamada petAnimation com duração de 2 segundos, repetição infinita e direção alternada */
@@ -100,14 +99,13 @@ b {
 
 .pet4 {
     position: fixed; /* Define a posição do elemento como fixa em relação à janela de visualização */
-    opacity: 0.5; /* Define a opacidade do elemento como 0.5 (semi-transparente) */
+    opacity: 0.8; /* Define a opacidade do elemento como 0.5 (semi-transparente) */
     bottom: 10px; /* Define a distância do elemento em relação à parte inferior como 10 pixels */
     right: 10px; /* Define a distância do elemento em relação à parte direita como 10 pixels */
     width: 3.5rem; /* Define a largura do elemento como 3.5 rem */
     z-index: 1000; /* Define a ordem de empilhamento do elemento, quanto maior, mais acima ele estará */
     height: 3.5rem; /* Define a altura do elemento como 3.5 rem */
     border-radius: 50%;
-    box-shadow: 0px 0px 10px black;
     background-image: url('../img/icons/email-rosa.png'); /* Define uma imagem de fundo para o elemento */
     background-size: cover; /* Faz com que a imagem de fundo cubra completamente o elemento */
     animation: petAnimation 4s infinite alternate; /* Aplica uma animação chamada petAnimation com duração de 2 segundos, repetição infinita e direção alternada */
@@ -116,7 +114,7 @@ b {
 
 /* Estilo para a barra de navegação (navbar) */
 .nav-bar {
-    background: #C9D7E4; /* Cor de fundo da barra de navegação */
+    background: #0F294B; /* Cor de fundo da barra de navegação */
     display: flex; /* Alinha os itens na horizontal */
     height: 100px; /* Altura da barra de navegação */
     position: fixed; /* Posicionamento fixo, não se move ao rolar a página */
@@ -126,7 +124,7 @@ b {
     width: 100%; /* Largura da barra de navegação */
     align-items: center; /* Alinha os itens ao centro */
     justify-content: space-between; /* Distribui o espaço igualmente entre os itens */
-    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.5); /* Sombra na barra de navegação */
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5); /* Sombra na barra de navegação */
 }
 
 /* Estilo para o título da barra de navegação */
@@ -139,7 +137,7 @@ b {
     width: 30%; /* Largura do título */
     font-family: 'Dancing Script', cursive; /* Fonte do título */
     margin: 1.25rem 3.125rem 1.25rem 6.25rem; /* Margens do título (a segunda declaração 'margin' sobrescreve a primeira) */
-    background: #011b36; /* Cor de fundo do título */
+    background: #0F294B; /* Cor de fundo do título */
     -webkit-background-clip: text; /* Aplica o fundo apenas ao texto para criar um efeito de recorte */
     background-clip: text; /* Aplica o fundo apenas ao texto para criar um efeito de recorte */
     -webkit-text-fill-color: transparent; /* Torna o texto transparente para mostrar o fundo */
@@ -210,7 +208,7 @@ b {
 /* Estilo para o título sobre mim */
 .title-sobre-mim {
     white-space: nowrap; /* Impede que o texto quebre em várias linhas */
-    color: white; /* Define a cor do texto como branca */
+    color: #0F294B; /* Define a cor do texto como branca */
 
     font-size: 6vh; /* Define o tamanho da fonte como 6% da altura da viewport */
     text-align: center; /* Alinha o texto ao centro */
@@ -223,11 +221,11 @@ b {
 .paragraph-sobre-mim {
     font-size: 2.5rem; /* Tamanho da fonte em rem */
     width: 62.5rem; /* Largura do parágrafo em rem */
-    color: #ffffff; /* Cor do texto */
+    color: #000000; /* Cor do texto */
     border-radius: 2rem; /* Borda circular do parágrafo em rem */
     padding: 0.9375rem; /* Preenchimento em rem */
-    box-shadow: 0.03rem 0.03rem 4rem 0.1rem rgba(0, 0, 0, 1); /* Sombra do parágrafo em rem */
-    font-family: 'Baloo 2', sans-serif; /* Fonte do parágrafo */
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
     line-height: 1.2; /* Altura da linha */
     margin-top: -3%; /* Margem superior negativa */
     margin-left: 41.5%; /* Margem à esquerda */
@@ -239,10 +237,11 @@ b {
 .tutorial {
     font-size: 2rem; /* Tamanho da fonte em rem */
     width: 62.5rem; /* Largura do parágrafo em rem */
-    color: #ffffff; /* Cor do texto */
+    color: #000000; /* Cor do texto */
     border-radius: 2rem; /* Borda circular do parágrafo em rem */
     padding: 0.9375rem; /* Preenchimento em rem */
-    font-family: 'Baloo 2', sans-serif; /* Fonte do parágrafo */
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
     line-height: 1.2; /* Altura da linha */
     margin-top: 5%; /* Margem superior negativa */
     margin-left: 41.5%; /* Margem à esquerda */
@@ -257,7 +256,7 @@ b {
 /* Estilo para o contêiner do tópico 1 */
 .topic-1 {
     width: 100%; /* Largura total do tópico 1 */
-    border-top: 1px solid #8841ff; /* Borda superior com uma cor específica */
+    background-color: #;
     height: 90%; /* Altura total do tópico 1 */
     background-size: cover; /* Ajusta o tamanho do background para cobrir todo o contêiner */
     margin-top: 20px; /* Distância da nav-bar */
@@ -443,8 +442,8 @@ b {
 .topic-2 {
     width: 100%; /* Largura total do tópico 2 */
     padding: 1.25rem 1.25rem; /* Preenchimento */
-    margin-top: -1.25rem; /* Margem superior negativa */
-    border-top: 0.0625rem solid #8841ff; /* Borda superior com uma cor específica */
+    background-color: #0F294B;
+    margin-top: -1.25rem; /* Margem superior negativa */ 
 }
 
 /* Estilo para o título do tópico 2 */
@@ -473,7 +472,7 @@ b {
     filter: saturate(120%);
     border-radius: 1.25rem; /* Borda circular */
     margin: 0.3125rem; /* Margem */
-    box-shadow: 1px 1px 30px 1px black; /* Sombra da imagem com desfoque  */
+    box-shadow: 1px 1px 1px 1px black; /* Sombra da imagem com desfoque  */
     transition: transform 0.4s ease; /* Transição suave ao passar o mouse */
     border: 3px solid #261a7f; /* Borda sólida com uma cor específica */
     z-index: 10; /* Ordem de sobreposição */
@@ -491,8 +490,8 @@ b {
     font-size: 2.35rem; /* Tamanho da fonte */
     color: #ffffff; /* Cor do texto */
     padding: 0rem; /* Preenchimento */
-    box-shadow: 1px 1px 20px 1px black; /* Sombra do parágrafo com desfoque */
-    font-family: 'Times New Roman', Times, serif; /* Fonte do parágrafo */
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
     text-align: center; /* Alinhamento do texto ao centro */
     letter-spacing: 1rem; /* Espaçamento entre letras */
 }
@@ -501,7 +500,8 @@ b {
 .topic-2-p-fim {
     font-size: 1.35rem; /* Tamanho da fonte */
     color: #ffffff; /* Cor do texto */
-    font-family: 'Baloo 2', sans-serif; /* Fonte do parágrafo */
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
     opacity: 0.7; /* Opacidade */
     text-align: center; /* Alinhamento do texto ao centro */
     padding: 1.25rem; /* Preenchimento */
@@ -513,7 +513,7 @@ b {
 
 /* Estilo para o contêiner do tópico 3 */
 .topic-3 {
-    border-top: 1px solid #8841ff; /* Borda superior com uma cor específica */
+    background-color: #ffffff;
 }
 
 .insignias {
@@ -521,16 +521,20 @@ b {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center; /* Adicionado para alinhar ao centro verticalmente */
-    margin-top: 5%;
+    margin-top: 0%;
     margin-left: 10%;
     margin-right: 10%;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: #0F294B;
+    padding: 5px;
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.7);
 }
 
 .insignias img {
     width: 7%;
     height: 15%;
     margin: 5px;
-    filter: drop-shadow(5px 5px 2px black);
+    filter: drop-shadow(1px 1px 2px #000000);
     animation: aumentar 1.5s ease-in-out infinite; /* Animação para aumentar */
 }
 
@@ -561,7 +565,7 @@ b {
 
 /* Estilo para o título do tópico 3 */
 .topic-3-title {
-    color: #ffffff; /* Cor do texto */
+    color: #0F294B; /* Cor do texto */
     font-size: 5rem; /* Tamanho da fonte */
     text-align: center; /* Alinhamento do texto ao centro */
     font-family: 'Great Vibes', cursive;
@@ -585,8 +589,7 @@ b {
     width: 31.25rem; /* Largura da imagem */
     border-radius: 1.25rem; /* Borda circular */
     transition: transform 0.6s ease; /* Transição suave ao passar o mouse */
-    box-shadow: 1px 1px 20px 1px black; /* Sombra da imagem */
-    border: 0.225rem solid #000000; /* Borda sólida com uma cor específica */
+    box-shadow: 1px 1px 5px 1px #0F294B; /* Sombra da imagem */
     margin: 1.25rem; /* Margem */
     z-index: 10; /* Ordem de sobreposição */
 }
@@ -594,29 +597,33 @@ b {
 /* Efeito ao passar o mouse na primeira imagem do tópico 3 */
 .topic-3-img-1:hover {
     transform: scale(1.2) translateX(-3.75rem); /* Aumenta a escala e move a imagem ao passar o mouse */
-    box-shadow: 1px 1px 20px 1px black; /* Sombra da imagem ao passar o mouse */
+    box-shadow: 1px 1px 10px 1px #0F294B; /* Sombra da imagem ao passar o mouse */
     z-index: 11; /* Ordem de sobreposição */
 }
 
 /* Efeito ao passar o mouse na segunda imagem do tópico 3 */
 .topic-3-img-2:hover {
     transform: scale(1.2) translateX(0); /* Aumenta a escala da imagem ao passar o mouse */
-    box-shadow: 1px 1px 20px 1px black; /* Sombra da imagem ao passar o mouse */
+    box-shadow: 1px 1px 20px 1px #0F294B; /* Sombra da imagem ao passar o mouse */
     z-index: 11; /* Ordem de sobreposição */
 }
 
 /* Efeito ao passar o mouse na terceira imagem do tópico 3 */
 .topic-3-img-3:hover {
     transform: scale(1.2) translateX(3.75rem); /* Aumenta a escala e move a imagem ao passar o mouse */
-    box-shadow: 1px 1px 20px 1px black; /* Sombra da imagem ao passar o mouse */
+    box-shadow: 1px 1px 20px 1px #0F294B; /* Sombra da imagem ao passar o mouse */
     z-index: 11; /* Ordem de sobreposição */
 }
 
 /* Estilo para a lista no tópico 3 */
 .topic-3-list {
     font-size: 1.1875rem; /* Tamanho da fonte */
-    color: #ffffff; /* Cor do texto */
-    font-family: 'Baloo 2', sans-serif; /* Fonte do texto */
+    color: #000000; /* Cor do texto */
+    border: 1px solid #0F294B;
+    padding: 20px;
+    width: 80%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
     margin-left: 10%; /* Margem à esquerda */
     flex-wrap: wrap; /* Quebra para a próxima linha se não houver espaço suficiente */
     list-style-image: url(/img/icons/list.png); /* Imagem de marcador de lista */
@@ -631,12 +638,12 @@ b {
 .separador-list-1,
 .separador-list-2 {
     font-size: 2rem; /* Tamanho da fonte */
-    color: #ffffff; /* Cor do texto */
+    color: #0F294B; /* Cor do texto */
     padding: 0.4375rem; /* Preenchimento */
-    box-shadow: 1px 1px 20px 1px black; /* Sombra com desfoque */
-    font-family: 'Times New Roman', Times, serif ; /* Fonte do texto */
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
     margin: 2rem; /* Margem */
-    text-align: center; /* Alinhamento do texto ao centro */
+    text-align: left; /* Alinhamento do texto ao centro */
     letter-spacing: 1rem; /* Espaçamento entre letras */
 }
 
@@ -644,18 +651,20 @@ b {
 .topic-3-p-1 {
     font-size: 1.875rem; /* Tamanho da fonte */
     text-align: center; /* Alinhamento do texto ao centro */
-    font-family: 'Baloo 2', sans-serif; /* Fonte do parágrafo */
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
     margin-left: 10%; /* Margem à esquerda */
     margin-right: 10%; /* Margem à direita */
-    color: #ffffff; /* Cor do texto */
+    color: #000000; /* Cor do texto */
     padding: 2.5rem; /* Preenchimento */
 }
 
 /* Estilo para o parágrafo final do tópico 3 */
 .topic-3-p-fim {
     font-size: 1.35rem; /* Tamanho da fonte */
-    color: #ffffff; /* Cor do texto */
-    font-family: 'Baloo 2', sans-serif; /* Fonte do parágrafo */
+    color: #000000; /* Cor do texto */
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
     opacity: 0.7; /* Opacidade */
     text-align: center; /* Alinhamento do texto ao centro */
     padding: 1.25rem; /* Preenchimento */
@@ -666,14 +675,14 @@ b {
 
 
 /* Estilo para o contêiner do tópico 4 */
-.topic-4 {
-    border-top: 0.0625rem solid #8841ff; /* Borda superior com uma cor específica */
+.topic-4 { 
     margin-top: -1.25rem; /* Margem superior negativa */
+    background-color: #000000;
 }
 
 /* Estilo para o título do tópico 4 */
 .topic-4-title {
-    color: #ffffff; /* Cor do texto */
+    color: #000000; /* Cor do texto */
     font-family: 'Great Vibes', cursive;
     font-weight: 100;
     font-size: 5rem; /* Tamanho da fonte */
@@ -729,7 +738,7 @@ b {
 
 
 .section-6{
-    border-top: 1px solid #8841ff;
+    background-color: #000000;
     align-items: center;
 }
 
@@ -753,7 +762,6 @@ b {
     height: auto;
     display: block;
     margin: 0 auto;
-    box-shadow: #000000 1px 1px 10px 0px;
 }
 
 .section-6-h1{
@@ -780,7 +788,8 @@ b {
     color: #ffffff; /* Cor do texto */
     box-shadow: 1px 1px 20px 1px black; /* Sombra do parágrafo com desfoque */
     padding: 1rem; /* Preenchimento em rem */
-    font-family: 'Baloo 2', sans-serif; /* Fonte do texto */
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
     line-height: 1.2; /* Altura da linha */
     margin-top: 2%; /* Margem superior negativa */
     margin-left: 7%; /* Margem à esquerda */
@@ -794,8 +803,8 @@ b {
 
 
 .section-5 {
-    border-top: 1px solid #8841ff;
     align-items: center;
+    background-color: #0F294B;
 }
 
 .section-5-img {
@@ -804,7 +813,6 @@ b {
     display: block;
     border-radius: 1vh;
     margin: 0 auto; /* Centraliza a imagem horizontalmente */
-    box-shadow: 1px 1px 20px 1px black; /* Sombra do parágrafo com desfoque */  
     margin-bottom: 2% ;
 }
 
@@ -823,7 +831,7 @@ b {
     color: #ffffff; /* Cor do texto */
     border-radius: 0.5rem; /* Borda circular do parágrafo em rem */
     padding: 1rem; /* Preenchimento em rem */
-    font-family: 'Baloo 2', sans-serif; /* Fonte do parágrafo */
+    font-family: "Montserrat", sans-serif;
     box-shadow: 1px 1px 20px 1px black; /* Sombra do parágrafo com desfoque */
     line-height: 1.2; /* Altura da linha */
     margin-top: 1%; /* Margem superior negativa */
@@ -835,7 +843,7 @@ b {
     font-size: 1rem; /* Tamanho da fonte em rem */
     opacity: 0.5;
     color: #ffffff; /* Cor do texto */
-    font-family: 'Baloo 2', sans-serif; /* Fonte do parágrafo */
+    font-family: "Montserrat", sans-serif;
     line-height: 1.2; /* Altura da linha */
     text-align: center; /* Alinhamento do texto ao centro */
 }
@@ -848,7 +856,7 @@ b {
     box-shadow: 1px 1px 20px 1px black; /* Sombra do parágrafo com desfoque */
     border-radius: 0.5rem; /* Borda circular do parágrafo em rem */
     padding: 1rem; /* Preenchimento em rem */
-    font-family: 'Baloo 2', sans-serif; /* Fonte do parágrafo */
+    font-family: "Montserrat", sans-serif;
     line-height: 1.2; /* Altura da linha */
     margin-top: 2%; /* Margem superior negativa */
     margin-left: 7%; /* Margem à esquerda */
@@ -880,9 +888,7 @@ b {
 }
 
 .hr-topic-5{
-    border: 1px solid #ffffff;
-    opacity: 0.5;
-    margin: 2%;
+    display: none;
 }
 
 .img-socialmedia{

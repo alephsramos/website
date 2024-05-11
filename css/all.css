@@ -1,16 +1,12 @@
 @media only screen and (min-width: 10px) and (max-width: 1200px){
     html, body {
         margin: 0; /* Remove margens padrão do corpo e do HTML */
-        background-image: url("../img/backgrounds/okok.jpg"); /* Define a imagem de fundo */
-        background-attachment: fixed; /* Fixa a imagem de fundo para que ela não role com a página */
-        background-position: center; /* Centraliza a posição da imagem de fundo */
-        background-size: cover;
-        background-color: rgba(0, 0, 0, 0.); /* Cor de fundo com uma certa transparência */
+
         position: relative; /* Define a posição como relativa para o corpo */
         animation: none; /* Aplica uma animação de fundo com duração de 30s */
         transition: none; /* Transição suave para a propriedade de opacidade */
         cursor: url("../img/icons/cursor.png"), auto; /* Define o cursor personalizado */
-        box-shadow: inset 1111px 11111px 11100px 10110px rgba(0, 0, 0, 0.5); /* Sombra leve ao redor do corpo */
+    
         overflow-x: hidden; /* Esconde a barra de rolagem horizontal */
     }
 

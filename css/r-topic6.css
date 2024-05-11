@@ -162,49 +162,46 @@
     /* Estilo para o título da seção 5 */
     .section-6-title {
         font-size: 4rem; /* Tamanho da fonte */
+        margin-top: 10%;
         text-align: center; /* Alinhamento do texto ao centro */
     }
 
     .section-6-h1 {
-        font-size: 4rem; /* Tamanho da fonte em porcentagem */
+        font-size: 2rem; /* Tamanho da fonte em porcentagem */
         border-radius: 1.5px;
-        width: 80%; /* Largura do parágrafo em porcentagem */
         padding: 2vh; /* Preenchimento em porcentagem */
         margin: 0 auto;
-        margin-top: 5%;
         margin-bottom: 5%;
+        margin-top: 10%;
         text-align: center; /* Alinhamento do texto ao centro */
     }
 
 
     /* Estilo para os parágrafos da seção 5 */
     .section-6-p {
-        font-size: 1.5rem; /* Tamanho da fonte em porcentagem */
-        border-radius: 1.5px;
-        width: 80%; /* Largura do parágrafo em porcentagem */
+        font-size: 0.8rem; /* Tamanho da fonte em porcentagem */
+        border-radius: 1.5px;/* 
         padding: 1vh; /* Preenchimento em porcentagem */
         margin: 0 auto;
         margin-bottom: -3%;
-        
-        margin-top: 4%;
         text-align: justify; /* Alinhamento do texto ao centro */
     }
 
     .img-socialmedia{
-        width: 45%;
+        width: 35%;
     }
 
 
     .img-1-sec-6{
-        width: 18%;
+        width: 30%;
         margin-bottom: -3%;
         margin-top: 5%;
     }
 
     .img-01-sec-6{
-        width: 10%;
+        width: 30%;
         margin-bottom: -5%;
-        margin-top: 1%;
+        margin-top: 5%;
     }
 
 

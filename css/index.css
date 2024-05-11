@@ -256,6 +256,7 @@ b {
 /* Estilo para o contêiner do tópico 1 */
 .topic-1 {
     width: 100%; /* Largura total do tópico 1 */
+    columns: 2;
     height: 90%; /* Altura total do tópico 1 */
     margin-top: 20px; /* Distância da nav-bar */
     align-items: center; /* Alinha os itens ao centro */
@@ -298,8 +299,7 @@ b {
     font-weight: 300;
     line-height: 1.2; /* Altura da linha */
     margin-top: -3%; /* Margem superior negativa */
-    margin-left: 41.5%; /* Margem à esquerda */
-    text-align: center; /* Alinhamento do texto ao centro */
+    text-align: left; /* Alinhamento do texto ao centro */
 }
 
 /* Estilo para o segundo parágrafo do tópico 1 */
@@ -335,6 +335,7 @@ b {
 .pic-ctn {
     width: 10px;
     height: 20px;
+    float: left;
   }
   
   @keyframes display {
@@ -362,17 +363,17 @@ b {
   }
   
   .pic-ctn {
-    position: relative;
-    width: 200vh;
+    width: 80vh;
     height: 80vh;
     margin-top: 1vh;
   }
 
   .pic-ctn img{
     width: 20rem;
-    border-radius: 20px;
+    border-radius: 5px;
+    margin-left: 24%;
     border: #0F294B 1px solid;
-    box-shadow: 2px 2px 10px 1px #0F294B;
+    box-shadow: 1px 1px 3px #0F294B;
   }
   
   .pic-ctn > img {
@@ -426,8 +427,8 @@ b {
     color: #0F294B; /* Cor do texto */
     font-family: "Montserrat", sans-serif;
     opacity: 0.7; /* Opacidade */
-    text-align: center; /* Alinhamento do texto ao centro */
-    padding: 1.25rem; /* Preenchimento */
+    text-align: left; /* Alinhamento do texto ao centro */
+    margin-left: 20%;
 }
 
 
@@ -753,25 +754,57 @@ b {
 .section-6{
     background-color: #000000;
     align-items: center;
+
 }
 
 .section-6-title{
     color: #ffffff; /* Cor do texto */
     font-family: 'Dancing Script', cursive; /* Fonte do título */
     font-weight: 100;
+    padding-top: 3%;
     font-size: 4.5rem; /* Tamanho da fonte */
     text-align: center; /* Alinhamento do texto ao centro */
 }
 
+.listas-profissao{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: nowrap;
+    height: 480px;
+}
+
+.prof1{
+    width: 25%;
+    background-color: #ffffff;
+    border-radius: 2%;
+    margin: 1%;
+
+}
+
+.prof2{
+    width: 25%;
+    background-color: #ffffff;
+    border-radius: 2%;
+    margin: 1%;
+}
+
+.prof3{
+    width: 25%;
+    background-color: #ffffff;
+    border-radius: 2%;
+    margin: 1%;
+}
+
 .img-1-sec-6{
-    width: 15%;
+    width: 50%;
     height: auto;
     display: block;
     margin: 0 auto;
 }
 
 .img-01-sec-6{
-    width: 25%;
+    width: 5%;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -779,15 +812,13 @@ b {
 
 .section-6-h1{
     font-size: 3rem; /* Tamanho da fonte em rem */
-    width: 70.5rem; /* Largura do parágrafo em rem */
     opacity: 0.8;
     font-weight: 300;
-    color: #ffffff; /* Cor do texto */
+    color: #000000; /* Cor do texto */
     padding: 1rem; /* Preenchimento em rem */
     font-family: 'Dancing Script', cursive; /* Fonte do título */
     line-height: 1.2; /* Altura da linha */
-    margin-top: 1%; /* Margem superior negativa */
-    margin-left: 20%; /* Margem à esquerda */
+    margin-top: 20%; /* Margem superior negativa */
     text-align: center; /* Alinhamento do texto ao centro */
 }
 
@@ -798,14 +829,12 @@ b {
     width: 100%; /* Largura do parágrafo em rem */
     opacity: 0.8;
     font-weight: 200;
-    color: #ffffff; /* Cor do texto */
-    box-shadow: 1px 1px 20px 1px black; /* Sombra do parágrafo com desfoque */
+    color: #0F294B  ; /* Cor do texto */
     padding: 1rem; /* Preenchimento em rem */
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
     line-height: 1.2; /* Altura da linha */
     margin-top: 2%; /* Margem superior negativa */
-    margin-left: 7%; /* Margem à esquerda */
     text-align: left; /* Alinhamento do texto ao centro */
 }
 

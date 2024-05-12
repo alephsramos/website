@@ -10,6 +10,10 @@
         overflow-x: hidden; /* Esconde a barra de rolagem horizontal */
     }
 
+    .contato-aleph{
+        display: none;
+    }
+
     @keyframes petAnimation {
         0% {
             transform: scale(1.1);

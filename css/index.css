@@ -190,6 +190,29 @@ b {
 
 }
 
+.ctt-aleph{
+    justify-content: left;
+    margin-left: 20%;
+    display: flex;
+}
+
+.contato-aleph{
+    text-decoration: none;
+    padding: 10px 14px;
+    color: white;
+    background: #0F294B;
+    border-radius: 2px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.contato-aleph:hover{
+    color: #0F294B;
+    background-color: white;
+    box-shadow: 0px 0px 10px #0F294B;
+}
+
 /* Estilo para a imagem sobre mim */
 .img-sobre-mim {
     display: block; /* Configura a exibição do elemento como bloco */

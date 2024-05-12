@@ -557,65 +557,54 @@
 @media only screen and (min-width: 1201px) and (max-width: 2000px) {
     /* Estilo para a imagem da seção 5 */
     .section-5-img {
-        height: 40%; /* Altura da imagem em 25% da altura da tela */
-        width: 40%;
-        border-radius: 1vh;
+        height: 40%;
+        width: 90%;
         margin: 0 auto; /* Centraliza a imagem horizontalmente */
         margin-bottom: 2%;
     }
 
     /* Estilo para o título da seção 5 */
     .section-5-title {
-        font-size: 4rem; /* Tamanho da fonte */
+        font-size: 3rem; /* Tamanho da fonte */
         text-align: center; /* Alinhamento do texto ao centro */
     }
 
     /* Estilo para os subtítulos da seção 5 */
     .section-5-h4 {
-        font-size: 3vh; /* Tamanho da fonte em porcentagem */
+        font-size: 2.5vh; /* Tamanho da fonte em porcentagem */
         border-radius: 1.5px;
-        width: 80%; /* Largura do parágrafo em porcentagem */
-        padding: 2vh; /* Preenchimento em porcentagem */
+        width: 90%; /* Largura do parágrafo em porcentagem */
+        padding: 1vh; /* Preenchimento em porcentagem */
         margin: 0 auto;
         margin-top: 5%;
-        margin-bottom: 5%;
+        margin-bottom: 0%;
         text-align: center; /* Alinhamento do texto ao centro */
     }
 
     .section-5-h5{
-        font-size: 1rem; /* Tamanho da fonte em rem */
-        opacity: 0.5;
+        font-size: 2.5rem; /* Tamanho da fonte em rem */
+        opacity: 1;
         color: #ffffff; /* Cor do texto */
         font-family: 'Baloo 2', sans-serif; /* Fonte do parágrafo */
         line-height: 1.2; /* Altura da linha */
+        margin-top: 3%;
+        margin-bottom: -0%;
         text-align: center; /* Alinhamento do texto ao centro */
-    }
-
-    /* Estilo para os parágrafos da seção 5 */
-    .section-5-p {
-        font-size: 2.8vh; /* Tamanho da fonte em porcentagem */
-        border-radius: 1.5px;
-        width: 75%; /* Largura do parágrafo em porcentagem */
-        padding: 2vh; /* Preenchimento em porcentagem */
-        margin: 0 auto;
-        margin-top: 5%;
-        margin-bottom: 3%;
-        text-align: justify; /* Alinhamento do texto ao centro */
     }
 
     /* Estilo para as imagens de ícones na seção 5 */
     .icons-img-section-5 {
-        width: 4vw; /* Largura relativa à largura da tela */
-        height: 4vw; /* Altura relativa à largura da tela */
-        margin: 0.5vw; /* Margem relativa à largura da tela */
-        margin-top: 2%;
+        width: 3vw; /* Largura relativa à largura da tela */
+        height: 3vw; /* Altura relativa à largura da tela */
+        margin: 2px; /* Margem relativa à largura da tela */
+        margin-top: 0%;
         transition: 0.4s ease-in-out;
     }
 
     /* Efeito hover para as imagens de ícones na seção 5 */
     .icons-img-section-5:hover {
-        width: 3.7vw; /* Largura relativa à largura da tela */
-        height: 3.7vw; /* Altura relativa à largura da tela */
+        width: 2.7vw; /* Largura relativa à largura da tela */
+        height: 2.7vw; /* Altura relativa à largura da tela */
         margin: 0.4vw; /* Margem relativa à largura da tela */
         transition: 0.2s;
         transform: translateX(-0rem) translateY(-0rem); /* Translação relativa à largura da tela */
@@ -624,111 +613,10 @@
 
 
     .sushi-img-1{
-        width: 10%;
-        margin-bottom: 2%;
-    }
-    
-    .sushi-img-2{
-        width: 60%;
-        height: auto;
-        display: block;
-        border-radius: 5px;
-        margin: 0 auto;
-    }
-    
-    
-    .sushi-img-3{
-        width: 60%;
-        margin-left: 20%;
-        border-radius: 5px;
-        margin-top: 3%;
-        height: auto;
-        display: block;
-        transition: transform 0.5s ease;
-    }
-    
-    .sushi-p-1{
-        font-size: 2.8vh; /* Tamanho da fonte em porcentagem */
-        border-radius: 1.5px;
-        width: 75%; /* Largura do parágrafo em porcentagem */
-        padding: 2vh; /* Preenchimento em porcentagem */
-        margin: 0 auto;
-        margin-top: 0%;
-        margin-bottom: 3%;
-        text-align: justify; /* Alinhamento do texto ao centro */
-    }
-    
-    .sushi-p-2{
-        font-size: 2vh; /* Tamanho da fonte em porcentagem */
-        border-radius: 1.5px;
-        width: 80%; /* Largura do parágrafo em porcentagem */
-        padding: 2vh; /* Preenchimento em porcentagem */
-        margin: 0 auto;
-        margin-top: 5%;
-        margin-bottom: 3%;
-        text-align: center; /* Alinhamento do texto ao centro */
-    }
-
-    .img-eduk-logo{
-        width: 10%;
-        margin-bottom: 2%;
-        
-    }
-    
-    .eduk-p{
-        font-size: 2.8vh; /* Tamanho da fonte em porcentagem */
-        border-radius: 1.5px;
-        width: 75%; /* Largura do parágrafo em porcentagem */
-        padding: 2vh; /* Preenchimento em porcentagem */
-        margin: 0 auto;
-        margin-top: 0%;
-        margin-bottom: 3%;
-        text-align: justify; /* Alinhamento do texto ao centro */
-    }
-
-    .section5-1{
-        border-top: 1px solid #8841ff;
-        align-items: center;
-    }
-    
-    .imgs-ifrj{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 5%;
-    }
-    
-    .img-ifrj-img{
-        width: 40%;
-        height: auto;
-        display: block;
-        margin-right: 1%;
-    }
-    .img-ifrj-img2{
-        width: 10%;
-        height: auto;
-        display: block;
-        margin-left: 1%;
-    }
-    
-    .img-ifrj-img3{
         width: 20%;
-        height: auto;
-        display: block;
-        margin: 0 auto;
-        margin-bottom: 5%;
+        margin-top: 5%;
+        margin-bottom: 2%;
     }
     
-    .ifrj-p{
-        font-size: 2.8vh; /* Tamanho da fonte em porcentagem */
-        border-radius: 1.5px;
-        width: 75%; /* Largura do parágrafo em porcentagem */
-        padding: 2vh; /* Preenchimento em porcentagem */
-        margin: 0 auto;
-        margin-top: 5%;
-        margin-bottom: 3%;
-        text-align: justify; /* Alinhamento do texto ao centro */
-    }
-
 
 }

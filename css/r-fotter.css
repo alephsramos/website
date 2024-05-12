@@ -194,16 +194,13 @@
         line-height: 0.9;
         text-align: center;
         padding: 0.125rem; /* Padding convertido para rem */
-        color: white; /* Adicionei a cor branca ao título */
     }
     
     .fotter-contat {
         font-size: 1.2vw; /* Tamanho relativo à largura da tela */
-        font-family: 'Baloo 2', sans-serif;
         margin-top: 8.25vw; /* Margem superior relativa à largura da tela */
         text-align: center;
         padding: 0.125rem; /* Padding convertido para rem */
-        color: white; /* Adicionei a cor branca ao conteúdo de contato */
     }
     
     .icons-fotter {
@@ -232,7 +229,6 @@
     
     .fotter-p-fim {
         font-size: 0.8vw; /* Tamanho relativo à largura da tela */
-        color: white;
         margin-top: 5%;
         font-family: 'Baloo 2', sans-serif;
         opacity: 0.7; /* Mantido em porcentagem */

@@ -752,7 +752,7 @@ b {
 
 
 .section-6{
-    background-color: #000000;
+    background-color: #0F294B;
     align-items: center;
 
 }
@@ -846,35 +846,49 @@ b {
 
 .section-5 {
     align-items: center;
+    margin-top: -3%;
+    margin-bottom: -7%;
+}
+
+.lista-projetos{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    margin: 5%;
+    flex-wrap: wrap;
+}
+
+.proj1{
+    width: 20%;
+    border-radius: 5%;
+    margin: 5px;
     background-color: #0F294B;
 }
 
 .section-5-img {
-    height: 50vh; /* ou qualquer altura desejada */
-    border: 1px solid white;
+    height: 30vh; /* ou qualquer altura desejada */
     display: block;
-    border-radius: 1vh;
     margin: 0 auto; /* Centraliza a imagem horizontalmente */
     margin-bottom: 2% ;
 }
 
 .section-5-title {
-    color: #ffffff; /* Cor do texto */
+    color: #0F294B; /* Cor do texto */
     font-family: 'Dancing Script', cursive; /* Fonte do título */
     font-weight: 100;
+    padding-top: 2%;
     font-size: 4.5rem; /* Tamanho da fonte */
     text-align: center; /* Alinhamento do texto ao centro */
 }
 
 .section-5-h4{
-    font-size: 2.5rem; /* Tamanho da fonte em rem */
-    width: 70.5rem; /* Largura do parágrafo em rem */
+    font-size: 1.5rem; /* Tamanho da fonte em rem */
     opacity: 0.8;
     color: #ffffff; /* Cor do texto */
     border-radius: 0.5rem; /* Borda circular do parágrafo em rem */
     padding: 1rem; /* Preenchimento em rem */
     font-family: "Montserrat", sans-serif;
-    box-shadow: 1px 1px 20px 1px black; /* Sombra do parágrafo com desfoque */
+    font-weight: 300;
     line-height: 1.2; /* Altura da linha */
     margin-top: 1%; /* Margem superior negativa */
     margin-left: 20%; /* Margem à esquerda */
@@ -883,22 +897,23 @@ b {
 
 .section-5-h5{
     font-size: 1rem; /* Tamanho da fonte em rem */
-    opacity: 0.5;
+    opacity: 1;
     color: #ffffff; /* Cor do texto */
     font-family: "Montserrat", sans-serif;
+    font-weight: 300;
     line-height: 1.2; /* Altura da linha */
     text-align: center; /* Alinhamento do texto ao centro */
 }
 
 .section-5-p {
-    font-size: 1.7rem; /* Tamanho da fonte em rem */
-    width: 100.5rem; /* Largura do parágrafo em rem */
+    font-size: 1rem; /* Tamanho da fonte em rem */
+    width: 90%; /* Largura do parágrafo em rem */
     opacity: 0.8;
     color: #ffffff; /* Cor do texto */
-    box-shadow: 1px 1px 20px 1px black; /* Sombra do parágrafo com desfoque */
     border-radius: 0.5rem; /* Borda circular do parágrafo em rem */
     padding: 1rem; /* Preenchimento em rem */
     font-family: "Montserrat", sans-serif;
+    font-weight: 300;
     line-height: 1.2; /* Altura da linha */
     margin-top: 2%; /* Margem superior negativa */
     margin-left: 7%; /* Margem à esquerda */
@@ -921,11 +936,11 @@ b {
 
 /* Efeito ao passar o mouse sobre as imagens no rodapé */
 .icons-img-section-5:hover {
-    width: 3.3rem; /* Aumenta a largura ao passar o mouse */
-    height: 3.3rem; /* Aumenta a altura ao passar o mouse */
+    width: 2.3rem; /* Aumenta a largura ao passar o mouse */
+    height: 2.3rem; /* Aumenta a altura ao passar o mouse */
     margin: 0.625rem; /* Aumenta a margem ao passar o mouse */
     transition: 0.2s; /* Transição mais curta */
-    transform: translateX(-0.125rem) translateY(-0.3125rem); /* Move a imagem um pouco ao passar o mouse */
+    transform: translateX(-0.125rem) translateY(-0.125rem); /* Move a imagem um pouco ao passar o mouse */
     cursor: url('/img/icons/cursor-a.png'), auto; /* Define um cursor personalizado */
 }
 
@@ -943,12 +958,13 @@ b {
 
 
 .sushi-img-1{
-    width: 20%;
+    width: 40%;
     height: auto;
     display: block;
     filter: invert(100%);
     margin: 0 auto;
 }
+
 
 .sushi-img-2{
     width: 40%;
@@ -1176,7 +1192,6 @@ b {
 /* Estilo para o rodapé */
 footer {
 
-    box-shadow: inset 100px 100px 1000px 500px rgba(0, 0, 0, 0.5); /* Sombra interna */
    
     overflow: hidden;
     
@@ -1184,8 +1199,9 @@ footer {
 
 /* Estilo para o título do rodapé */
 .fotter-title {
-    color: #ffffff; /* Cor do texto */
-    font-family: 'Arimi', sans-serif; /* Fonte do título */
+    color: #0F294B; /* Cor do texto */
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
     font-size: 3.125rem; /* Tamanho da fonte convertido para rem */
     margin-top: 6.25rem; /* Margem superior convertida para rem */
     line-height: 0.9; /* Altura da linha */
@@ -1195,8 +1211,9 @@ footer {
 
 /* Estilo para o texto de contato no rodapé */
 .fotter-contat {
-    color: #ffffff; /* Cor do texto */
-    font-family: 'Arimi', sans-serif; /* Fonte do texto */
+    color: #0F294B; /* Cor do texto */
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
     font-size: 1.875rem; /* Tamanho da fonte convertido para rem */
     margin-top: 6.25rem; /* Margem superior convertida para rem */
     text-align: center; /* Alinhamento do texto ao centro */
@@ -1235,8 +1252,9 @@ footer {
 /* Estilo para o parágrafo final do rodapé */
 .fotter-p-fim {
     font-size: 1.5625rem; /* Tamanho da fonte convertido para rem */
-    color: #ffffff; /* Cor do texto */
-    font-family: 'Baloo 2', sans-serif; /* Fonte do texto */
+    color: #0F294B; /* Cor do texto */
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
     opacity: 0.7; /* Opacidade mantida em porcentagem */
     text-align: center; /* Alinhamento do texto ao centro */
 }

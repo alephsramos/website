@@ -189,7 +189,6 @@ b {
     margin-top: 10%; /* Margem superior da imagem */
     opacity: 1; /* Opacidade inicial da imagem */
     scale: (1); /* Escala inicial da imagem  */
-    box-shadow: 0 0 50px 50px rgba(0, 0, 0, 0.5); /* Sombra inicial da imagem com desfoque zero */
     animation: animateSurgimento 1.5s ease forwards; /* Define uma animação de surgimento durante 1.5 segundos com função de temporização 'ease' e mantém o estado final */
 }
 

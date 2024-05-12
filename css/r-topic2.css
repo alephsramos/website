@@ -68,14 +68,14 @@
     }
     
     .topic-2-imgs {
-        max-width: 100%; /* Largura máxima relativa à largura da tela */
+        width: 100%; /* Largura máxima relativa à largura da tela */
     }
     
     .topic-2-img-1 {
-        width: 45%; /* Largura relativa à largura da tela */
+        width: 30%; /* Largura relativa à largura da tela */
         border-radius: 0rem; /* Borda relativa à largura da tela */
         margin: 0.2rem; /* Margem relativa à largura da tela */
-        border: 1px solid white;
+        border: 0px dashed #ffffff;
     }
 
     .topic-2-p-1{

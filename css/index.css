@@ -496,14 +496,14 @@ b {
     margin: 0.3125rem; /* Margem */
     box-shadow: 1px 1px 1px 1px black; /* Sombra da imagem com desfoque  */
     transition: transform 0.4s ease; /* Transição suave ao passar o mouse */
-    border: 2px solid #261a7f; /* Borda sólida com uma cor específica */
+    border: 0px solid #261a7f; /* Borda sólida com uma cor específica */
     z-index: 10; /* Ordem de sobreposição */
 }
 
 /* Efeito ao passar o mouse na primeira imagem do tópico 2 */
 .topic-2-img-1:hover {
     transform: scale(1.4); /* Aumenta a escala da imagem ao passar o mouse */
-    box-shadow: 1px 1px 10px 10px black; /* Sombra da imagem ao passar o mouse com desfoque */
+    box-shadow: 1px 1px 2px 2px black; /* Sombra da imagem ao passar o mouse com desfoque */
     z-index: 11; /* Ordem de sobreposição */
 }
 
@@ -856,6 +856,7 @@ b {
     align-items: center;
     margin-top: -3%;
     margin-bottom: -7%;
+    background-image: url('../img/backgrounds/9.png');
 }
 
 .lista-projetos{

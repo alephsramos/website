@@ -108,6 +108,7 @@
     background-color: #ffffff;
     border-radius: 2%;
     margin: 1%;
+    box-shadow: 1px 1px 10px black;
 
 }
 
@@ -116,6 +117,7 @@
     background-color: #ffffff;
     border-radius: 2%;
     margin: 1%;
+    box-shadow: 1px 1px 10px black;
 
 }
 
@@ -124,12 +126,13 @@
     background-color: #ffffff;
     border-radius: 2%;
     margin: 1%;
+    box-shadow: 1px 1px 10px black;
 
 }
 
     /* Estilo para o título da seção 5 */
     .section-6-title {
-        font-size: 2.4rem; /* Tamanho da fonte */
+        font-size: 1.7rem; /* Tamanho da fonte */
         text-align: center; /* Alinhamento do texto ao centro */
         padding-top: 8%;
     }

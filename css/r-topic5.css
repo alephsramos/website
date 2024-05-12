@@ -229,6 +229,7 @@
         border-radius: 5%;
         margin: 5px;
         background-color: #0F294B;
+        box-shadow: 1px 1px 5px black;
     }
 
     /* Estilo para o título da seção 5 */

@@ -448,6 +448,8 @@ b {
     padding: 1.25rem 1.25rem; /* Preenchimento */
     background-color: #0F294B;
     margin-top: -1.25rem; /* Margem superior negativa */ 
+    background-image: url('../img/backgrounds/8.png');
+    background-size: contain;
 }
 
 .link-certi{

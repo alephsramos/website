@@ -1,5 +1,8 @@
 @media only screen and (max-width: 375px) {
-
+    .espaço{
+        font-size: 10px;
+        opacity: 0;
+    }
     .listas-profissao{
         display: flex;
         width: 100%;
@@ -155,6 +158,11 @@
         text-align: justify; /* Alinhamento do texto ao centro */
     }
 
+    .espaço{
+        font-size: 10px;
+        opacity: 0;
+    }
+
 
     .img-1-sec-6{
         width: 30%;
@@ -175,7 +183,10 @@
 }
 
 @media only screen and (min-width: 651px) and (max-width: 1200px) {
-
+    .espaço{
+        font-size: 10px;
+        opacity: 0;
+    }
     .section-6-title {
         font-size: 2.2rem; /* Tamanho da fonte */
         text-align: center; /* Alinhamento do texto ao centro */
@@ -259,7 +270,10 @@
 }
 
 @media only screen and (min-width: 1201px) and (max-width: 2000px) {
-
+    .espaço{
+        font-size: 10px;
+        opacity: 0;
+    }
     /* Estilo para o título da seção 5 */
     .section-6-title {
         font-size: 4rem; /* Tamanho da fonte */

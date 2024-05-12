@@ -9,6 +9,13 @@
     .topic-2-title {
         font-size: 8vw; /* Tamanho relativo à largura da tela */
     }
+
+    .certificado-link{
+        padding: 10rem;
+    padding-left: 100%;
+    padding-right: 3%;
+
+    }
     
     .topic-2-imgs {
         max-width: 100%; /* Largura máxima relativa à largura da tela */
@@ -51,6 +58,13 @@
     
     .topic-2-title {
         font-size: 8vw; /* Tamanho relativo à largura da tela */
+    }
+
+    .certificado-link{
+        padding: 10rem;
+    padding-left: 1%;
+    padding-right: 3%;
+
     }
     
     .topic-2-imgs {

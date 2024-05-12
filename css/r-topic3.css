@@ -2,22 +2,45 @@
 @media only screen and (max-width: 375px){
 
     .topic-3-title {
-        font-size: 5vw; /* Tamanho relativo à largura da tela */
+        font-size: 8vw; /* Tamanho relativo à largura da tela */
     }
 
 .insignias{
     margin-top: 10%;
+    padding: 2px;
+    border: none;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
 }
 
 .insignias img {
-    width: 13%;
+    width: 8%;
     height: 15%;
     margin: 2px;
+    filter: drop-shadow(1px 1px 1px #000000);
     transition: width 0.3s ease; /* Adiciona uma transição suave para a mudança de largura */
 }
 
+.certificado-link{
+
+    padding: 10rem;
+    padding-left: 3%;
+    padding-right: 3%;
+
+}
+
+.topic-3-list {
+    font-size: 1.1rem; /* Tamanho da fonte */
+    padding: 5px;
+    margin: 10%;
+    width: 100%;
+    border: none;
+    font-weight: 200;
+
+    
+}
+
 .insignias img:hover {
-    width: 15%; /* Aumenta a largura quando o mouse passa por cima */
+    width: 10%; /* Aumenta a largura quando o mouse passa por cima */
 }
     
     .topic-3-imgs {
@@ -27,8 +50,8 @@
     .topic-3-img-1,
     .topic-3-img-2,
     .topic-3-img-3 {
-        width: 80%; /* Largura relativa à largura da tela */
-        border-radius: 0.35rem; /* Borda relativa à largura da tela */
+        width: 60%; /* Largura relativa à largura da tela */
+        border-radius: 0.1rem; /* Borda relativa à largura da tela */
         margin: 1vw; /* Margem relativa à largura da tela */
         border: 0.125rem solid white; /* Borda relativa à largura da tela */
     }
@@ -60,7 +83,7 @@
     margin: 2rem; /* Margem */
     text-align: center; /* Alinhamento do texto ao centro */
     letter-spacing: 0rem; /* Espaçamento entre letras */
-    font-weight: 100;
+    font-weight: 400;
 }
     
     .topic-3-p-1 {
@@ -83,15 +106,23 @@
 
     
     .topic-3-title {
-        font-size: 6.5vw; /* Tamanho relativo à largura da tela */
+        font-size: 9.5vw; /* Tamanho relativo à largura da tela */
     }
 
     .insignias{
-        margin-top: 10%;
+        margin-top: 0%;
+        width: 90%;
+        margin-left: 5%;
+        padding: 5px;
+    }
+
+    .certificado-link{
+        width: 90%;
     }
 
     .insignias img{
-        width: 15%;
+        width: 9%;
+        
         height: 15%;
         margin: 2px;
     }
@@ -103,32 +134,35 @@
     .topic-3-img-1,
     .topic-3-img-2,
     .topic-3-img-3 {
-        width: 70%; /* Largura relativa à largura da tela */
+        width: 80%; /* Largura relativa à largura da tela */
         border-radius: 0.35rem; /* Borda relativa à largura da tela */
         margin: 1vw; /* Margem relativa à largura da tela */
-        box-shadow: 1px 1px 20px 1px black;
         border: 0.125rem solid white; /* Borda relativa à largura da tela */
     }
     
     .topic-3-img-1:hover {
-        transform: scale(1.15) translateX(0vw); /* Translação relativa à largura da tela */
+        transform: scale(1.05) translateX(0vw); /* Translação relativa à largura da tela */
     }
     
     .topic-3-img-2:hover {
-        transform: scale(1.25) translateX(0);
+        transform: scale(1.05) translateX(0);
     }
     
     .topic-3-img-3:hover {
-        transform: scale(1.15) translateX(0vw); /* Translação relativa à largura da tela */
+        transform: scale(1.05) translateX(0vw); /* Translação relativa à largura da tela */
     }
     
     .topic-3-list {
-        font-size: 3.5vw; /* Tamanho relativo à largura da tela */
+        font-size: 3vw; /* Tamanho relativo à largura da tela */
         margin-left: 0%; /* Margem relativa à largura da tela */
         columns: unset;
+        padding: 5px;
+        width: 90%;
+        margin-left: 5%;
         list-style-image: url("../img/icons/list-16px.png");
         column-gap: 1.25vw; /* Espaçamento entre colunas relativo à largura da tela */
     }
+
 
     .separador-list-1,
     .separador-list-2{
@@ -142,6 +176,7 @@
     .topic-3-p-1 {
         font-size: 3.2vw; /* Tamanho relativo à largura da tela */
         margin-left: 5%; /* Margem relativa à largura da tela */
+        width: 90%;
         margin-right: 5%; /* Margem relativa à largura da tela */
         padding: 2.5vw; /* Padding relativo à largura da tela */
     }

@@ -1,11 +1,29 @@
 @media only screen and (max-width: 375px) {
     /* Estilo para a imagem da seção 5 */
     .section-5-img {
-        height: 45%; /* Altura da imagem em 25% da altura da tela */
-        width: 70%;
-        border-radius: 1vh; /* Raio da borda em 1% da altura da tela */
+        height: 55%; /* Altura da imagem em 25% da altura da tela */
+        width: 100%;
+        border-radius: 0vh; /* Raio da borda em 1% da altura da tela */
         margin: 0 auto; /* Centraliza a imagem horizontalmente */
         margin-bottom: 2%; /* Margem inferior de 2% da altura da tela */
+    }
+
+    .lista-projetos{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin: 2%;
+        height: 100%;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+    
+    .proj1{
+        width: 80%;
+        height: 100%;
+        border-radius: 5%;
+        margin: 5px;
+        background-color: #0F294B;
     }
 
     /* Estilo para o título da seção 5 */
@@ -50,10 +68,10 @@
 
     /* Estilo para as imagens de ícones na seção 5 */
     .icons-img-section-5 {
-        width: 7.5vw; /* Largura relativa à largura da tela */
-        height: 7.5vw; /* Altura relativa à largura da tela */
-        margin: 1vw; /* Margem relativa à largura da tela */
-        margin-top: 10%;
+        width: 6.5vw; /* Largura relativa à largura da tela */
+        height: 6.5vw; /* Altura relativa à largura da tela */
+        margin: 0vw; /* Margem relativa à largura da tela */
+        margin-top: 0%;
         transition: 0.4s ease-in-out;
     }
 
@@ -68,9 +86,9 @@
     }
 
     .sushi-img-1{
-        width: 35%;
-        margin-top: 2.5%;
-        margin-bottom: 5%;
+        width: 25%;
+        margin-top: 3%;
+        margin-bottom: 0%;
         padding: 0;
     }
     
@@ -187,24 +205,42 @@
 
 /* Estilo para telas com largura entre 376px e 650px */
 @media only screen and (min-width: 376px) and (max-width: 650px) {
-    /* Estilo para a imagem da seção 5 */
     .section-5-img {
-        height: 50%; /* Altura da imagem em 25% da altura da tela */
-        width: 70%;
-        border-radius: 1vh;
+        height: 55%; /* Altura da imagem em 25% da altura da tela */
+        width: 100%;
+        border-radius: 0vh; /* Raio da borda em 1% da altura da tela */
         margin: 0 auto; /* Centraliza a imagem horizontalmente */
-        margin-bottom: 2%;
+        margin-bottom: 2%; /* Margem inferior de 2% da altura da tela */
+    }
+
+    .lista-projetos{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin: 2%;
+        height: 100%;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+    
+    .proj1{
+        width: 80%;
+        height: 100%;
+        border-radius: 5%;
+        margin: 5px;
+        background-color: #0F294B;
     }
 
     /* Estilo para o título da seção 5 */
     .section-5-title {
-        font-size: 2rem; /* Tamanho da fonte */
+        font-size: 1.8rem; /* Tamanho da fonte */
+        margin-bottom: 15%;
         text-align: center; /* Alinhamento do texto ao centro */
     }
 
     /* Estilo para os subtítulos da seção 5 */
     .section-5-h4 {
-        font-size: 2.8vh; /* Tamanho da fonte em porcentagem */
+        font-size: 2vh; /* Tamanho da fonte em porcentagem */
         border-radius: 1.5px;
         width: 80%; /* Largura do parágrafo em porcentagem */
         padding: 2vh; /* Preenchimento em porcentagem */
@@ -215,7 +251,7 @@
     }
 
     .section-5-h5{
-        font-size: 0.8rem; /* Tamanho da fonte em rem */
+        font-size: 0.5rem; /* Tamanho da fonte em rem */
         opacity: 0.5;
         color: #ffffff; /* Cor do texto */
         font-family: 'Baloo 2', sans-serif; /* Fonte do parágrafo */
@@ -230,17 +266,17 @@
         width: 80%; /* Largura do parágrafo em porcentagem */
         padding: 2vh; /* Preenchimento em porcentagem */
         margin: 0 auto;
-        margin-top: 2%;
+        margin-top: 8%;
         margin-bottom: 15%;
         text-align: justify; /* Alinhamento do texto ao centro */
     }
 
     /* Estilo para as imagens de ícones na seção 5 */
     .icons-img-section-5 {
-        width: 7.5vw; /* Largura relativa à largura da tela */
-        height: 7.5vw; /* Altura relativa à largura da tela */
-        margin: 1vw; /* Margem relativa à largura da tela */
-        margin-top: 2%;
+        width: 6.5vw; /* Largura relativa à largura da tela */
+        height: 6.5vw; /* Altura relativa à largura da tela */
+        margin: 0vw; /* Margem relativa à largura da tela */
+        margin-top: 0%;
         transition: 0.4s ease-in-out;
     }
 
@@ -255,12 +291,14 @@
     }
 
     .sushi-img-1{
-        width: 30%;
-        margin-bottom: 5%;
+        width: 25%;
+        margin-top: 3%;
+        margin-bottom: 0%;
+        padding: 0;
     }
     
     .sushi-img-2{
-        width: 80%;
+        width: 70%;
         height: auto;
         display: block;
         border-radius: 5px;
@@ -269,8 +307,8 @@
     
     
     .sushi-img-3{
-        width: 80%;
-        margin-left: 10%;
+        width: 70%;
+        margin-left: 15%;
         border-radius: 5px;
         margin-top: 3%;
         height: auto;
@@ -284,7 +322,7 @@
         width: 80%; /* Largura do parágrafo em porcentagem */
         padding: 2vh; /* Preenchimento em porcentagem */
         margin: 0 auto;
-        margin-top: 1%;
+        margin-top: 5%;
         margin-bottom: 15%;
         text-align: justify; /* Alinhamento do texto ao centro */
     }
@@ -301,8 +339,10 @@
     }
 
     .img-eduk-logo{
-        width: 30%;
+        width: 35%;
+        margin-top: 2.5%;
         margin-bottom: 5%;
+        padding: 0;
     }
     
     .eduk-p{
@@ -311,9 +351,9 @@
         width: 80%; /* Largura do parágrafo em porcentagem */
         padding: 2vh; /* Preenchimento em porcentagem */
         margin: 0 auto;
-        margin-top: 1%;
+        margin-top: 5%;
         margin-bottom: 15%;
-        text-align: justify; /* Alinhamento do texto ao centro */
+        text-align: center; /* Alinhamento do texto ao centro */
     }
 
     .section5-1{
@@ -341,7 +381,6 @@
         height: auto;
         display: block;
         margin-left: 1%;
-        margin-bottom: 5%;
     }
     
     .img-ifrj-img3{
@@ -362,33 +401,51 @@
         width: 80%; /* Largura do parágrafo em porcentagem */
         padding: 2vh; /* Preenchimento em porcentagem */
         margin: 0 auto;
-        margin-top: 1%;
+        margin-top: 5%;
         margin-bottom: 15%;
-        text-align: justify; /* Alinhamento do texto ao centro */
+        text-align: center; /* Alinhamento do texto ao centro */
     }
-
 }
 
 /* Estilo para telas com largura entre 651px e 1200px */
 @media only screen and (min-width: 651px) and (max-width: 1200px) {
     /* Estilo para a imagem da seção 5 */
     .section-5-img {
-        height: 60%; /* Altura da imagem em 25% da altura da tela */
-        width:50%;
-        border-radius: 1vh;
+        height: 55%; /* Altura da imagem em 25% da altura da tela */
+        width: 100%;
+        border-radius: 0vh; /* Raio da borda em 1% da altura da tela */
         margin: 0 auto; /* Centraliza a imagem horizontalmente */
-        margin-bottom: 2%;
+        margin-bottom: 2%; /* Margem inferior de 2% da altura da tela */
+    }
+
+    .lista-projetos{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin: 2%;
+        height: 100%;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+    
+    .proj1{
+        width: 50%;
+        height: 40%;
+        border-radius: 5%;
+        margin: 5px;
+        background-color: #0F294B;
     }
 
     /* Estilo para o título da seção 5 */
     .section-5-title {
-        font-size: 3.2rem; /* Tamanho da fonte */
+        font-size: 1.8rem; /* Tamanho da fonte */
+        margin-bottom: 15%;
         text-align: center; /* Alinhamento do texto ao centro */
     }
 
     /* Estilo para os subtítulos da seção 5 */
     .section-5-h4 {
-        font-size: 3.3vh; /* Tamanho da fonte em porcentagem */
+        font-size: 2vh; /* Tamanho da fonte em porcentagem */
         border-radius: 1.5px;
         width: 80%; /* Largura do parágrafo em porcentagem */
         padding: 2vh; /* Preenchimento em porcentagem */
@@ -399,7 +456,7 @@
     }
 
     .section-5-h5{
-        font-size: 1rem; /* Tamanho da fonte em rem */
+        font-size: 0.5rem; /* Tamanho da fonte em rem */
         opacity: 0.5;
         color: #ffffff; /* Cor do texto */
         font-family: 'Baloo 2', sans-serif; /* Fonte do parágrafo */
@@ -409,29 +466,29 @@
 
     /* Estilo para os parágrafos da seção 5 */
     .section-5-p {
-        font-size: 2.8vh; /* Tamanho da fonte em porcentagem */
+        font-size: 2vh; /* Tamanho da fonte em porcentagem */
         border-radius: 1.5px;
-        width: 75%; /* Largura do parágrafo em porcentagem */
+        width: 80%; /* Largura do parágrafo em porcentagem */
         padding: 2vh; /* Preenchimento em porcentagem */
         margin: 0 auto;
-        margin-top: -3%;
-        margin-bottom: 3%;
+        margin-top: 8%;
+        margin-bottom: 15%;
         text-align: justify; /* Alinhamento do texto ao centro */
     }
 
     /* Estilo para as imagens de ícones na seção 5 */
     .icons-img-section-5 {
-        width: 5.5vw; /* Largura relativa à largura da tela */
-        height: 5.5vw; /* Altura relativa à largura da tela */
-        margin: 0.5vw; /* Margem relativa à largura da tela */
-        margin-top: 2%;
+        width: 6.5vw; /* Largura relativa à largura da tela */
+        height: 6.5vw; /* Altura relativa à largura da tela */
+        margin: 0vw; /* Margem relativa à largura da tela */
+        margin-top: 0%;
         transition: 0.4s ease-in-out;
     }
 
     /* Efeito hover para as imagens de ícones na seção 5 */
     .icons-img-section-5:hover {
-        width: 5vw; /* Largura relativa à largura da tela */
-        height: 5vw; /* Altura relativa à largura da tela */
+        width: 7.2vw; /* Largura relativa à largura da tela */
+        height: 7.2vw; /* Altura relativa à largura da tela */
         margin: 0.4vw; /* Margem relativa à largura da tela */
         transition: 0.2s;
         transform: translateX(-0rem) translateY(-0rem); /* Translação relativa à largura da tela */
@@ -439,12 +496,14 @@
     }
 
     .sushi-img-1{
-        width: 15%;
-        margin-bottom: 5%;
+        width: 25%;
+        margin-top: 3%;
+        margin-bottom: 0%;
+        padding: 0;
     }
     
     .sushi-img-2{
-        width: 60%;
+        width: 70%;
         height: auto;
         display: block;
         border-radius: 5px;
@@ -453,8 +512,8 @@
     
     
     .sushi-img-3{
-        width: 60%;
-        margin-left: 20%;
+        width: 70%;
+        margin-left: 15%;
         border-radius: 5px;
         margin-top: 3%;
         height: auto;
@@ -463,13 +522,13 @@
     }
     
     .sushi-p-1{
-        font-size: 2.8vh; /* Tamanho da fonte em porcentagem */
+        font-size: 2vh; /* Tamanho da fonte em porcentagem */
         border-radius: 1.5px;
-        width: 75%; /* Largura do parágrafo em porcentagem */
+        width: 80%; /* Largura do parágrafo em porcentagem */
         padding: 2vh; /* Preenchimento em porcentagem */
         margin: 0 auto;
-        margin-top: -5%;
-        margin-bottom: 3%;
+        margin-top: 5%;
+        margin-bottom: 15%;
         text-align: justify; /* Alinhamento do texto ao centro */
     }
     
@@ -480,24 +539,26 @@
         padding: 2vh; /* Preenchimento em porcentagem */
         margin: 0 auto;
         margin-top: 5%;
-        margin-bottom: 3%;
+        margin-bottom: 15%;
         text-align: center; /* Alinhamento do texto ao centro */
     }
 
     .img-eduk-logo{
-        width: 15%;
+        width: 35%;
+        margin-top: 2.5%;
         margin-bottom: 5%;
+        padding: 0;
     }
     
     .eduk-p{
-        font-size: 2.8vh; /* Tamanho da fonte em porcentagem */
+        font-size: 2vh; /* Tamanho da fonte em porcentagem */
         border-radius: 1.5px;
-        width: 75%; /* Largura do parágrafo em porcentagem */
+        width: 80%; /* Largura do parágrafo em porcentagem */
         padding: 2vh; /* Preenchimento em porcentagem */
         margin: 0 auto;
-        margin-top: -5%;
-        margin-bottom: 3%;
-        text-align: justify; /* Alinhamento do texto ao centro */
+        margin-top: 5%;
+        margin-bottom: 15%;
+        text-align: center; /* Alinhamento do texto ao centro */
     }
 
     .section5-1{
@@ -514,18 +575,17 @@
     }
     
     .img-ifrj-img{
-        width: 40%;
+        width: 80%;
         display: none;
         height: auto;
         margin-right: 1%;
     }
     .img-ifrj-img2{
-        width: 20%;
+        width: 40%;
         margin-top: 2%;
         height: auto;
         display: block;
         margin-left: 1%;
-        margin-bottom: 15%;
     }
     
     .img-ifrj-img3{
@@ -537,18 +597,18 @@
     }
 
     #link2{
-        margin-top: 2% !important;
+        margin-top: -5% !important;
     }
     
     .ifrj-p{
-        font-size: 2.8vh; /* Tamanho da fonte em porcentagem */
+        font-size: 2vh; /* Tamanho da fonte em porcentagem */
         border-radius: 1.5px;
-        width: 75%; /* Largura do parágrafo em porcentagem */
+        width: 80%; /* Largura do parágrafo em porcentagem */
         padding: 2vh; /* Preenchimento em porcentagem */
         margin: 0 auto;
-        margin-top: -5%;
-        margin-bottom: 3%;
-        text-align: justify; /* Alinhamento do texto ao centro */
+        margin-top: 5%;
+        margin-bottom: 15%;
+        text-align: center; /* Alinhamento do texto ao centro */
     }
 
 }

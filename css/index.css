@@ -299,7 +299,7 @@ b {
     font-weight: 300;
     line-height: 1.2; /* Altura da linha */
     margin-top: -3%; /* Margem superior negativa */
-    text-align: left; /* Alinhamento do texto ao centro */
+    text-align: justify; /* Alinhamento do texto ao centro */
 }
 
 /* Estilo para o segundo parágrafo do tópico 1 */

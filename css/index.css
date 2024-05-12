@@ -1198,7 +1198,9 @@ footer {
 
    
     overflow: hidden;
-    
+    background-image: url('../img/backgrounds/10.png');
+    background-size: cover;
+    background-position: top;
 }
 
 /* Estilo para o título do rodapé */

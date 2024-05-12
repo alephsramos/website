@@ -229,7 +229,7 @@ b {
     line-height: 1.2; /* Altura da linha */
     margin-top: -3%; /* Margem superior negativa */
     margin-left: 41.5%; /* Margem à esquerda */
-    text-align: center; /* Alinhamento do texto ao centro */
+    text-align: justify; /* Alinhamento do texto ao centro */
     animation: surgir 1s linear 0s forwards; /* Adiciona uma animação chamada 'surgir' com duração de 1 segundo, início linear imediato e retenção do estado final */
 }
 

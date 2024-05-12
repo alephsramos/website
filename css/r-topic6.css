@@ -1,5 +1,39 @@
 @media only screen and (max-width: 375px) {
 
+    .listas-profissao{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+        height: 100%;
+       }
+    
+
+       .prof1{
+    width: 90%;
+    background-color: #ffffff;
+    border-radius: 2%;
+    margin: 1%;
+
+}
+
+.prof2{
+    width: 90%;
+    background-color: #ffffff;
+    border-radius: 2%;
+    margin: 1%;
+
+}
+
+.prof3{
+    width: 90%;
+    background-color: #ffffff;
+    border-radius: 2%;
+    margin: 1%;
+
+}
+
     /* Estilo para o título da seção 6 */
     .section-6-title {
         font-size: 1.8rem; /* Tamanho da fonte */
@@ -10,9 +44,9 @@
     
     /* Estilo para os subtítulos da seção 6 */
     .section-6-h1 {
-        font-size: 2.9vh; /* Tamanho da fonte em porcentagem */
+        font-size: 3.9vh; /* Tamanho da fonte em porcentagem */
         border-radius: 1.5px;
-        width: 80%; /* Largura do parágrafo em porcentagem */
+        width: 90%; /* Largura do parágrafo em porcentagem */
         padding: 2vh; /* Preenchimento em porcentagem */
         margin: 0 auto;
         margin-top: 5%;
@@ -25,7 +59,7 @@
     .section-6-p {
         font-size: 2vh; /* Tamanho da fonte em porcentagem */
         border-radius: 1.5px;
-        width: 80%; /* Largura do parágrafo em porcentagem */
+        width: 90%; /* Largura do parágrafo em porcentagem */
         padding: 1.5vh; /* Preenchimento em porcentagem */
         margin: 0 auto;
         margin-top: 2%;
@@ -43,7 +77,7 @@
 
     .img-01-sec-6{
         width: 25%;
-        margin-top: -10%;
+        margin-top: 4%;
         margin-bottom: -5%;
         padding: 0;
     }
@@ -57,15 +91,49 @@
 
 @media only screen and (min-width: 376px) and (max-width: 650px) {
 
+   .listas-profissao{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    height: 100%;
+   }
+
+   .prof1{
+    width: 90%;
+    background-color: #ffffff;
+    border-radius: 2%;
+    margin: 1%;
+
+}
+
+.prof2{
+    width: 90%;
+    background-color: #ffffff;
+    border-radius: 2%;
+    margin: 1%;
+
+}
+
+.prof3{
+    width: 90%;
+    background-color: #ffffff;
+    border-radius: 2%;
+    margin: 1%;
+
+}
+
     /* Estilo para o título da seção 5 */
     .section-6-title {
         font-size: 2.4rem; /* Tamanho da fonte */
         text-align: center; /* Alinhamento do texto ao centro */
+        padding-top: 8%;
     }
 
 
     .section-6-h1{
-        font-size: 5vh; /* Tamanho da fonte em porcentagem */
+        font-size: 4vh; /* Tamanho da fonte em porcentagem */
         border-radius: 1.5px;
         width: 80%; /* Largura do parágrafo em porcentagem */
         padding: 2vh; /* Preenchimento em porcentagem */
@@ -79,7 +147,7 @@
     .section-6-p {
         font-size: 2.2vh; /* Tamanho da fonte em porcentagem */
         border-radius: 1.5px;
-        width: 80%; /* Largura do parágrafo em porcentagem */
+        width: 90%; /* Largura do parágrafo em porcentagem */
         padding: 1.5vh; /* Preenchimento em porcentagem */
         margin: 0 auto;
         margin-bottom: 2%;
@@ -89,7 +157,7 @@
 
 
     .img-1-sec-6{
-        width: 35%;
+        width: 30%;
         margin-bottom: 2%;
         margin-top: 7%;
     }
@@ -97,7 +165,7 @@
     .img-01-sec-6{
         width: 25%;
         margin-bottom: -5%;
-        margin-top: -1%;
+        margin-top: 7%;
     }
     
     .img-socialmedia{
@@ -109,15 +177,48 @@
 @media only screen and (min-width: 651px) and (max-width: 1200px) {
 
     .section-6-title {
-        font-size: 5.2rem; /* Tamanho da fonte */
+        font-size: 2.2rem; /* Tamanho da fonte */
         text-align: center; /* Alinhamento do texto ao centro */
+    }
+
+    .listas-profissao{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+        height: 100%;
+       }
+    
+       .prof1{
+        width: 40%;
+        background-color: #ffffff;
+        border-radius: 2%;
+        margin: 1%;
+    
+    }
+    
+    .prof2{
+        width: 40%;
+        background-color: #ffffff;
+        border-radius: 2%;
+        margin: 1%;
+    
+    }
+    
+    .prof3{
+        width: 40%;
+        background-color: #ffffff;
+        border-radius: 2%;
+        margin: 1%;
+    
     }
 
 
     .section-6-h1 {
-        font-size: 3.5vh; /* Tamanho da fonte em porcentagem */
+        font-size: 3vh; /* Tamanho da fonte em porcentagem */
         border-radius: 1.5px;
-        width: 80%; /* Largura do parágrafo em porcentagem */
+        width: 90%; /* Largura do parágrafo em porcentagem */
         padding: 2vh; /* Preenchimento em porcentagem */
         margin: 0 auto;
         margin-top: 5%;
@@ -128,9 +229,9 @@
 
     /* Estilo para os parágrafos da seção 5 */
     .section-6-p {
-        font-size: 2vh; /* Tamanho da fonte em porcentagem */
+        font-size: 1.2vh; /* Tamanho da fonte em porcentagem */
         border-radius: 1.5px;
-        width: 80%; /* Largura do parágrafo em porcentagem */
+        width: 90%; /* Largura do parágrafo em porcentagem */
         padding: 1.4vh; /* Preenchimento em porcentagem */
         margin: 0 auto;
         margin-bottom: 1%;
@@ -140,15 +241,15 @@
 
 
     .img-1-sec-6{
-        width: 30%;
+        width: 20%;
         margin-bottom: 5%;
-        margin-top: 7%;
+        margin-top: 3%;
     }
 
     .img-01-sec-6{
         width: 20%;
         margin-bottom: -3%;
-        margin-top: -3%;
+        margin-top: 3%;
     }
     
     .img-socialmedia{

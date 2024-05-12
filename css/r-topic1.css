@@ -217,10 +217,11 @@
 
 
 .pic-ctn {
-    position: relative;
-    width: 30%;
-    height: 35vh;
-    margin-top: -5vh;
+    position:relative;
+    width: 20%;
+    margin-left: 5%;
+    height: 20vh;
+    margin-top: -10vh;
     margin-bottom: 20%;
     
   }

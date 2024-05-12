@@ -118,10 +118,11 @@
 
     .certificado-link{
         width: 90%;
+        margin-top: -2%;
     }
 
     .insignias img{
-        width: 9%;
+        width: 7%;
         
         height: 15%;
         margin: 2px;

@@ -128,7 +128,7 @@ b {
     width: 100%; /* Largura da barra de navegação */
     align-items: center; /* Alinha os itens ao centro */
     justify-content: space-between; /* Distribui o espaço igualmente entre os itens */
-    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5); /* Sombra na barra de navegação */
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.3); /* Sombra na barra de navegação */
 }
 
 /* Estilo para o título da barra de navegação */
@@ -488,11 +488,11 @@ b {
 .topic-2-img-1 {
     width: 18.75vh; /* Largura da imagem */
     filter: saturate(120%);
-    border-radius: 1.25rem; /* Borda circular */
+    border-radius: 0rem; /* Borda circular */
     margin: 0.3125rem; /* Margem */
     box-shadow: 1px 1px 1px 1px black; /* Sombra da imagem com desfoque  */
     transition: transform 0.4s ease; /* Transição suave ao passar o mouse */
-    border: 3px solid #261a7f; /* Borda sólida com uma cor específica */
+    border: 2px solid #261a7f; /* Borda sólida com uma cor específica */
     z-index: 10; /* Ordem de sobreposição */
 }
 
@@ -1286,7 +1286,6 @@ footer {
         transform: rotate(280deg);
         border-radius: 40%;
         transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out; /* Define duração e curva de transição */
-        box-shadow: 10px 10px 50px 10px #945AEF;
 
 
     }
@@ -1294,8 +1293,6 @@ footer {
         opacity: 1;
         transform: rotate(360deg);
         border-radius: 50%;
-        box-shadow: 0px 0px 2px 0px 
-        #945AEF;
 
     }
 }

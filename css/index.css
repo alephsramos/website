@@ -184,6 +184,10 @@ b {
     align-items: center; /* Alinha os itens ao centro */
     justify-content: center; /* Alinha os itens ao centro */
     overflow: hidden;
+    background-image: url('../img/backgrounds/9.png');
+    background-position: center;
+    background-size:cover;
+
 }
 
 /* Estilo para a imagem sobre mim */

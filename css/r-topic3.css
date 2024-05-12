@@ -197,7 +197,7 @@
     }
 
     .insignias img{
-        width: 13%;
+        width: 7%;
         height: 15%;
         margin: 2px;
     }
@@ -209,7 +209,7 @@
     .topic-3-img-1,
     .topic-3-img-2,
     .topic-3-img-3 {
-        width: 70%; /* Largura relativa à largura da tela */
+        width: 30%; /* Largura relativa à largura da tela */
         border-radius: 0.35rem; /* Borda relativa à largura da tela */
         margin: 0.5vw; /* Margem relativa à largura da tela */
         border: 0.125rem solid white; /* Borda relativa à largura da tela */
@@ -228,11 +228,18 @@
     }
     
     .topic-3-list {
-        font-size: 2.2vw; /* Tamanho relativo à largura da tela */
+        font-size: 1.3vw; /* Tamanho relativo à largura da tela */
         margin-left: 0%; /* Margem relativa à largura da tela */
         columns: 2;
+        margin-left: 10%;
+        padding: 15px;
+        width: 80%;
         list-style-image: url("../img/icons/list-16px.png");
         column-gap: 1.25vw; /* Espaçamento entre colunas relativo à largura da tela */
+    }
+
+    .certificado-link{
+        width: 80%;
     }
 
     .separador-list-1,

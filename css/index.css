@@ -179,7 +179,7 @@ b {
     height: 100%; /* Altura total sobre mim */
     align-items: center; /* Alinha os itens ao centro */
     justify-content: center; /* Alinha os itens ao centro */
-
+    overflow: hidden;
 }
 
 /* Estilo para a imagem sobre mim */

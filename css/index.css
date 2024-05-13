@@ -19,16 +19,12 @@
 /* Estilo para o HTML e o corpo da página */
 html, body {
     margin: 0; /* Remove margens padrão do corpo e do HTML */
-<<<<<<< Updated upstream
     height: auto;
-
     position: relative; /* Define a posição como relativa para o corpo */
     animation: animateBackground 30s linear infinite alternate; /* Aplica uma animação de fundo com duração de 30s */
-=======
     height: auto; /* Fixa a imagem de fundo para que ela não role com a página */
     position: relative; /* Define a posição como relativa para o corpo */
     animation: animateBackground 30s linear infinite alternate; /* Aplica uma animação de fundo com duração de 30s */; /* Sombra leve ao redor do corpo */
->>>>>>> Stashed changes
     transition: opacity 1.3s ease-in-out; /* Transição suave para a propriedade de opacidade */
     cursor: url("../img/icons/cursor.png"), auto; /* Define o cursor personalizado */
     overflow-x: hidden; /* Esconde a barra de rolagem horizontal */
@@ -308,7 +304,6 @@ b {
     margin-top: 20px; /* Distância da nav-bar */
     align-items: center; /* Alinha os itens ao centro */
     justify-content: center; /* Alinha os itens ao centro */
-    background-color: black;
 }
 
 /* Estilo para a segunda imagem no tópico 1 */

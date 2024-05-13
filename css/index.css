@@ -1389,24 +1389,6 @@ footer {
 /* BARRA DE ROLAGEM PARA O WEBKIT */
 
 
-/* Estilo para a barra de rolagem do WebKit */
-::-webkit-scrollbar {
-    width: 18px; /* Largura da barra de rolagem */
-}
-
-/* Estilo para o polegar da barra de rolagem do WebKit */
-::-webkit-scrollbar-thumb {
-    background-color: transparent; /* Cor de fundo transparente para o polegar */
-    box-shadow: inset 10px 10px 80px 30px rgb(0, 0, 0); /* Sombra do polegar */
-    border: 3px solid #8841ff; /* Borda do polegar */
-    border-radius: 5px; /* Borda circular do polegar */
-}
-
-/* Estilo para a trilha da barra de rolagem do WebKit */
-::-webkit-scrollbar-track {
-    background-color: #000000; /* Cor de fundo ao mexer na barra de rolagem */
-}
-
 
 /* ANIMAÇÃO GENÉRICA */
 

@@ -1,12 +1,19 @@
 @media only screen and (min-width: 10px) and (max-width: 1200px){
     html, body {
         margin: 0; /* Remove margens padrão do corpo e do HTML */
+<<<<<<< Updated upstream
 
+=======
+         /* Cor de fundo com uma certa transparência */
+>>>>>>> Stashed changes
         position: relative; /* Define a posição como relativa para o corpo */
         animation: none; /* Aplica uma animação de fundo com duração de 30s */
         transition: none; /* Transição suave para a propriedade de opacidade */
         cursor: url("../img/icons/cursor.png"), auto; /* Define o cursor personalizado */
+<<<<<<< Updated upstream
     
+=======
+>>>>>>> Stashed changes
         overflow-x: hidden; /* Esconde a barra de rolagem horizontal */
     }
 
